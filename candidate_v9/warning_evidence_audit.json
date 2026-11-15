@@ -1,0 +1,1082 @@
+[
+  {
+    "case_id": "H0011",
+    "category": "registration scope",
+    "expected_issue": "Scope of requirement: English specifies 'whether or not you want to download a copy' and Chinese specifies '僅在需要下載副本時才'.",
+    "warning": "registration scope differs: English all viewers [Registration is compulsory whether or not you want to download a copy.]; Chinese download only [僅在需要下載副本時才必須登記。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0014",
+    "category": "retention start and duration",
+    "expected_issue": "Time anchor: English specifies 'receive the form' and Chinese specifies '批准表格'.",
+    "warning": "retention start and duration differs: English receipt; 12 days [The retention period starts on the day staff receive the form; it lasts 12 days.]; Chinese approval; 12 days [紀錄由職員批准表格當日起保留12日。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0015",
+    "category": "entry gate colour",
+    "expected_issue": "Entrance colour: English specifies 'blue' and Chinese specifies '綠色'.",
+    "warning": "entry gate colour differs: English blue [Entry for this activity is through the blue gate.]; Chinese green [本活動參加者請經綠色閘口入場;]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0028",
+    "category": "access code delivery channel",
+    "expected_issue": "Collection channel: English specifies 'by text message' and Chinese specifies '以電郵'.",
+    "warning": "access code delivery channel differs: English text message [The updated access code will be sent by text message.]; Chinese email [更新後的通行碼將以電郵發送,]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0029",
+    "category": "signed record tray",
+    "expected_issue": "Record destination: English specifies 'outgoing' and Chinese specifies '來件'.",
+    "warning": "signed record tray differs: English outgoing [When finished, leave the signed record in the outgoing tray beside the printer.]; Chinese incoming [簽署後,請將紀錄放入打印機旁的來件文件盤。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0033",
+    "category": "courier refund on withdrawal before review",
+    "expected_issue": "Refund exclusion: English specifies 'Courier charges are excluded' and Chinese specifies '亦會退還速遞費'.",
+    "warning": "courier refund on withdrawal before review differs: English excluded [Courier charges are excluded, even when the application is withdrawn before review.]; Chinese refunded [即使申請在審閱前撤回,亦會退還速遞費。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0049",
+    "category": "signed original custodian",
+    "expected_issue": "Role reversals: English specifies 'the duty officer' and Chinese specifies '申請人'.",
+    "warning": "signed original custodian differs: English duty officer [the duty officer keeps the signed original.]; Chinese applicant [正本由申請人保管。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0050",
+    "category": "entry gate colour",
+    "expected_issue": "Entrance colour: English specifies 'green' and Chinese specifies '藍色'.",
+    "warning": "entry gate colour differs: English green [Entry for this activity is through the green gate.]; Chinese blue [本活動參加者請經藍色閘口入場;]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0051",
+    "category": "signed original custodian",
+    "expected_issue": "Role reversals: English specifies 'the duty officer' and Chinese specifies '申請人'.",
+    "warning": "signed original custodian differs: English duty officer [the duty officer keeps the signed original.]; Chinese applicant [正本由申請人保管。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0061",
+    "category": "signed record tray",
+    "expected_issue": "Record destination: English specifies 'outgoing' and Chinese specifies '來件'.",
+    "warning": "signed record tray differs: English outgoing [When finished, leave the signed record in the outgoing tray beside the printer.]; Chinese incoming [簽署後,請將紀錄放入打印機旁的來件文件盤。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0063",
+    "category": "return postage payer",
+    "expected_issue": "Actor responsibility: English specifies 'the recipient' and Chinese specifies '申請人'.",
+    "warning": "return postage payer differs: English recipient [For a return, the recipient pays the postage.]; Chinese requester [退回物件的郵費由申請人支付。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0075",
+    "category": "signed record tray",
+    "expected_issue": "Record destination: English specifies 'outgoing' and Chinese specifies '來件'.",
+    "warning": "signed record tray differs: English outgoing [When finished, leave the signed record in the outgoing tray beside the printer.]; Chinese incoming [簽署後,請將紀錄放入打印機旁的來件文件盤。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0079",
+    "category": "retention start and duration",
+    "expected_issue": "Time anchor: English specifies 'receive the form' and Chinese specifies '批准表格'.",
+    "warning": "retention start and duration differs: English receipt; 17 days [The retention period starts on the day staff receive the form; it lasts 17 days.]; Chinese approval; 17 days [紀錄由職員批准表格當日起保留17日。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0085",
+    "category": "access code delivery channel",
+    "expected_issue": "Collection channel: English specifies 'by email' and Chinese specifies '以短訊'.",
+    "warning": "access code delivery channel differs: English email [The updated access code will be sent by email.]; Chinese text message [更新後的通行碼將以短訊發送,]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0086",
+    "category": "automated acknowledgement status",
+    "expected_issue": "Acknowledgement: English specifies 'receipt of the request' and Chinese specifies '已批准申請'.",
+    "warning": "automated acknowledgement status differs: English receipt [An automated reply confirms receipt of the request.]; Chinese approval [系統電郵只確認已批准申請。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0088",
+    "category": "automated acknowledgement status",
+    "expected_issue": "Acknowledgement: English specifies 'receipt of the request' and Chinese specifies '已批准申請'.",
+    "warning": "automated acknowledgement status differs: English receipt [An automated reply confirms receipt of the request.]; Chinese approval [系統電郵只確認已批准申請。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0096",
+    "category": "entry gate colour",
+    "expected_issue": "Entrance colour: English specifies 'green' and Chinese specifies '藍色'.",
+    "warning": "entry gate colour differs: English green [Entry for this activity is through the green gate.]; Chinese blue [本活動參加者請經藍色閘口入場;]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0107",
+    "category": "access code delivery channel",
+    "expected_issue": "Collection channel: English specifies 'by text message' and Chinese specifies '以電郵'.",
+    "warning": "access code delivery channel differs: English text message [The updated access code will be sent by text message.]; Chinese email [更新後的通行碼將以電郵發送,]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0123",
+    "category": "access code delivery channel",
+    "expected_issue": "Collection channel: English specifies 'by email' and Chinese specifies '以短訊'.",
+    "warning": "access code delivery channel differs: English email [The updated access code will be sent by email.]; Chinese text message [更新後的通行碼將以短訊發送,]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0126",
+    "category": "authorised representative obligation",
+    "expected_issue": "Permission versus duty: English specifies 'may' and Chinese specifies '必須'.",
+    "warning": "authorised representative obligation differs: English permitted [A nominated representative may collect it with written authorisation.]; Chinese required [獲提名的代表持書面授權必須代領。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0130",
+    "category": "signed original custodian",
+    "expected_issue": "Role reversals: English specifies 'the applicant' and Chinese specifies '當值主任'.",
+    "warning": "signed original custodian differs: English applicant [the applicant keeps the signed original.]; Chinese duty officer [正本由當值主任保管。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0136",
+    "category": "courier refund on withdrawal before review",
+    "expected_issue": "Refund exclusion: English specifies 'Courier charges are excluded' and Chinese specifies '亦會退還速遞費'.",
+    "warning": "courier refund on withdrawal before review differs: English excluded [Courier charges are excluded, even when the application is withdrawn before review.]; Chinese refunded [即使申請在審閱前撤回,亦會退還速遞費。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0141",
+    "category": "retention start and duration",
+    "expected_issue": "Time anchor: English specifies 'approve the form' and Chinese specifies '收到表格'.",
+    "warning": "retention start and duration differs: English approval; 10 days [The retention period starts on the day staff approve the form; it lasts 10 days.]; Chinese receipt; 10 days [紀錄由職員收到表格當日起保留10日。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0143",
+    "category": "fee waiver threshold",
+    "expected_issue": "No implied threshold: English specifies 'of more than' and Chinese specifies '達'.",
+    "warning": "fee waiver threshold differs: English >5 HKD [The fee is waived on orders of more than HK$5.]; Chinese >=5 HKD [訂單金額達5港元可免付費用;]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0157",
+    "category": "entry gate colour",
+    "expected_issue": "Entrance colour: English specifies 'blue' and Chinese specifies '綠色'.",
+    "warning": "entry gate colour differs: English blue [Entry for this activity is through the blue gate.]; Chinese green [本活動參加者請經綠色閘口入場;]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0185",
+    "category": "priority when simultaneous",
+    "expected_issue": "Priority rule: English specifies 'people without an appointment' and Chinese specifies '已預約人士'.",
+    "warning": "priority when simultaneous differs: English unbooked [When both groups arrive together, serve people without an appointment first.]; Chinese booked [兩組人士同時抵達時,請先為已預約人士提供服務。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0189",
+    "category": "courier refund on withdrawal before review",
+    "expected_issue": "Refund exclusion: English specifies 'Courier charges are also refunded' and Chinese specifies '亦不退還速遞費'.",
+    "warning": "courier refund on withdrawal before review differs: English refunded [Courier charges are also refunded, even when the application is withdrawn before review.]; Chinese excluded [即使申請在審閱前撤回,亦不退還速遞費。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0195",
+    "category": "courier refund on withdrawal before review",
+    "expected_issue": "Refund exclusion: English specifies 'Courier charges are excluded' and Chinese specifies '亦會退還速遞費'.",
+    "warning": "courier refund on withdrawal before review differs: English excluded [Courier charges are excluded, even when the application is withdrawn before review.]; Chinese refunded [即使申請在審閱前撤回,亦會退還速遞費。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0196",
+    "category": "return postage payer",
+    "expected_issue": "Actor responsibility: English specifies 'the recipient' and Chinese specifies '申請人'.",
+    "warning": "return postage payer differs: English recipient [For a return, the recipient pays the postage.]; Chinese requester [退回物件的郵費由申請人支付。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0213",
+    "category": "children age eligibility",
+    "expected_issue": "Eligibility boundary: English specifies 'aged 55 or younger' and Chinese specifies '未滿55歲'.",
+    "warning": "children age eligibility differs: English <=55 [The desk serves children aged 55 or younger for this activity.]; Chinese <55 [活動櫃位只受理未滿55歲兒童的申請。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0218",
+    "category": "signed original custodian",
+    "expected_issue": "Role reversals: English specifies 'the applicant' and Chinese specifies '當值主任'.",
+    "warning": "signed original custodian differs: English applicant [the applicant keeps the signed original.]; Chinese duty officer [正本由當值主任保管。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0221",
+    "category": "fee waiver threshold",
+    "expected_issue": "No implied threshold: English specifies 'of at least' and Chinese specifies '超過'.",
+    "warning": "fee waiver threshold differs: English >=26 HKD [The fee is waived on orders of at least HK$26.]; Chinese >26 HKD [訂單金額超過26港元可免付費用;]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0224",
+    "category": "children age eligibility",
+    "expected_issue": "Eligibility boundary: English specifies 'aged 46 or younger' and Chinese specifies '未滿46歲'.",
+    "warning": "children age eligibility differs: English <=46 [The desk serves children aged 46 or younger for this activity.]; Chinese <46 [活動櫃位只受理未滿46歲兒童的申請。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0228",
+    "category": "postal submission condition",
+    "expected_issue": "Fallback channel: English specifies 'only if the page is unavailable' and Chinese specifies '只在頁面可以使用時'.",
+    "warning": "postal submission condition differs: English page unavailable [Send the file by post only if the page is unavailable.]; Chinese page available [只在頁面可以使用時才可郵寄文件。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0238",
+    "category": "courier refund on withdrawal before review",
+    "expected_issue": "Refund exclusion: English specifies 'Courier charges are excluded' and Chinese specifies '亦會退還速遞費'.",
+    "warning": "courier refund on withdrawal before review differs: English excluded [Courier charges are excluded, even when the application is withdrawn before review.]; Chinese refunded [即使申請在審閱前撤回,亦會退還速遞費。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0240",
+    "category": "automated acknowledgement status",
+    "expected_issue": "Acknowledgement: English specifies 'receipt of the request' and Chinese specifies '已批准申請'.",
+    "warning": "automated acknowledgement status differs: English receipt [An automated reply confirms receipt of the request.]; Chinese approval [系統電郵只確認已批准申請。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0243",
+    "category": "courier refund on withdrawal before review",
+    "expected_issue": "Refund exclusion: English specifies 'Courier charges are also refunded' and Chinese specifies '亦不退還速遞費'.",
+    "warning": "courier refund on withdrawal before review differs: English refunded [Courier charges are also refunded, even when the application is withdrawn before review.]; Chinese excluded [即使申請在審閱前撤回,亦不退還速遞費。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0245",
+    "category": "children age eligibility",
+    "expected_issue": "Eligibility boundary: English specifies 'aged 88 or younger' and Chinese specifies '未滿88歲'.",
+    "warning": "children age eligibility differs: English <=88 [The desk serves children aged 88 or younger for this activity.]; Chinese <88 [活動櫃位只受理未滿88歲兒童的申請。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0248",
+    "category": "access code delivery channel",
+    "expected_issue": "Collection channel: English specifies 'by email' and Chinese specifies '以短訊'.",
+    "warning": "access code delivery channel differs: English email [The updated access code will be sent by email.]; Chinese text message [更新後的通行碼將以短訊發送,]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0251",
+    "category": "priority when simultaneous",
+    "expected_issue": "Priority rule: English specifies 'people without an appointment' and Chinese specifies '已預約人士'.",
+    "warning": "priority when simultaneous differs: English unbooked [When both groups arrive together, serve people without an appointment first.]; Chinese booked [兩組人士同時抵達時,請先為已預約人士提供服務。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0258",
+    "category": "children age eligibility",
+    "expected_issue": "Eligibility boundary: English specifies 'under 71' and Chinese specifies '71歲或以下'.",
+    "warning": "children age eligibility differs: English <71 [The desk serves children under 71 for this activity.]; Chinese <=71 [活動櫃位只受理71歲或以下兒童的申請。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0262",
+    "category": "signed record tray",
+    "expected_issue": "Record destination: English specifies 'incoming' and Chinese specifies '待發'.",
+    "warning": "signed record tray differs: English incoming [When finished, leave the signed record in the incoming tray beside the printer.]; Chinese outgoing [簽署後,請將紀錄放入打印機旁的待發文件盤。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0264",
+    "category": "fee waiver threshold",
+    "expected_issue": "No implied threshold: English specifies 'of more than' and Chinese specifies '達'.",
+    "warning": "fee waiver threshold differs: English >18 HKD [The fee is waived on orders of more than HK$18.]; Chinese >=18 HKD [訂單金額達18港元可免付費用;]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0266",
+    "category": "authorised representative obligation",
+    "expected_issue": "Permission versus duty: English specifies 'must' and Chinese specifies '可'.",
+    "warning": "authorised representative obligation differs: English required [A nominated representative must collect it with written authorisation.]; Chinese permitted [獲提名的代表持書面授權可代領。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0270",
+    "category": "access code delivery channel",
+    "expected_issue": "Collection channel: English specifies 'by email' and Chinese specifies '以短訊'.",
+    "warning": "access code delivery channel differs: English email [The updated access code will be sent by email.]; Chinese text message [更新後的通行碼將以短訊發送,]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0283",
+    "category": "automated acknowledgement status",
+    "expected_issue": "Acknowledgement: English specifies 'approval of the request' and Chinese specifies '已收到申請'.",
+    "warning": "automated acknowledgement status differs: English approval [An automated reply confirms approval of the request.]; Chinese receipt [系統電郵只確認已收到申請。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0293",
+    "category": "card reference side",
+    "expected_issue": "Code location: English specifies 'back' and Chinese specifies '正面'.",
+    "warning": "card reference side differs: English back [The reference is printed on the back of your card.]; Chinese front [編號印在卡的正面,]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0299",
+    "category": "card reference side",
+    "expected_issue": "Code location: English specifies 'front' and Chinese specifies '背面'.",
+    "warning": "card reference side differs: English front [The reference is printed on the front of your card.]; Chinese back [編號印在卡的背面,]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0302",
+    "category": "return postage payer",
+    "expected_issue": "Actor responsibility: English specifies 'the requester' and Chinese specifies '收件人'.",
+    "warning": "return postage payer differs: English requester [For a return, the requester pays the postage.]; Chinese recipient [退回物件的郵費由收件人支付。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0304",
+    "category": "card reference side",
+    "expected_issue": "Code location: English specifies 'back' and Chinese specifies '正面'.",
+    "warning": "card reference side differs: English back [The reference is printed on the back of your card.]; Chinese front [編號印在卡的正面,]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0319",
+    "category": "postal submission condition",
+    "expected_issue": "Fallback channel: English specifies 'only if the page is unavailable' and Chinese specifies '只在頁面可以使用時'.",
+    "warning": "postal submission condition differs: English page unavailable [Send the file by post only if the page is unavailable.]; Chinese page available [只在頁面可以使用時才可郵寄文件。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0329",
+    "category": "registration scope",
+    "expected_issue": "Scope of requirement: English specifies 'only if you want to download a copy' and Chinese specifies '無論是否需要下載副本，均'.",
+    "warning": "registration scope differs: English download only [Registration is compulsory only if you want to download a copy.]; Chinese all viewers [無論是否需要下載副本,均必須登記。]",
+    "both_expected_spans_in_warning": false,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0331",
+    "category": "entry gate colour",
+    "expected_issue": "Entrance colour: English specifies 'blue' and Chinese specifies '綠色'.",
+    "warning": "entry gate colour differs: English blue [Entry for this activity is through the blue gate.]; Chinese green [本活動參加者請經綠色閘口入場;]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0336",
+    "category": "registration scope",
+    "expected_issue": "Scope of requirement: English specifies 'whether or not you want to download a copy' and Chinese specifies '僅在需要下載副本時才'.",
+    "warning": "registration scope differs: English all viewers [Registration is compulsory whether or not you want to download a copy.]; Chinese download only [僅在需要下載副本時才必須登記。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0339",
+    "category": "fee waiver threshold",
+    "expected_issue": "No implied threshold: English specifies 'of at least' and Chinese specifies '超過'.",
+    "warning": "fee waiver threshold differs: English >=18 HKD [The fee is waived on orders of at least HK$18.]; Chinese >18 HKD [訂單金額超過18港元可免付費用;]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0340",
+    "category": "card reference side",
+    "expected_issue": "Code location: English specifies 'front' and Chinese specifies '背面'.",
+    "warning": "card reference side differs: English front [The reference is printed on the front of your card.]; Chinese back [編號印在卡的背面,]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0342",
+    "category": "retention start and duration",
+    "expected_issue": "Time anchor: English specifies 'approve the form' and Chinese specifies '收到表格'.",
+    "warning": "retention start and duration differs: English approval; 11 days [The retention period starts on the day staff approve the form; it lasts 11 days.]; Chinese receipt; 11 days [紀錄由職員收到表格當日起保留11日。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0343",
+    "category": "priority when simultaneous",
+    "expected_issue": "Priority rule: English specifies 'people with an appointment' and Chinese specifies '未預約人士'.",
+    "warning": "priority when simultaneous differs: English booked [When both groups arrive together, serve people with an appointment first.]; Chinese unbooked [兩組人士同時抵達時,請先為未預約人士提供服務。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0344",
+    "category": "signed original custodian",
+    "expected_issue": "Role reversals: English specifies 'the applicant' and Chinese specifies '當值主任'.",
+    "warning": "signed original custodian differs: English applicant [the applicant keeps the signed original.]; Chinese duty officer [正本由當值主任保管。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0353",
+    "category": "postal submission condition",
+    "expected_issue": "Fallback channel: English specifies 'only if the page is unavailable' and Chinese specifies '只在頁面可以使用時'.",
+    "warning": "postal submission condition differs: English page unavailable [Send the file by post only if the page is unavailable.]; Chinese page available [只在頁面可以使用時才可郵寄文件。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0363",
+    "category": "authorised representative obligation",
+    "expected_issue": "Permission versus duty: English specifies 'may' and Chinese specifies '必須'.",
+    "warning": "authorised representative obligation differs: English permitted [A nominated representative may collect it with written authorisation.]; Chinese required [獲提名的代表持書面授權必須代領。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0364",
+    "category": "access code delivery channel",
+    "expected_issue": "Collection channel: English specifies 'by email' and Chinese specifies '以短訊'.",
+    "warning": "access code delivery channel differs: English email [The updated access code will be sent by email.]; Chinese text message [更新後的通行碼將以短訊發送,]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0367",
+    "category": "postal submission condition",
+    "expected_issue": "Fallback channel: English specifies 'only if the page is available' and Chinese specifies '只在頁面無法使用時'.",
+    "warning": "postal submission condition differs: English page available [Send the file by post only if the page is available.]; Chinese page unavailable [只在頁面無法使用時才可郵寄文件。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0368",
+    "category": "children age eligibility",
+    "expected_issue": "Eligibility boundary: English specifies 'aged 48 or younger' and Chinese specifies '未滿48歲'.",
+    "warning": "children age eligibility differs: English <=48 [The desk serves children aged 48 or younger for this activity.]; Chinese <48 [活動櫃位只受理未滿48歲兒童的申請。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0370",
+    "category": "signed original custodian",
+    "expected_issue": "Role reversals: English specifies 'the applicant' and Chinese specifies '當值主任'.",
+    "warning": "signed original custodian differs: English applicant [the applicant keeps the signed original.]; Chinese duty officer [正本由當值主任保管。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0376",
+    "category": "automated acknowledgement status",
+    "expected_issue": "Acknowledgement: English specifies 'receipt of the request' and Chinese specifies '已批准申請'.",
+    "warning": "automated acknowledgement status differs: English receipt [An automated reply confirms receipt of the request.]; Chinese approval [系統電郵只確認已批准申請。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0379",
+    "category": "automated acknowledgement status",
+    "expected_issue": "Acknowledgement: English specifies 'approval of the request' and Chinese specifies '已收到申請'.",
+    "warning": "automated acknowledgement status differs: English approval [An automated reply confirms approval of the request.]; Chinese receipt [系統電郵只確認已收到申請。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0385",
+    "category": "other items after partial cancellation",
+    "expected_issue": "Scope of cancellation: English specifies 'kept on the order' and Chinese specifies '亦會從訂單移除'.",
+    "warning": "other items after partial cancellation differs: English retained [If you cancel one item, the other items are kept on the order.]; Chinese removed [如取消其中一項,其餘項目亦會從訂單移除。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0396",
+    "category": "card reference side",
+    "expected_issue": "Code location: English specifies 'back' and Chinese specifies '正面'.",
+    "warning": "card reference side differs: English back [The reference is printed on the back of your card.]; Chinese front [編號印在卡的正面,]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0410",
+    "category": "registration scope",
+    "expected_issue": "Scope of requirement: English specifies 'only if you want to download a copy' and Chinese specifies '無論是否需要下載副本，均'.",
+    "warning": "registration scope differs: English download only [Registration is compulsory only if you want to download a copy.]; Chinese all viewers [無論是否需要下載副本,均必須登記。]",
+    "both_expected_spans_in_warning": false,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0414",
+    "category": "signed record tray",
+    "expected_issue": "Record destination: English specifies 'incoming' and Chinese specifies '待發'.",
+    "warning": "signed record tray differs: English incoming [When finished, leave the signed record in the incoming tray beside the printer.]; Chinese outgoing [簽署後,請將紀錄放入打印機旁的待發文件盤。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0418",
+    "category": "authorised representative obligation",
+    "expected_issue": "Permission versus duty: English specifies 'must' and Chinese specifies '可'.",
+    "warning": "authorised representative obligation differs: English required [A nominated representative must collect it with written authorisation.]; Chinese permitted [獲提名的代表持書面授權可代領。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0422",
+    "category": "postal submission condition",
+    "expected_issue": "Fallback channel: English specifies 'only if the page is unavailable' and Chinese specifies '只在頁面可以使用時'.",
+    "warning": "postal submission condition differs: English page unavailable [Send the file by post only if the page is unavailable.]; Chinese page available [只在頁面可以使用時才可郵寄文件。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0438",
+    "category": "postal submission condition",
+    "expected_issue": "Fallback channel: English specifies 'only if the page is available' and Chinese specifies '只在頁面無法使用時'.",
+    "warning": "postal submission condition differs: English page available [Send the file by post only if the page is available.]; Chinese page unavailable [只在頁面無法使用時才可郵寄文件。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0460",
+    "category": "automated acknowledgement status",
+    "expected_issue": "Acknowledgement: English specifies 'approval of the request' and Chinese specifies '已收到申請'.",
+    "warning": "automated acknowledgement status differs: English approval [An automated reply confirms approval of the request.]; Chinese receipt [系統電郵只確認已收到申請。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0464",
+    "category": "signed original custodian",
+    "expected_issue": "Role reversals: English specifies 'the duty officer' and Chinese specifies '申請人'.",
+    "warning": "signed original custodian differs: English duty officer [the duty officer keeps the signed original.]; Chinese applicant [正本由申請人保管。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0484",
+    "category": "priority when simultaneous",
+    "expected_issue": "Priority rule: English specifies 'people with an appointment' and Chinese specifies '未預約人士'.",
+    "warning": "priority when simultaneous differs: English booked [When both groups arrive together, serve people with an appointment first.]; Chinese unbooked [兩組人士同時抵達時,請先為未預約人士提供服務。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0493",
+    "category": "courier refund on withdrawal before review",
+    "expected_issue": "Refund exclusion: English specifies 'Courier charges are also refunded' and Chinese specifies '亦不退還速遞費'.",
+    "warning": "courier refund on withdrawal before review differs: English refunded [Courier charges are also refunded, even when the application is withdrawn before review.]; Chinese excluded [即使申請在審閱前撤回,亦不退還速遞費。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0494",
+    "category": "priority when simultaneous",
+    "expected_issue": "Priority rule: English specifies 'people without an appointment' and Chinese specifies '已預約人士'.",
+    "warning": "priority when simultaneous differs: English unbooked [When both groups arrive together, serve people without an appointment first.]; Chinese booked [兩組人士同時抵達時,請先為已預約人士提供服務。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0503",
+    "category": "priority when simultaneous",
+    "expected_issue": "Priority rule: English specifies 'people without an appointment' and Chinese specifies '已預約人士'.",
+    "warning": "priority when simultaneous differs: English unbooked [When both groups arrive together, serve people without an appointment first.]; Chinese booked [兩組人士同時抵達時,請先為已預約人士提供服務。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0504",
+    "category": "other items after partial cancellation",
+    "expected_issue": "Scope of cancellation: English specifies 'kept on the order' and Chinese specifies '亦會從訂單移除'.",
+    "warning": "other items after partial cancellation differs: English retained [If you cancel one item, the other items are kept on the order.]; Chinese removed [如取消其中一項,其餘項目亦會從訂單移除。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0511",
+    "category": "access code delivery channel",
+    "expected_issue": "Collection channel: English specifies 'by email' and Chinese specifies '以短訊'.",
+    "warning": "access code delivery channel differs: English email [The updated access code will be sent by email.]; Chinese text message [更新後的通行碼將以短訊發送,]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0554",
+    "category": "signed record tray",
+    "expected_issue": "Record destination: English specifies 'incoming' and Chinese specifies '待發'.",
+    "warning": "signed record tray differs: English incoming [When finished, leave the signed record in the incoming tray beside the printer.]; Chinese outgoing [簽署後,請將紀錄放入打印機旁的待發文件盤。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0575",
+    "category": "postal submission condition",
+    "expected_issue": "Fallback channel: English specifies 'only if the page is available' and Chinese specifies '只在頁面無法使用時'.",
+    "warning": "postal submission condition differs: English page available [Send the file by post only if the page is available.]; Chinese page unavailable [只在頁面無法使用時才可郵寄文件。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0585",
+    "category": "card reference side",
+    "expected_issue": "Code location: English specifies 'front' and Chinese specifies '背面'.",
+    "warning": "card reference side differs: English front [The reference is printed on the front of your card.]; Chinese back [編號印在卡的背面,]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0589",
+    "category": "entry gate colour",
+    "expected_issue": "Entrance colour: English specifies 'green' and Chinese specifies '藍色'.",
+    "warning": "entry gate colour differs: English green [Entry for this activity is through the green gate.]; Chinese blue [本活動參加者請經藍色閘口入場;]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0629",
+    "category": "children age eligibility",
+    "expected_issue": "Eligibility boundary: English specifies 'aged 65 or younger' and Chinese specifies '未滿65歲'.",
+    "warning": "children age eligibility differs: English <=65 [The desk serves children aged 65 or younger for this activity.]; Chinese <65 [活動櫃位只受理未滿65歲兒童的申請。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0636",
+    "category": "entry gate colour",
+    "expected_issue": "Entrance colour: English specifies 'blue' and Chinese specifies '綠色'.",
+    "warning": "entry gate colour differs: English blue [Entry for this activity is through the blue gate.]; Chinese green [本活動參加者請經綠色閘口入場;]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0637",
+    "category": "signed record tray",
+    "expected_issue": "Record destination: English specifies 'outgoing' and Chinese specifies '來件'.",
+    "warning": "signed record tray differs: English outgoing [When finished, leave the signed record in the outgoing tray beside the printer.]; Chinese incoming [簽署後,請將紀錄放入打印機旁的來件文件盤。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0643",
+    "category": "automated acknowledgement status",
+    "expected_issue": "Acknowledgement: English specifies 'receipt of the request' and Chinese specifies '已批准申請'.",
+    "warning": "automated acknowledgement status differs: English receipt [An automated reply confirms receipt of the request.]; Chinese approval [系統電郵只確認已批准申請。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0647",
+    "category": "other items after partial cancellation",
+    "expected_issue": "Scope of cancellation: English specifies 'kept on the order' and Chinese specifies '亦會從訂單移除'.",
+    "warning": "other items after partial cancellation differs: English retained [If you cancel one item, the other items are kept on the order.]; Chinese removed [如取消其中一項,其餘項目亦會從訂單移除。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0653",
+    "category": "retention start and duration",
+    "expected_issue": "Time anchor: English specifies 'receive the form' and Chinese specifies '批准表格'.",
+    "warning": "retention start and duration differs: English receipt; 20 days [The retention period starts on the day staff receive the form; it lasts 20 days.]; Chinese approval; 20 days [紀錄由職員批准表格當日起保留20日。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0654",
+    "category": "return postage payer",
+    "expected_issue": "Actor responsibility: English specifies 'the recipient' and Chinese specifies '申請人'.",
+    "warning": "return postage payer differs: English recipient [For a return, the recipient pays the postage.]; Chinese requester [退回物件的郵費由申請人支付。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0660",
+    "category": "registration scope",
+    "expected_issue": "Scope of requirement: English specifies 'whether or not you want to download a copy' and Chinese specifies '僅在需要下載副本時才'.",
+    "warning": "registration scope differs: English all viewers [Registration is compulsory whether or not you want to download a copy.]; Chinese download only [僅在需要下載副本時才必須登記。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0679",
+    "category": "return postage payer",
+    "expected_issue": "Actor responsibility: English specifies 'the requester' and Chinese specifies '收件人'.",
+    "warning": "return postage payer differs: English requester [For a return, the requester pays the postage.]; Chinese recipient [退回物件的郵費由收件人支付。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0691",
+    "category": "card reference side",
+    "expected_issue": "Code location: English specifies 'back' and Chinese specifies '正面'.",
+    "warning": "card reference side differs: English back [The reference is printed on the back of your card.]; Chinese front [編號印在卡的正面,]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0694",
+    "category": "courier refund on withdrawal before review",
+    "expected_issue": "Refund exclusion: English specifies 'Courier charges are excluded' and Chinese specifies '亦會退還速遞費'.",
+    "warning": "courier refund on withdrawal before review differs: English excluded [Courier charges are excluded, even when the application is withdrawn before review.]; Chinese refunded [即使申請在審閱前撤回,亦會退還速遞費。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0696",
+    "category": "priority when simultaneous",
+    "expected_issue": "Priority rule: English specifies 'people with an appointment' and Chinese specifies '未預約人士'.",
+    "warning": "priority when simultaneous differs: English booked [When both groups arrive together, serve people with an appointment first.]; Chinese unbooked [兩組人士同時抵達時,請先為未預約人士提供服務。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0698",
+    "category": "entry gate colour",
+    "expected_issue": "Entrance colour: English specifies 'green' and Chinese specifies '藍色'.",
+    "warning": "entry gate colour differs: English green [Entry for this activity is through the green gate.]; Chinese blue [本活動參加者請經藍色閘口入場;]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0700",
+    "category": "courier refund on withdrawal before review",
+    "expected_issue": "Refund exclusion: English specifies 'Courier charges are excluded' and Chinese specifies '亦會退還速遞費'.",
+    "warning": "courier refund on withdrawal before review differs: English excluded [Courier charges are excluded, even when the application is withdrawn before review.]; Chinese refunded [即使申請在審閱前撤回,亦會退還速遞費。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0707",
+    "category": "return postage payer",
+    "expected_issue": "Actor responsibility: English specifies 'the requester' and Chinese specifies '收件人'.",
+    "warning": "return postage payer differs: English requester [For a return, the requester pays the postage.]; Chinese recipient [退回物件的郵費由收件人支付。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0714",
+    "category": "entry gate colour",
+    "expected_issue": "Entrance colour: English specifies 'green' and Chinese specifies '藍色'.",
+    "warning": "entry gate colour differs: English green [Entry for this activity is through the green gate.]; Chinese blue [本活動參加者請經藍色閘口入場;]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0715",
+    "category": "entry gate colour",
+    "expected_issue": "Entrance colour: English specifies 'green' and Chinese specifies '藍色'.",
+    "warning": "entry gate colour differs: English green [Entry for this activity is through the green gate.]; Chinese blue [本活動參加者請經藍色閘口入場;]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0720",
+    "category": "courier refund on withdrawal before review",
+    "expected_issue": "Refund exclusion: English specifies 'Courier charges are also refunded' and Chinese specifies '亦不退還速遞費'.",
+    "warning": "courier refund on withdrawal before review differs: English refunded [Courier charges are also refunded, even when the application is withdrawn before review.]; Chinese excluded [即使申請在審閱前撤回,亦不退還速遞費。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0722",
+    "category": "entry gate colour",
+    "expected_issue": "Entrance colour: English specifies 'green' and Chinese specifies '藍色'.",
+    "warning": "entry gate colour differs: English green [Entry for this activity is through the green gate.]; Chinese blue [本活動參加者請經藍色閘口入場;]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0733",
+    "category": "fee waiver threshold",
+    "expected_issue": "No implied threshold: English specifies 'of at least' and Chinese specifies '超過'.",
+    "warning": "fee waiver threshold differs: English >=15 HKD [The fee is waived on orders of at least HK$15.]; Chinese >15 HKD [訂單金額超過15港元可免付費用;]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0738",
+    "category": "automated acknowledgement status",
+    "expected_issue": "Acknowledgement: English specifies 'approval of the request' and Chinese specifies '已收到申請'.",
+    "warning": "automated acknowledgement status differs: English approval [An automated reply confirms approval of the request.]; Chinese receipt [系統電郵只確認已收到申請。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0747",
+    "category": "priority when simultaneous",
+    "expected_issue": "Priority rule: English specifies 'people with an appointment' and Chinese specifies '未預約人士'.",
+    "warning": "priority when simultaneous differs: English booked [When both groups arrive together, serve people with an appointment first.]; Chinese unbooked [兩組人士同時抵達時,請先為未預約人士提供服務。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0751",
+    "category": "entry gate colour",
+    "expected_issue": "Entrance colour: English specifies 'green' and Chinese specifies '藍色'.",
+    "warning": "entry gate colour differs: English green [Entry for this activity is through the green gate.]; Chinese blue [本活動參加者請經藍色閘口入場;]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0756",
+    "category": "card reference side",
+    "expected_issue": "Code location: English specifies 'back' and Chinese specifies '正面'.",
+    "warning": "card reference side differs: English back [The reference is printed on the back of your card.]; Chinese front [編號印在卡的正面,]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0767",
+    "category": "signed original custodian",
+    "expected_issue": "Role reversals: English specifies 'the applicant' and Chinese specifies '當值主任'.",
+    "warning": "signed original custodian differs: English applicant [the applicant keeps the signed original.]; Chinese duty officer [正本由當值主任保管。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0773",
+    "category": "signed original custodian",
+    "expected_issue": "Role reversals: English specifies 'the applicant' and Chinese specifies '當值主任'.",
+    "warning": "signed original custodian differs: English applicant [the applicant keeps the signed original.]; Chinese duty officer [正本由當值主任保管。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0777",
+    "category": "fee waiver threshold",
+    "expected_issue": "No implied threshold: English specifies 'of at least' and Chinese specifies '超過'.",
+    "warning": "fee waiver threshold differs: English >=10 HKD [The fee is waived on orders of at least HK$10.]; Chinese >10 HKD [訂單金額超過10港元可免付費用;]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0782",
+    "category": "other items after partial cancellation",
+    "expected_issue": "Scope of cancellation: English specifies 'removed from the order' and Chinese specifies '仍保留在訂單內'.",
+    "warning": "other items after partial cancellation differs: English removed [If you cancel one item, the other items are removed from the order.]; Chinese retained [如取消其中一項,其餘項目仍保留在訂單內。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0790",
+    "category": "fee waiver threshold",
+    "expected_issue": "No implied threshold: English specifies 'of more than' and Chinese specifies '達'.",
+    "warning": "fee waiver threshold differs: English >7 HKD [The fee is waived on orders of more than HK$7.]; Chinese >=7 HKD [訂單金額達7港元可免付費用;]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0803",
+    "category": "card reference side",
+    "expected_issue": "Code location: English specifies 'front' and Chinese specifies '背面'.",
+    "warning": "card reference side differs: English front [The reference is printed on the front of your card.]; Chinese back [編號印在卡的背面,]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0816",
+    "category": "automated acknowledgement status",
+    "expected_issue": "Acknowledgement: English specifies 'approval of the request' and Chinese specifies '已收到申請'.",
+    "warning": "automated acknowledgement status differs: English approval [An automated reply confirms approval of the request.]; Chinese receipt [系統電郵只確認已收到申請。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0826",
+    "category": "retention start and duration",
+    "expected_issue": "Time anchor: English specifies 'approve the form' and Chinese specifies '收到表格'.",
+    "warning": "retention start and duration differs: English approval; 14 days [The retention period starts on the day staff approve the form; it lasts 14 days.]; Chinese receipt; 14 days [紀錄由職員收到表格當日起保留14日。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0841",
+    "category": "courier refund on withdrawal before review",
+    "expected_issue": "Refund exclusion: English specifies 'Courier charges are excluded' and Chinese specifies '亦會退還速遞費'.",
+    "warning": "courier refund on withdrawal before review differs: English excluded [Courier charges are excluded, even when the application is withdrawn before review.]; Chinese refunded [即使申請在審閱前撤回,亦會退還速遞費。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0857",
+    "category": "entry gate colour",
+    "expected_issue": "Entrance colour: English specifies 'green' and Chinese specifies '藍色'.",
+    "warning": "entry gate colour differs: English green [Entry for this activity is through the green gate.]; Chinese blue [本活動參加者請經藍色閘口入場;]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0861",
+    "category": "signed original custodian",
+    "expected_issue": "Role reversals: English specifies 'the duty officer' and Chinese specifies '申請人'.",
+    "warning": "signed original custodian differs: English duty officer [the duty officer keeps the signed original.]; Chinese applicant [正本由申請人保管。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0863",
+    "category": "children age eligibility",
+    "expected_issue": "Eligibility boundary: English specifies 'aged 29 or younger' and Chinese specifies '未滿29歲'.",
+    "warning": "children age eligibility differs: English <=29 [The desk serves children aged 29 or younger for this activity.]; Chinese <29 [活動櫃位只受理未滿29歲兒童的申請。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0868",
+    "category": "access code delivery channel",
+    "expected_issue": "Collection channel: English specifies 'by text message' and Chinese specifies '以電郵'.",
+    "warning": "access code delivery channel differs: English text message [The updated access code will be sent by text message.]; Chinese email [更新後的通行碼將以電郵發送,]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0879",
+    "category": "access code delivery channel",
+    "expected_issue": "Collection channel: English specifies 'by email' and Chinese specifies '以短訊'.",
+    "warning": "access code delivery channel differs: English email [The updated access code will be sent by email.]; Chinese text message [更新後的通行碼將以短訊發送,]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0899",
+    "category": "automated acknowledgement status",
+    "expected_issue": "Acknowledgement: English specifies 'receipt of the request' and Chinese specifies '已批准申請'.",
+    "warning": "automated acknowledgement status differs: English receipt [An automated reply confirms receipt of the request.]; Chinese approval [系統電郵只確認已批准申請。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0933",
+    "category": "priority when simultaneous",
+    "expected_issue": "Priority rule: English specifies 'people with an appointment' and Chinese specifies '未預約人士'.",
+    "warning": "priority when simultaneous differs: English booked [When both groups arrive together, serve people with an appointment first.]; Chinese unbooked [兩組人士同時抵達時,請先為未預約人士提供服務。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0934",
+    "category": "registration scope",
+    "expected_issue": "Scope of requirement: English specifies 'whether or not you want to download a copy' and Chinese specifies '僅在需要下載副本時才'.",
+    "warning": "registration scope differs: English all viewers [Registration is compulsory whether or not you want to download a copy.]; Chinese download only [僅在需要下載副本時才必須登記。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0935",
+    "category": "card reference side",
+    "expected_issue": "Code location: English specifies 'back' and Chinese specifies '正面'.",
+    "warning": "card reference side differs: English back [The reference is printed on the back of your card.]; Chinese front [編號印在卡的正面,]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0959",
+    "category": "signed record tray",
+    "expected_issue": "Record destination: English specifies 'outgoing' and Chinese specifies '來件'.",
+    "warning": "signed record tray differs: English outgoing [When finished, leave the signed record in the outgoing tray beside the printer.]; Chinese incoming [簽署後,請將紀錄放入打印機旁的來件文件盤。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0964",
+    "category": "access code delivery channel",
+    "expected_issue": "Collection channel: English specifies 'by text message' and Chinese specifies '以電郵'.",
+    "warning": "access code delivery channel differs: English text message [The updated access code will be sent by text message.]; Chinese email [更新後的通行碼將以電郵發送,]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0965",
+    "category": "entry gate colour",
+    "expected_issue": "Entrance colour: English specifies 'blue' and Chinese specifies '綠色'.",
+    "warning": "entry gate colour differs: English blue [Entry for this activity is through the blue gate.]; Chinese green [本活動參加者請經綠色閘口入場;]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0966",
+    "category": "other items after partial cancellation",
+    "expected_issue": "Scope of cancellation: English specifies 'kept on the order' and Chinese specifies '亦會從訂單移除'.",
+    "warning": "other items after partial cancellation differs: English retained [If you cancel one item, the other items are kept on the order.]; Chinese removed [如取消其中一項,其餘項目亦會從訂單移除。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0976",
+    "category": "signed record tray",
+    "expected_issue": "Record destination: English specifies 'incoming' and Chinese specifies '待發'.",
+    "warning": "signed record tray differs: English incoming [When finished, leave the signed record in the incoming tray beside the printer.]; Chinese outgoing [簽署後,請將紀錄放入打印機旁的待發文件盤。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0981",
+    "category": "entry gate colour",
+    "expected_issue": "Entrance colour: English specifies 'blue' and Chinese specifies '綠色'.",
+    "warning": "entry gate colour differs: English blue [Entry for this activity is through the blue gate.]; Chinese green [本活動參加者請經綠色閘口入場;]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  },
+  {
+    "case_id": "H0988",
+    "category": "retention start and duration",
+    "expected_issue": "Time anchor: English specifies 'approve the form' and Chinese specifies '收到表格'.",
+    "warning": "retention start and duration differs: English approval; 23 days [The retention period starts on the day staff approve the form; it lasts 23 days.]; Chinese receipt; 23 days [紀錄由職員收到表格當日起保留23日。]",
+    "both_expected_spans_in_warning": true,
+    "both_expected_spans_in_warning_after_nfkc": true
+  }
+]
