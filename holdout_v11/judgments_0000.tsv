@@ -1,0 +1,15 @@
+K0003:1	identified	The comparison isolates last page versus first page.
+K0004:1	identified	The paired edits expose donor-arranged delivery versus collection arranged by the community room administrator.
+K0007:1	wrong_issue	The gloss replaces placing notes in the book with borrowing notes, so it misstates the actual permitted action.
+K0009	backtranslation_retains_absence	The gloss contains the unrelated type-size instruction and does not supply the required sold-versus-prepared declaration.
+K0022:1	identified	The comparison isolates separate wrapping versus a bundle.
+K0026:1	identified	The explicit length values isolate the 16 mm versus 12 mm screw.
+K0027:1	false_alarm	Both assign delivery to the donor. The Chinese explicitly names the piano while the standalone English does not identify the object. This is a frozen clean-label concern documented separately.
+K0034	backtranslation_obscures_issue	The Chinese previous-page assignment is mistranslated as going to the top of the page.
+K0037:1	partial_or_generic	The passage locates the table-number instruction, but its edits merge deletion of the rule with wording changes to the shared instruction to keep the counter clear.
+K0038	backtranslation_exposes_issue	The return-only resident restriction and permission for the nominated driver to collect survive in the gloss.
+K0040:1	identified	The edit contrasts page back with the next page.
+K0041:1	false_alarm	The original pair agrees on the acoustic piano setting. The gloss wrongly reads practical assessment as an internship evaluator.
+K0042:1	partial_or_generic	The warning quotes retention alongside the original but fails to identify the omitted disputed-transcript correction rule fully.
+K0046	backtranslation_exposes_issue	The gloss is awkward but preserves that only the shelf clips are removed, reversing the exception.
+K0050:1	identified	The explicit duration identifies ten versus fourteen days.

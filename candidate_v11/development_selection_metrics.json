@@ -1,0 +1,290 @@
+{
+  "kind": "Development selection only: head predictions are out-of-fold; threshold and qualifier rule were selected using these old data. Not a held-out score.",
+  "results": {
+    "v9": {
+      "tn": 689,
+      "tp": 225,
+      "fn": 75,
+      "fp": 11,
+      "accuracy": 0.914,
+      "issue_types": {
+        "unspecified": {
+          "caught": 225,
+          "missed": 75
+        }
+      }
+    },
+    "v10": {
+      "tp": 229,
+      "tn": 683,
+      "fp": 17,
+      "fn": 71,
+      "accuracy": 0.912,
+      "issue_types": {
+        "procedure": {
+          "caught": 19,
+          "missed": 9
+        },
+        "position": {
+          "caught": 15,
+          "missed": 1
+        },
+        "role": {
+          "caught": 1,
+          "missed": 1
+        },
+        "format": {
+          "caught": 2
+        },
+        "setting": {
+          "caught": 3,
+          "missed": 1
+        },
+        "omission": {
+          "missed": 2,
+          "caught": 6
+        },
+        "equipment": {
+          "missed": 2,
+          "caught": 14
+        },
+        "location": {
+          "caught": 12
+        },
+        "object": {
+          "caught": 10,
+          "missed": 1
+        },
+        "trigger": {
+          "caught": 1
+        },
+        "scope": {
+          "caught": 30,
+          "missed": 19
+        },
+        "quantity": {
+          "caught": 11
+        },
+        "addition": {
+          "caught": 2
+        },
+        "calculation": {
+          "caught": 4,
+          "missed": 2
+        },
+        "condition": {
+          "caught": 13,
+          "missed": 7
+        },
+        "eligibility": {
+          "missed": 2,
+          "caught": 6
+        },
+        "action": {
+          "caught": 4
+        },
+        "actor": {
+          "caught": 16,
+          "missed": 4
+        },
+        "placement": {
+          "caught": 5,
+          "missed": 2
+        },
+        "exception": {
+          "missed": 13,
+          "caught": 16
+        },
+        "material": {
+          "caught": 4
+        },
+        "timing": {
+          "caught": 18,
+          "missed": 1
+        },
+        "responsibility": {
+          "caught": 4,
+          "missed": 1
+        },
+        "speaker": {
+          "caught": 1
+        },
+        "rights": {
+          "caught": 1,
+          "missed": 1
+        },
+        "direction": {
+          "missed": 1
+        },
+        "date": {
+          "caught": 1
+        },
+        "feature": {
+          "caught": 1
+        },
+        "unit": {
+          "caught": 1
+        },
+        "place": {
+          "caught": 3
+        },
+        "fixture": {
+          "caught": 1
+        },
+        "content": {
+          "caught": 1
+        },
+        "destination": {
+          "caught": 1
+        },
+        "report_destination": {
+          "missed": 1
+        },
+        "method": {
+          "caught": 1
+        },
+        "purpose": {
+          "caught": 1
+        }
+      }
+    },
+    "all": {
+      "tp": 454,
+      "tn": 1372,
+      "fp": 28,
+      "fn": 146,
+      "accuracy": 0.913,
+      "issue_types": {
+        "procedure": {
+          "caught": 19,
+          "missed": 9
+        },
+        "position": {
+          "caught": 15,
+          "missed": 1
+        },
+        "role": {
+          "caught": 1,
+          "missed": 1
+        },
+        "format": {
+          "caught": 2
+        },
+        "setting": {
+          "caught": 3,
+          "missed": 1
+        },
+        "omission": {
+          "missed": 2,
+          "caught": 6
+        },
+        "equipment": {
+          "missed": 2,
+          "caught": 14
+        },
+        "location": {
+          "caught": 12
+        },
+        "object": {
+          "caught": 10,
+          "missed": 1
+        },
+        "trigger": {
+          "caught": 1
+        },
+        "scope": {
+          "caught": 30,
+          "missed": 19
+        },
+        "quantity": {
+          "caught": 11
+        },
+        "addition": {
+          "caught": 2
+        },
+        "calculation": {
+          "caught": 4,
+          "missed": 2
+        },
+        "condition": {
+          "caught": 13,
+          "missed": 7
+        },
+        "eligibility": {
+          "missed": 2,
+          "caught": 6
+        },
+        "action": {
+          "caught": 4
+        },
+        "actor": {
+          "caught": 16,
+          "missed": 4
+        },
+        "placement": {
+          "caught": 5,
+          "missed": 2
+        },
+        "exception": {
+          "missed": 13,
+          "caught": 16
+        },
+        "material": {
+          "caught": 4
+        },
+        "timing": {
+          "caught": 18,
+          "missed": 1
+        },
+        "responsibility": {
+          "caught": 4,
+          "missed": 1
+        },
+        "speaker": {
+          "caught": 1
+        },
+        "rights": {
+          "caught": 1,
+          "missed": 1
+        },
+        "direction": {
+          "missed": 1
+        },
+        "date": {
+          "caught": 1
+        },
+        "feature": {
+          "caught": 1
+        },
+        "unit": {
+          "caught": 1
+        },
+        "place": {
+          "caught": 3
+        },
+        "fixture": {
+          "caught": 1
+        },
+        "content": {
+          "caught": 1
+        },
+        "destination": {
+          "caught": 1
+        },
+        "report_destination": {
+          "missed": 1
+        },
+        "method": {
+          "caught": 1
+        },
+        "purpose": {
+          "caught": 1
+        },
+        "unspecified": {
+          "caught": 225,
+          "missed": 75
+        }
+      }
+    }
+  }
+}

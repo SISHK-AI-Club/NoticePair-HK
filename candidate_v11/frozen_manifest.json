@@ -1,0 +1,50 @@
+{
+  "version": "V11",
+  "frozen_at": "2026-11-15T03:38:28.344024+00:00",
+  "files": {
+    "__init__.py": "444fda88bfdca23162f1335ed9a71c63eda802c74fa8430a8eb16993925ad688",
+    "engine.py": "508f6b9964c7cb3b32226a2e6202585c9c0f57243f3c8e53006102671090b75d",
+    "backbone.py": "34d41f209a06dedf8d43efee7ec5694d890b821e3192254bd208d28a6c08007c",
+    "facts.py": "ccbf3a05781feda7974b2b796003212bc41ce4e5fe0bed503eb348254a29e78f",
+    "terminology.py": "3f11a58169de2a81fcaf386479f3ff8641d393e88441a7812a3edce1fe1de190",
+    "backbone_config.json": "fd2d06ad164b79c2fd2e33e3538b0877c8ad1d730249297193e1175a6ab00d6b",
+    "features.py": "d2c6df6f1c4d4ea20b446e8422283e45e4eccdbc858edeaf17beb107bba4b012",
+    "coverage_rules.py": "06e206fdb6af8f454c64a11695d4543e7170adfb127fa741b071e85f4045a486",
+    "learned_head.json": "8e90070a927632019816827695a5df6c0332a8708411f9bcd71616fbe7c1591f",
+    "run.py": "77642754436ac9c6a0ff2157a44bf319966aae97f7c363f9e7ff94bbf7eb55c0"
+  },
+  "source_bundle_sha256": "d784941bcdc91bb9ef407ed9c5f2b52bf1cb4cfaf673b0772304ea3d18b653ea",
+  "model_revisions": {
+    "embedding": "836121a0533e5664b21c7aacc5d22951f2b8b25b",
+    "nli": "b5113eb38ab63efdd7f280f8c144ea8b13f978ce",
+    "translation": "f8d333a098d19b4fd9a8b18f94170487ad3f821d"
+  },
+  "model_ids": {
+    "embedding": "sentence-transformers/LaBSE",
+    "nli": "MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7",
+    "translation": "facebook/nllb-200-distilled-600M"
+  },
+  "development_data": [
+    "holdout_v9/v9_unseen_1000.csv",
+    "holdout_v10/v10_blind_1000.csv"
+  ],
+  "training_records_sha256": "8e53512a7d4b6f3f51fd7ec60f987791f6262c3f77a39fd590dade5dcca08fb5",
+  "training_procedure": "regularized logistic head on 2000 old cases; 5 family-disjoint folds for model and threshold selection; extra corroborated qualifier-loss rule",
+  "decision_threshold": 0.785,
+  "C": 0.01,
+  "holdout_text_or_labels_read": false,
+  "no_further_tuning": true,
+  "smoke_cases": 12,
+  "python": "3.11.14",
+  "packages": {
+    "torch": "2.15.0",
+    "transformers": "5.22.1",
+    "sentence-transformers": "5.7.0",
+    "sentencepiece": "0.2.3",
+    "pandas": "3.1.1",
+    "scipy": "1.17.1",
+    "numpy": "2.4.6",
+    "scikit-learn": "1.9.1",
+    "opencc-python-reimplemented": "0.1.7"
+  }
+}

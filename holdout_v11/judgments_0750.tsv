@@ -1,0 +1,14 @@
+K0756	backtranslation_exposes_issue	The reversed division of work survives as traffic staff removing signs and train operators removing markings.
+K0758:1	identified	The comparison isolates first versus last page.
+K0763	backtranslation_exposes_issue	The gloss preserves the road-sign versus marking roles despite stepping from tram to train terminology.
+K0768	backtranslation_exposes_issue	The gloss retains the observer token until the end of the tour, although it misnames the departing guide and the lead-guide token.
+K0772:1	identified	The edits expose donor delivery versus collection arranged by community room staff.
+K0776	backtranslation_obscures_issue	The gloss changes a sequence about confirming receipt and then revising a cue sheet into approval of a pre-modified script.
+K0779:1	partial_or_generic	The gloss preserves denial of a service but does not identify audio description correctly.
+K0780:1	identified	The edits isolate RAW versus JPEG.
+K0788:1	partial_or_generic	The gloss gives an offered service but mistranslates audio description as oral imaging.
+K0790:1	identified	The edits distinguish opt-out of both media from video-only opt-out with the written transcript still available.
+K0793:1	false_alarm	Both originals assign the prior page. The top-of-page instruction comes only from the gloss.
+K0794	backtranslation_exposes_issue	The gloss retains the second-versus-first transfer order, alongside an unrelated mistranslation about adjusting the balance.
+K0796:1	wrong_issue	The gloss replaces a count of squares with a count of colours. It does not identify the two-versus-three-square threshold.
+K0799:1	identified	The comparison expressly isolates one vote versus two.

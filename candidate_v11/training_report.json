@@ -1,0 +1,213 @@
+{
+  "kind": "development model/threshold selection; not an untouched evaluation",
+  "selection": "five family-disjoint folds; maximise accuracy with at most 28/1400 clean false positives; then refit all old data",
+  "rows": 2000,
+  "families": 132,
+  "fresh_holdout_read": false,
+  "selected": {
+    "C": 0.01,
+    "threshold": 0.785,
+    "tp": 450,
+    "fp": 28,
+    "fn": 150,
+    "tn": 1372,
+    "accuracy": 0.911,
+    "auc": 0.9746440476190477
+  },
+  "trials": [
+    {
+      "C": 0.01,
+      "threshold": 0.785,
+      "tp": 450,
+      "fp": 28,
+      "fn": 150,
+      "tn": 1372,
+      "accuracy": 0.911,
+      "auc": 0.9746440476190477
+    },
+    {
+      "C": 0.03,
+      "threshold": 0.84,
+      "tp": 438,
+      "fp": 28,
+      "fn": 162,
+      "tn": 1372,
+      "accuracy": 0.905,
+      "auc": 0.9751059523809523
+    },
+    {
+      "C": 0.1,
+      "threshold": 0.87,
+      "tp": 442,
+      "fp": 27,
+      "fn": 158,
+      "tn": 1373,
+      "accuracy": 0.9075,
+      "auc": 0.9737666666666666
+    },
+    {
+      "C": 0.3,
+      "threshold": 0.905,
+      "tp": 438,
+      "fp": 26,
+      "fn": 162,
+      "tn": 1374,
+      "accuracy": 0.906,
+      "auc": 0.9718666666666667
+    },
+    {
+      "C": 1,
+      "threshold": 0.93,
+      "tp": 434,
+      "fp": 27,
+      "fn": 166,
+      "tn": 1373,
+      "accuracy": 0.9035,
+      "auc": 0.9701464285714285
+    }
+  ],
+  "by_dataset": {
+    "v9": {
+      "tp": 225,
+      "fp": 11,
+      "fn": 75,
+      "tn": 689,
+      "accuracy": 0.914
+    },
+    "v10": {
+      "tp": 225,
+      "fp": 17,
+      "fn": 75,
+      "tn": 683,
+      "accuracy": 0.908
+    }
+  },
+  "old_v10_issue_types": {
+    "procedure": {
+      "caught": 19,
+      "missed": 9
+    },
+    "position": {
+      "caught": 15,
+      "missed": 1
+    },
+    "role": {
+      "caught": 1,
+      "missed": 1
+    },
+    "format": {
+      "caught": 2
+    },
+    "setting": {
+      "caught": 3,
+      "missed": 1
+    },
+    "omission": {
+      "missed": 6,
+      "caught": 2
+    },
+    "equipment": {
+      "missed": 2,
+      "caught": 14
+    },
+    "location": {
+      "caught": 12
+    },
+    "object": {
+      "caught": 10,
+      "missed": 1
+    },
+    "trigger": {
+      "caught": 1
+    },
+    "scope": {
+      "caught": 30,
+      "missed": 19
+    },
+    "quantity": {
+      "caught": 11
+    },
+    "addition": {
+      "caught": 2
+    },
+    "calculation": {
+      "caught": 4,
+      "missed": 2
+    },
+    "condition": {
+      "caught": 13,
+      "missed": 7
+    },
+    "eligibility": {
+      "missed": 2,
+      "caught": 6
+    },
+    "action": {
+      "caught": 4
+    },
+    "actor": {
+      "caught": 16,
+      "missed": 4
+    },
+    "placement": {
+      "caught": 5,
+      "missed": 2
+    },
+    "exception": {
+      "missed": 13,
+      "caught": 16
+    },
+    "material": {
+      "caught": 4
+    },
+    "timing": {
+      "caught": 18,
+      "missed": 1
+    },
+    "responsibility": {
+      "caught": 4,
+      "missed": 1
+    },
+    "speaker": {
+      "caught": 1
+    },
+    "rights": {
+      "caught": 1,
+      "missed": 1
+    },
+    "direction": {
+      "missed": 1
+    },
+    "date": {
+      "caught": 1
+    },
+    "feature": {
+      "caught": 1
+    },
+    "unit": {
+      "caught": 1
+    },
+    "place": {
+      "caught": 3
+    },
+    "fixture": {
+      "caught": 1
+    },
+    "content": {
+      "caught": 1
+    },
+    "destination": {
+      "caught": 1
+    },
+    "report_destination": {
+      "missed": 1
+    },
+    "method": {
+      "caught": 1
+    },
+    "purpose": {
+      "caught": 1
+    }
+  },
+  "training_records_sha256": "8e53512a7d4b6f3f51fd7ec60f987791f6262c3f77a39fd590dade5dcca08fb5"
+}

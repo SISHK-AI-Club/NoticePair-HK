@@ -1,0 +1,18 @@
+K0203:1	identified	The edit isolates one coat versus two coats.
+K0206	backtranslation_exposes_issue	The gloss retains immediate loss of both tokens and omits delayed observer access, though it mistranslates guide and deactivation.
+K0207:1	false_alarm	Both put delivery responsibility on the donor. The gloss's different syntax and added piano noun do not change that instruction.
+K0209:1	identified	The comparison exposes dry versus wet cotton.
+K0213	backtranslation_exposes_issue	The gloss retains an extra condition to replace the wet item before storing the lens, though receiver is an inaccurate term for the sleeve.
+K0215:1	wrong_issue	The warning focuses on the agreed instrument-case storage rule rather than the sound-check exception.
+K0221:1	identified	The edit exposes the presence requirement versus permission in the reader's absence. The gloss wrongly adds a ground-floor reference.
+K0222	backtranslation_exposes_issue	The gloss faithfully retains who can collect and who can return the remote, so the reversal stays visible.
+K0224:1	identified	The edit explicitly compares JPEG and RAW.
+K0225:1	identified	The edit identifies first versus second transfer and which is left untouched. The English use of restore is itself ambiguous and noted separately.
+K0232:1	identified	The comparison isolates photography versus handwritten notes.
+K0233	backtranslation_obscures_issue	The gloss's original piano phrase does not clearly express an acoustic piano sound and the assessment wording is mistranslated.
+K0234:1	identified	The edit pinpoints whether the reader must be present. The gloss also adds an unsupported ground-floor location.
+K0238	backtranslation_exposes_issue	The gloss conveys a declaration of values as sold or prepared that the English translation omits.
+K0240:1	identified	The explicit colour comparison identifies the tag change from white to blue.
+K0243:1	false_alarm	The original versions agree on the piano sound for the practical assessment. The gloss wrongly creates an internship evaluator.
+K0244:1	identified	The comparison exposes permission versus prohibition of transferring the appointment to another household member.
+K0248	backtranslation_exposes_issue	The gloss preserves that both tokens are lost immediately. It misstates guide as observer and deactivation as ceasing use.

@@ -1,0 +1,89 @@
+{
+  "check": "12 actual neural-inference outputs match replays in verdict, scores within .01",
+  "cases": [
+    {
+      "case_id": "T0039",
+      "flagged": true,
+      "gold": "clean",
+      "score_delta": 0.0,
+      "path": "v11_learned_equivalence"
+    },
+    {
+      "case_id": "T0051",
+      "flagged": true,
+      "gold": "issue",
+      "score_delta": 5.147564374752278e-09,
+      "path": "v11_learned_equivalence"
+    },
+    {
+      "case_id": "T0137",
+      "flagged": true,
+      "gold": "issue",
+      "score_delta": 0.0,
+      "path": "v11_unsupported_detail"
+    },
+    {
+      "case_id": "T0208",
+      "flagged": false,
+      "gold": "clean",
+      "score_delta": 1.7078903048750593e-08,
+      "path": "v11_learned_equivalence"
+    },
+    {
+      "case_id": "T0429",
+      "flagged": true,
+      "gold": "issue",
+      "score_delta": 2.75556910622754e-10,
+      "path": "v11_learned_equivalence"
+    },
+    {
+      "case_id": "T0455",
+      "flagged": false,
+      "gold": "clean",
+      "score_delta": 5.321103847474862e-09,
+      "path": "v11_learned_equivalence"
+    },
+    {
+      "case_id": "T0545",
+      "flagged": true,
+      "gold": "issue",
+      "score_delta": 1.2166884277853285e-08,
+      "path": "v11_learned_equivalence"
+    },
+    {
+      "case_id": "T0652",
+      "flagged": true,
+      "gold": "issue",
+      "score_delta": 7.666795148753014e-05,
+      "path": "v11_unsupported_detail"
+    },
+    {
+      "case_id": "T0767",
+      "flagged": true,
+      "gold": "issue",
+      "score_delta": 6.046166156625787e-08,
+      "path": "v11_unsupported_detail"
+    },
+    {
+      "case_id": "T0841",
+      "flagged": false,
+      "gold": "clean",
+      "score_delta": 4.5223142522421433e-08,
+      "path": "v11_learned_equivalence"
+    },
+    {
+      "case_id": "T0965",
+      "flagged": true,
+      "gold": "issue",
+      "score_delta": 2.309457020688299e-05,
+      "path": "v11_learned_equivalence"
+    },
+    {
+      "case_id": "T0972",
+      "flagged": true,
+      "gold": "issue",
+      "score_delta": 2.103601642877706e-07,
+      "path": "v11_unsupported_detail"
+    }
+  ]
+}

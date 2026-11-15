@@ -1,0 +1,12 @@
+{
+  "embedding_model": "sentence-transformers/LaBSE",
+  "context_limit": 256,
+  "max_tokens": {
+    "english": 73,
+    "chinese": 113
+  },
+  "over_limit": {
+    "english": [],
+    "chinese": []
+  }
+}
