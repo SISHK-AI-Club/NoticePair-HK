@@ -1,0 +1,19 @@
+test_deadline_label_does_not_invent_application (test_adapter.AdapterTests.test_deadline_label_does_not_invent_application) ... ok
+test_explicit_issue_survives_uncertain_subject (test_adapter.AdapterTests.test_explicit_issue_survives_uncertain_subject) ... ok
+test_uncertain_subject_defers_to_original (test_adapter.AdapterTests.test_uncertain_subject_defers_to_original) ... ok
+test_unknown_clause_uses_original (test_adapter.AdapterTests.test_unknown_clause_uses_original) ... ok
+test_correction_roles_not_sets (test_structured.GrammarTests.test_correction_roles_not_sets) ... ok
+test_extra_clause_never_ignored (test_structured.GrammarTests.test_extra_clause_never_ignored) ... ok
+test_footnote_prose_and_audience (test_structured.GrammarTests.test_footnote_prose_and_audience) ... ok
+test_group_modality_in_prose (test_structured.GrammarTests.test_group_modality_in_prose) ... ok
+test_month_end_not_quantity (test_structured.GrammarTests.test_month_end_not_quantity) ... ok
+test_order_in_both_directions (test_structured.GrammarTests.test_order_in_both_directions) ... ok
+test_passive_duties_mutated_alternate (test_structured.GrammarTests.test_passive_duties_mutated_alternate) ... ok
+test_reviewer_guards (test_structured.GrammarTests.test_reviewer_guards) ... ok
+test_unsupported_condition_not_equated (test_structured.GrammarTests.test_unsupported_condition_not_equated) ... ok
+test_valid_clock_and_daypart (test_structured.GrammarTests.test_valid_clock_and_daypart) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.004s
+
+OK

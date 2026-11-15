@@ -1,0 +1,9 @@
+{
+  "dataset_sha256": "2bad8349bcfaf4b48358b7aa23e1fa19321e45a8c38332ea9cdd01bfeccc165d",
+  "candidate_sha256": "a0b7d69d1a1b3cb6578a270213a975111d207bace44eefea7678957b98b899aa",
+  "files": {
+    "structured_notice.py": "5d79b3c6fe19c976f750a2b256cc6ba56c3e22e3a131338ff6132ebdc692ceb9",
+    "adapter.py": "a9e28d1d060f18d4ab88953756746d9af49a2e78d22a9a4f44a6ddfcec05fbe4",
+    "colab_run.py": "8dfc21dbfeb6fe064ca8058c5b4f56bb60d6bcfac2252f601343585c95f3307f"
+  }
+}

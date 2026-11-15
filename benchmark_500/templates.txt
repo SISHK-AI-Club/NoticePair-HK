@@ -1,0 +1,35 @@
+school|routine|Room change|The {event} will take place in Room {a}.|{zh}將於{a}室舉行。|{zh}的舉行地點為{a}室。|room
+school|routine|Start time|The {event} starts at {a} p.m.|{zh}於下午{a}時開始。|下午{a}時開始{zh}。|hour
+school|routine|Deadline|Please confirm attendance at the {event} by {a} September.|請於9月{a}日或之前確認是否出席{zh}。|{zh}的出席回覆期限為9月{a}日。|day
+school|difficult|Role assignment|For the {event}, class teachers check the list and prefects distribute the materials.|{zh}期間，班主任負責核對名單，領袖生負責派發物資。|{zh}期間的分工如下：名單由班主任核對。物資由領袖生派發。|swap
+school|difficult|Exception|During the {event}, the side door is closed unless a staff member is on duty there.|{zh}期間，除非有職員在側門當值，否則側門關閉。|{zh}期間，側門只在有職員於該處當值時開放。|exception
+school|difficult|Timing|For the {event}, report to the hall after collecting your badge.|出席{zh}時，請先領取名牌，再到禮堂報到。|請領取{zh}名牌後才到禮堂報到。|sequence
+school|edge|Correction|{event} update: disregard Room {b} in the earlier circular. Use Room {a}.|{zh}最新安排：請使用{a}室，早前通告所列的{b}室安排已取消。|{zh}改在{a}室舉行。舊通告所列的{b}室已不適用。|correction
+school|edge|Footnote|{event} schedule\nGeneral arrival: {a} p.m.\n* Performers report at {b} p.m. instead.|{zh}時間表\n一般到場時間：下午{a}時\n* 表演者改於下午{b}時報到。|{zh}一般到場時間為下午{a}時。表演者須按附註於下午{b}時報到。|footnote
+government|routine|Service opening|The {event} opens at {a} a.m.|{zh}於上午{a}時開放。|上午{a}時起可使用{zh}。|hour
+government|routine|Service date|The {event} will resume on {a} October.|{zh}將於10月{a}日恢復服務。|{zh}恢復服務日期為10月{a}日。|day
+government|routine|Counter location|Enquiries about the {event} are handled at Counter {a}.|有關{zh}的查詢由{a}號櫃位處理。|如欲查詢{zh}的安排，請到{a}號櫃位。|counter
+government|difficult|Exception|The side door for the {event} is closed unless a staff member is on duty there.|{zh}的側門除非有職員在該處當值，否則關閉。|{zh}的側門只在有職員於該處當值時開放。|exception
+government|difficult|Scope|The {event} accepts walk-ins. Group visits must be booked in advance.|{zh}接受即場到訪，但團體到訪須預約。|個別人士可即場到訪{zh}。團體則須事先預約。|groups
+government|difficult|Validity|A receipt for the {event} is valid until the end of the month in which it was issued.|{zh}的收據有效至發出當月月底。|{zh}收據的有效期於發出當月最後一日屆滿。|month
+government|edge|Correction|{event} update: disregard the previous opening date of {b} May. The revised date is {a} May.|{zh}開放日期已改為5月{a}日，原定5月{b}日的安排已取消。|{zh}將於5月{a}日開放。早前公布的5月{b}日已不適用。|correction
+government|edge|Footnote|{event} schedule\nGeneral admission: {a} a.m.\n* Groups with bookings enter at {b} a.m. instead.|{zh}時間表\n一般入場：上午{a}時\n* 已預約團體改於上午{b}時入場。|{zh}一般入場時間為上午{a}時。已預約團體須按附註於上午{b}時入場。|footnote
+public_email|routine|Reply deadline|Please reply to this email about the {event} by {a} June.|請於6月{a}日或之前回覆這封有關{zh}的電郵。|有關{zh}的這封電郵，請最遲於6月{a}日回覆。|day
+public_email|routine|Help desk|For help with the {event}, please visit Desk {a}.|如需{zh}方面的協助，請前往{a}號服務台。|{zh}的查詢及求助可到{a}號服務台辦理。|desk
+public_email|routine|Time|Your appointment for the {event} is at {a} p.m.|你的{zh}預約時間為下午{a}時。|你已預約於下午{a}時辦理{zh}。|hour
+public_email|difficult|Sequence|For the {event}, submit your request after creating an account.|辦理{zh}時，請先開立帳戶，再提交申請。|請開立帳戶後才提交{zh}申請。|account
+public_email|difficult|Scope|For the {event}, you may update your contact number without changing the name on your account.|辦理{zh}時，可更新聯絡電話，毋須更改帳戶姓名。|帳戶姓名可保留不變，仍可在辦理{zh}時更新聯絡電話。|contact
+public_email|difficult|Validity|A receipt for the {event} is valid until the end of the month in which it was issued.|{zh}的收據有效至發出當月月底。|{zh}收據的有效期於發出當月最後一日屆滿。|month
+public_email|edge|Correction|Correction for the {event}: your appointment is on {a} July. Please disregard the previous email showing {b} July.|{zh}的預約日期為7月{a}日。請以本電郵為準，早前所列的7月{b}日已不適用。|早前電郵所列的7月{b}日已取消。你的{zh}預約改於7月{a}日。|correction
+public_email|edge|Footnote|{event} schedule\nGeneral arrival: {a} p.m.\n* Invited speakers arrive at {b} p.m. instead.|{zh}時間表\n一般到場時間：下午{a}時\n* 獲邀講者改於下午{b}時到場。|{zh}一般到場時間為下午{a}時。獲邀講者須按附註於下午{b}時到場。|footnote
+instructions|routine|Location heading|{event} — Room {a}|{zh}：{a}室|{a}室：{zh}|room
+instructions|routine|Counter sign|{event} — Counter {a}|{zh}：{a}號櫃位|{a}號櫃位：{zh}|counter
+instructions|routine|Time heading|{event} starts at {a} p.m.|{zh}於下午{a}時開始|{zh}開始時間：下午{a}時|hour
+instructions|difficult|Sequence|For the {event}, report to the hall after collecting your badge.|參與{zh}時，請先領取名牌，再到禮堂報到。|請領取{zh}名牌後才到禮堂報到。|sequence
+instructions|difficult|Exception|During the {event}, the side door is closed unless a staff member is on duty there.|{zh}期間，除非有職員在側門當值，否則側門關閉。|{zh}期間，側門只在有職員於該處當值時開放。|exception
+instructions|difficult|Scope|The {event} accepts walk-ins. Group visits must be booked in advance.|{zh}接受即場到訪，但團體到訪須預約。|個別人士可即場到訪{zh}。團體則須事先預約。|groups
+instructions|edge|Correction|{event} update: disregard Room {b} on the earlier sign. Use Room {a}.|{zh}地點更新：請使用{a}室，舊告示所列的{b}室已不適用。|{zh}移至{a}室。請勿依照舊告示前往{b}室。|correction
+instructions|edge|Footnote|{event} schedule\nGeneral arrival: {a} p.m.\n* Exhibitors report at {b} p.m. instead.|{zh}時間表\n一般到場時間：下午{a}時\n* 參展者改於下午{b}時報到。|{zh}一般到場時間為下午{a}時。參展者須按附註於下午{b}時報到。|footnote
+school|difficult|Group booking|The {event} accepts walk-ins. Group visits must be booked in advance.|{zh}接受即場到訪，但團體到訪須預約。|個別人士可即場到訪{zh}。團體則須事先預約。|groups
+government|difficult|Role assignment|At the {event}, reception staff check the list and volunteers distribute the materials.|{zh}的接待職員負責核對名單，義工負責派發物資。|在{zh}，名單由接待職員核對，物資由義工派發。|staff_swap
+government|difficult|Sequence|For the {event}, submit your request after creating an account.|辦理{zh}服務時，請先開立帳戶，再提交申請。|請開立帳戶後才提交{zh}服務申請。|account
