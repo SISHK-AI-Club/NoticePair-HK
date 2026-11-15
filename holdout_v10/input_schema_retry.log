@@ -1,6 +1,0 @@
-W1115 09:45:35.034000 59833 /private/tmp/veritas-v9-runtime/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
-Traceback (most recent call last):
-  File "/Users/aidenp/Desktop/Veritas AI Hackathon/candidate_v10/run.py", line 16, in <module>
-    assert set(rows[0])=={'case_id','english','chinese'},'Prediction input must contain no gold labels or rationales'
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AssertionError: Prediction input must contain no gold labels or rationales

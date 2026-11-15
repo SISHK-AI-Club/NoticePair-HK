@@ -1,43 +1,0 @@
-W1115 09:05:17.875000 47145 /private/tmp/veritas-v9-runtime/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
-Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-/tmp/veritas-v9-runtime/lib/python3.11/site-packages/transformers/models/marian/tokenization_marian.py:176: UserWarning: Recommended: pip install sacremoses.
-  warnings.warn("Recommended: pip install sacremoses.")
-Loading weights:   0%|          | 0/258 [00:00<?, ?it/s]Loading weights: 100%|██████████| 258/258 [00:00<00:00, 40494.35it/s]
-MT loaded
-[transformers] Both `max_new_tokens` (=220) and `max_length`(=512) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Translate 8 80
-[transformers] Both `max_new_tokens` (=220) and `max_length`(=512) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Translate 16 80
-[transformers] Both `max_new_tokens` (=220) and `max_length`(=512) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Translate 24 80
-[transformers] Both `max_new_tokens` (=220) and `max_length`(=512) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Translate 32 80
-[transformers] Both `max_new_tokens` (=220) and `max_length`(=512) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Translate 40 80
-[transformers] Both `max_new_tokens` (=220) and `max_length`(=512) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Translate 48 80
-[transformers] Both `max_new_tokens` (=220) and `max_length`(=512) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Translate 56 80
-[transformers] Both `max_new_tokens` (=220) and `max_length`(=512) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Translate 64 80
-[transformers] Both `max_new_tokens` (=220) and `max_length`(=512) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Translate 72 80
-[transformers] Both `max_new_tokens` (=220) and `max_length`(=512) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Translate 80 80
-loading NLI
-/tmp/veritas-v9-runtime/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
-  warnings.warn(
-Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 7255.46it/s]
-{0: 'entailment', 1: 'neutral', 2: 'contradiction'}
-Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 7168.89it/s]
-NLI 0 195
-NLI 20 195
-NLI 40 195
-NLI 60 195
-NLI 80 195
-NLI 100 195
-NLI 120 195
-NLI 140 195
-NLI 160 195
-NLI 180 195
-DONE 195

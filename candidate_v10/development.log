@@ -1,45 +1,0 @@
-W1115 09:26:44.696000 51148 /private/tmp/veritas-v9-runtime/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
-Loading V10 models (no V7 fallback).
-Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 5872.43it/s]
-/tmp/veritas-v9-runtime/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
-  warnings.warn(
-Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 5984.33it/s]
-Loading weights:   0%|          | 0/512 [00:00<?, ?it/s]Loading weights: 100%|██████████| 512/512 [00:00<00:00, 27065.48it/s]
-V10 ready on cpu
-[transformers] Both `max_new_tokens` (=300) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Translation cross-check: 8/61 new passages
-[transformers] Both `max_new_tokens` (=300) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-[transformers] Both `max_new_tokens` (=300) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-[transformers] Both `max_new_tokens` (=300) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-[transformers] Both `max_new_tokens` (=300) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-[transformers] Both `max_new_tokens` (=300) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Translation cross-check: 48/61 new passages
-[transformers] Both `max_new_tokens` (=300) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-[transformers] Both `max_new_tokens` (=300) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Contextual inference: 12/356 new pairs
-Contextual inference: 132/356 new pairs
-Contextual inference: 252/356 new pairs
-PREDICTIONS 50 / 195
-[transformers] Both `max_new_tokens` (=300) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Translation cross-check: 8/27 new passages
-[transformers] Both `max_new_tokens` (=300) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-[transformers] Both `max_new_tokens` (=300) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-[transformers] Both `max_new_tokens` (=300) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Contextual inference: 12/290 new pairs
-Contextual inference: 132/290 new pairs
-Contextual inference: 252/290 new pairs
-PREDICTIONS 100 / 195
-[transformers] Both `max_new_tokens` (=300) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Translation cross-check: 8/13 new passages
-[transformers] Both `max_new_tokens` (=300) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Contextual inference: 12/312 new pairs
-Contextual inference: 132/312 new pairs
-Contextual inference: 252/312 new pairs
-PREDICTIONS 150 / 195
-[transformers] Both `max_new_tokens` (=300) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Translation cross-check: 1/1 new passages
-Contextual inference: 12/258 new pairs
-Contextual inference: 132/258 new pairs
-Contextual inference: 252/258 new pairs
-PREDICTIONS 195 / 195
-V10 COMPLETE 195
