@@ -6,13 +6,15 @@ NoticePair HK compares the Traditional Chinese and English versions of a Hong Ko
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SISHK-AI-Club/NoticePair-HK/blob/main/NoticePair_HK_v11.ipynb)
 
-## Run the demo
+## Judges start here
+
+**Submission file:** [`NoticePair_HK_v11.ipynb`](NoticePair_HK_v11.ipynb). Open it in Colab and run the **Demo app**. Use this README for the project summary, test results, and limitations.
 
 This is a private repository. Open the Colab badge with a GitHub account that has access. If Colab cannot open it directly, download [the notebook](NoticePair_HK_v11.ipynb) from GitHub and upload it in Colab via **File → Upload notebook**.
 
 1. Open the notebook in Colab and select **Runtime → Change runtime type → T4 GPU**.
 2. Select **Runtime → Run all**. Setup downloads about 5 GB of pretrained models. The Gradio demo needs no file uploads.
-3. Try a built-in example or paste both versions of a notice. Review the flagged passages and decide whether the notice needs a correction.
+3. Scroll to **Demo app** and open the Gradio interface. Try the second built-in example, where the application deadline and event date are swapped between English and Chinese. Review the flagged passages and explanation.
 
 ## How it works
 
