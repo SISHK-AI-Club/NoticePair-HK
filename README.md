@@ -1,4 +1,4 @@
-# Public Notice Check
+# NoticePair HK v11
 
 **A last check before a bilingual notice goes out.**
 Veritas AI International High School Hackathon 2026 · Track: AI + Languages · SISHK AI Club
@@ -7,7 +7,7 @@ A programme coordinator at a Hong Kong community centre, charity or school paste
 versions of a notice. The checker compares them and flags places where the two versions tell readers different things
 (a deadline, a fee, a weight, who qualifies, what to do), and explains why. A person always makes the final call.
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SISHK-AI-Club/Veritas-AI-Hackathon/blob/main/Public_Notice_Check.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SISHK-AI-Club/Veritas-AI-Hackathon/blob/main/NoticePair_HK_v11.ipynb)
 
 ## Why it matters
 
@@ -77,13 +77,21 @@ phrased more freely.
 
 | File | What it is |
 |---|---|
-| `Public_Notice_Check.ipynb` | **V11, the current version.** Readable checker code, a single example and a Gradio demo app. Its history in this repository goes v2 → v6 → V9 → V11. |
-| `V9_development_comparison.ipynb` | Frozen V8 vs V9 on V9's 1,000 development cases. |
+| `NoticePair_HK_v11.ipynb` | **V11, the current version.** Readable checker code, a single example and a Gradio demo app. |
+| [V9 development comparison](https://github.com/SISHK-AI-Club/Veritas-AI-Hackathon/blob/99b3d67/V9_development_comparison.ipynb) | Frozen V8 vs V9 on V9's 1,000 development cases. |
 | `data/` | All test and training files: `notices.csv`, `fresh_test.csv`, `fresh_test_2.csv`, `fresh_test_3.csv`, `v9_development_1000.csv`, `v9_unseen_1000.csv`. |
+
+## Version history
+
+Browse the [commit history](https://github.com/SISHK-AI-Club/Veritas-AI-Hackathon/commits/main/) or open a version below.
+
+[v2](https://github.com/SISHK-AI-Club/Veritas-AI-Hackathon/tree/v2) · [v3](https://github.com/SISHK-AI-Club/Veritas-AI-Hackathon/tree/v3) · [v4](https://github.com/SISHK-AI-Club/Veritas-AI-Hackathon/tree/v4) · [v5](https://github.com/SISHK-AI-Club/Veritas-AI-Hackathon/tree/v5) · [v6](https://github.com/SISHK-AI-Club/Veritas-AI-Hackathon/tree/v6) · [v7](https://github.com/SISHK-AI-Club/Veritas-AI-Hackathon/tree/v7) · [v8](https://github.com/SISHK-AI-Club/Veritas-AI-Hackathon/tree/v8) · [v9](https://github.com/SISHK-AI-Club/Veritas-AI-Hackathon/tree/v9) · [v10](https://github.com/SISHK-AI-Club/Veritas-AI-Hackathon/tree/v10) · [v11](https://github.com/SISHK-AI-Club/Veritas-AI-Hackathon/tree/v11)
+
+v2–v6 point to the original published commits. The v7 tag contains the frozen checker source recovered from the v8 comparison. v8–v10 include the saved notebooks and evaluation files, and v11 is the final NoticePair HK version. The original benchmark is archived with the project materials.
 
 ## Run it
 
-1. Open `Public_Notice_Check.ipynb` in Google Colab.
+1. Open `NoticePair_HK_v11.ipynb` in Google Colab.
 2. *Runtime → Change runtime type → T4 GPU.*
 3. *Runtime → Run all.* The first run downloads the three models (about 5 GB). The demo app appears near the end; it
    needs no data files.
