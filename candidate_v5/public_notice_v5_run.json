@@ -1,0 +1,42 @@
+{
+  "checker": "v5-candidate",
+  "run_at_utc": "2026-11-14T12:38:40.799271+00:00",
+  "dataset_sha256": "eadcf4d7c6149e9656be2522f63977c25cb62fa6d0a206046ad96e8de746dfc1",
+  "semantic_rules_sha256": "db4a728eda1effb35afcad0a5af5720e41e4a4bb4c7c179202458bf1e7e028d7",
+  "similarity_threshold": 0.4,
+  "contradiction_threshold": 0.65,
+  "device": "cuda",
+  "python": "3.13.16",
+  "packages": {
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "sentence-transformers": "5.7.0"
+  },
+  "evaluation_type": "reused 60-case regression suite; not unseen held-out data",
+  "metrics": {
+    "dev": {
+      "TP": 12,
+      "FN": 0,
+      "FP": 0,
+      "TN": 6,
+      "accuracy": 1.0,
+      "recall": 1.0
+    },
+    "holdout": {
+      "TP": 25,
+      "FN": 3,
+      "FP": 0,
+      "TN": 14,
+      "accuracy": 0.9285714285714286,
+      "recall": 0.8928571428571429
+    },
+    "all": {
+      "TP": 37,
+      "FN": 3,
+      "FP": 0,
+      "TN": 20,
+      "accuracy": 0.95,
+      "recall": 0.925
+    }
+  }
+}
