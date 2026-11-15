@@ -1,0 +1,12 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+W1115 09:16:14.059000 49314 /private/tmp/veritas-v9-runtime/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/512 [00:00<?, ?it/s]Loading weights: 100%|██████████| 512/512 [00:00<00:00, 46834.09it/s]
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/tmp/veritas-v9-runtime/lib/python3.11/site-packages/transformers/configuration_utils.py", line 658, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/veritas-v9-runtime/lib/python3.11/site-packages/transformers/integrations/heterogeneity/configuration_utils.py", line 312, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'M2M100Config' object has no attribute '_commit_hash'

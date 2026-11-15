@@ -1,0 +1,29 @@
+{
+  "independent_check": "IDs, source text identity, frozen code hashes, quota integrity and confusion counts independently verified",
+  "counts": {
+    "overall": {
+      "TP": 101,
+      "TN": 696,
+      "FN": 199,
+      "FP": 4
+    },
+    "routine": {
+      "TP": 81,
+      "TN": 417,
+      "FN": 99,
+      "FP": 3
+    },
+    "difficult": {
+      "TN": 210,
+      "FN": 75,
+      "TP": 15
+    },
+    "edge": {
+      "TN": 69,
+      "FN": 25,
+      "TP": 5,
+      "FP": 1
+    }
+  },
+  "predictions_sha256": "959127973e6638b693f79bad4c3e3824d71dc69167f662ba404535c67455a566"
+}

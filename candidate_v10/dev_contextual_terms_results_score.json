@@ -1,0 +1,1218 @@
+{
+  "evaluation": "195 distinct content pairs extracted from old V9 data; weighted to original 1000; stripped layout; development only",
+  "counts": {
+    "overall": {
+      "TN": 675,
+      "TP": 229,
+      "FN": 71,
+      "FP": 25
+    },
+    "routine": {
+      "TN": 395,
+      "TP": 152,
+      "FN": 28,
+      "FP": 25
+    },
+    "Survey datum": {
+      "TN": 43,
+      "TP": 19
+    },
+    "edge": {
+      "TP": 25,
+      "TN": 70,
+      "FN": 5
+    },
+    "Branch convergence": {
+      "TP": 3,
+      "TN": 7
+    },
+    "Exhibition medium": {
+      "TN": 28,
+      "TP": 12
+    },
+    "difficult": {
+      "TN": 210,
+      "TP": 52,
+      "FN": 38
+    },
+    "Boundary ownership": {
+      "TN": 22,
+      "FN": 8
+    },
+    "Glyph orientation": {
+      "TP": 13,
+      "TN": 29
+    },
+    "Archive attribution": {
+      "TN": 21,
+      "FN": 9
+    },
+    "Caption language": {
+      "TP": 13,
+      "TN": 29
+    },
+    "Reporting denominator": {
+      "TN": 20,
+      "TP": 6,
+      "FN": 2
+    },
+    "Sorting key": {
+      "TN": 13,
+      "TP": 5
+    },
+    "Science specimen": {
+      "TN": 31,
+      "FP": 11,
+      "FN": 10,
+      "TP": 8
+    },
+    "Assessment aggregation": {
+      "TN": 21,
+      "TP": 10
+    },
+    "Paper fold": {
+      "TN": 27,
+      "FN": 5,
+      "TP": 6
+    },
+    "Instrument tuning": {
+      "TN": 41,
+      "TP": 17
+    },
+    "Consultation identity publication": {
+      "TN": 22,
+      "TP": 10
+    },
+    "Attendance classification": {
+      "TN": 20,
+      "TP": 9
+    },
+    "Transcript page": {
+      "TP": 10,
+      "TN": 27,
+      "FN": 1
+    },
+    "Stage cue": {
+      "TN": 43,
+      "TP": 19
+    },
+    "Recycling material": {
+      "TN": 28,
+      "TP": 18,
+      "FP": 14
+    },
+    "Superseding map layer": {
+      "TP": 5,
+      "TN": 10
+    },
+    "Assessment dependency": {
+      "TN": 11,
+      "TP": 4
+    },
+    "Reset persistence": {
+      "TN": 15,
+      "FN": 7
+    },
+    "Attachment replacement": {
+      "TN": 13,
+      "TP": 5
+    },
+    "Renewal effect": {
+      "TN": 14,
+      "FN": 6
+    },
+    "Grandfathered classification": {
+      "TN": 10,
+      "TP": 5
+    },
+    "Print orientation": {
+      "TN": 41,
+      "TP": 17
+    },
+    "Thread visibility": {
+      "TN": 15,
+      "TP": 7
+    },
+    "Consent inheritance": {
+      "TN": 11,
+      "FN": 4
+    },
+    "Calibration mark": {
+      "TN": 28,
+      "FN": 12
+    },
+    "Label reference frame": {
+      "TN": 14,
+      "FN": 6
+    },
+    "Individual versus shared edits": {
+      "TP": 3,
+      "TN": 7
+    },
+    "Units across a mode change": {
+      "TN": 7,
+      "TP": 2,
+      "FN": 1
+    },
+    "Cancellation message scope": {
+      "TN": 7,
+      "TP": 3
+    }
+  },
+  "errors": [
+    {
+      "outcome": "FN",
+      "topic": "Paper fold",
+      "reference": {
+        "case_id": "J0032",
+        "family_id": "fresh-27",
+        "split": "holdout",
+        "domain": "instructions",
+        "topic": "Paper fold",
+        "difficulty": "routine",
+        "source_language": "en",
+        "english": "[S27-019] Make the first fold along the sheet's short edge.",
+        "chinese": "【S27-019】第一次摺疊時，請沿紙張的長邊摺起。",
+        "expected_status": "issue",
+        "english_evidence": "short",
+        "chinese_evidence": "長邊",
+        "expected_issue_or_clean_rationale": "Paper fold: English specifies 'short'; Chinese specifies '長邊'.",
+        "severity": "material"
+      },
+      "prediction": {
+        "case_id": "D0030",
+        "flagged": false,
+        "warnings": [],
+        "signals": {
+          "cross": [
+            0.87841796875,
+            0.92236328125
+          ],
+          "translated": [
+            0.79443359375,
+            0.89404296875
+          ],
+          "entailment": [
+            0.051544189453125,
+            0.0789794921875
+          ],
+          "neutral": [
+            0.154052734375,
+            0.027069091796875
+          ],
+          "similarity": 0.7607611417770386,
+          "translation": "The first time you cheat, please get up along the length of the paper.",
+          "passages": [
+            {
+              "cross": [
+                0.87841796875,
+                0.92236328125
+              ],
+              "translated": [
+                0.79443359375,
+                0.89404296875
+              ],
+              "similarity": 0.7607611417770386,
+              "english_span": "Make the first fold along the sheet's short edge.",
+              "chinese_span": "第一次摺疊時,請沿紙張的長邊摺起。",
+              "translation": "The first time you cheat, please get up along the length of the paper."
+            }
+          ]
+        },
+        "decision_path": "v10_contextual_comparison",
+        "coverage": "complete_notice",
+        "v7_fallback": false
+      }
+    },
+    {
+      "outcome": "FP",
+      "topic": "Science specimen",
+      "reference": {
+        "case_id": "J0036",
+        "family_id": "fresh-02",
+        "split": "holdout",
+        "domain": "school",
+        "topic": "Science specimen",
+        "difficulty": "routine",
+        "source_language": "zh",
+        "english": "Update for readers\nFor the leaf survey, label the sample with the tree species: bauhinia.\n[S02-052]",
+        "chinese": "讀者須知\n進行葉片調查時，請在樣本上標明樹種：洋紫荊。\n【S02-052】",
+        "expected_status": "clean",
+        "english_evidence": "bauhinia",
+        "chinese_evidence": "洋紫荊",
+        "expected_issue_or_clean_rationale": "Science specimen: Both versions convey the same value, 'bauhinia' / '洋紫荊'.",
+        "severity": "none"
+      },
+      "prediction": {
+        "case_id": "D0032",
+        "flagged": true,
+        "warnings": [
+          {
+            "kind": "contextual_model",
+            "category": "The complete versions give conflicting information",
+            "why": "The complete versions give conflicting information. Review the quoted passages; the machine back-translation is supporting evidence, not a reference translation.",
+            "english_span": "For the leaf survey, label the sample with the tree species: bauhinia.",
+            "chinese_span": "進行葉片調查時,請在樣本上標明樹種:洋紫荊。",
+            "machine_backtranslation": "In order to test the leaves, please identify the orchid tree on the sample.",
+            "comparison_edits": [
+              {
+                "english": "For",
+                "machine_backtranslation": "In order to test"
+              },
+              {
+                "english": "leaf survey, label",
+                "machine_backtranslation": "leaves, please identify"
+              },
+              {
+                "english": "sample with",
+                "machine_backtranslation": "orchid tree on"
+              },
+              {
+                "english": "tree species: bauhinia.",
+                "machine_backtranslation": "sample."
+              }
+            ]
+          }
+        ],
+        "signals": {
+          "cross": [
+            0.5908203125,
+            0.8125
+          ],
+          "translated": [
+            0.98681640625,
+            0.986328125
+          ],
+          "entailment": [
+            0.005840301513671875,
+            0.0117034912109375
+          ],
+          "neutral": [
+            0.00720977783203125,
+            0.00217437744140625
+          ],
+          "similarity": 0.642916738986969,
+          "translation": "In order to test the leaves, please identify the orchid tree on the sample.",
+          "passages": [
+            {
+              "cross": [
+                0.5908203125,
+                0.8125
+              ],
+              "translated": [
+                0.98681640625,
+                0.986328125
+              ],
+              "similarity": 0.642916738986969,
+              "english_span": "For the leaf survey, label the sample with the tree species: bauhinia.",
+              "chinese_span": "進行葉片調查時,請在樣本上標明樹種:洋紫荊。",
+              "translation": "In order to test the leaves, please identify the orchid tree on the sample."
+            }
+          ]
+        },
+        "decision_path": "v10_contextual_comparison",
+        "coverage": "complete_notice",
+        "v7_fallback": false
+      }
+    },
+    {
+      "outcome": "FN",
+      "topic": "Boundary ownership",
+      "reference": {
+        "case_id": "J0068",
+        "family_id": "fresh-13",
+        "split": "holdout",
+        "domain": "government",
+        "topic": "Boundary ownership",
+        "difficulty": "difficult",
+        "source_language": "zh",
+        "english": "[S13-007] Maintenance of the retaining wall is shared. The plan identifies the owners' corporation as the owner of the wall itself.",
+        "chinese": "【S13-007】擋土牆由各方共同維修。圖則列明牆身本身屬毗鄰土地業主所有。",
+        "expected_status": "issue",
+        "english_evidence": "the owners' corporation",
+        "chinese_evidence": "毗鄰土地業主",
+        "expected_issue_or_clean_rationale": "Boundary ownership: English specifies \"the owners' corporation\"; Chinese specifies '毗鄰土地業主'.",
+        "severity": "material"
+      },
+      "prediction": {
+        "case_id": "D0053",
+        "flagged": false,
+        "warnings": [],
+        "signals": {
+          "cross": [
+            0.234375,
+            0.5537109375
+          ],
+          "translated": [
+            0.59228515625,
+            0.257080078125
+          ],
+          "entailment": [
+            0.01409149169921875,
+            0.005886077880859375
+          ],
+          "neutral": [
+            0.393798828125,
+            0.73681640625
+          ],
+          "similarity": 0.7444503307342529,
+          "translation": "In the meantime, we're going to have to work together to repair the walls. The wall itself is owned by the neighbouring landowners.",
+          "passages": [
+            {
+              "cross": [
+                0.002819061279296875,
+                0.46435546875
+              ],
+              "translated": [
+                0.0006327629089355469,
+                0.0009012222290039062
+              ],
+              "similarity": 0.688566267490387,
+              "english_span": "Maintenance of the retaining wall is shared.",
+              "chinese_span": "擋土牆由各方共同維修。",
+              "translation": "In the meantime, we're going to have to work together to repair the walls."
+            },
+            {
+              "cross": [
+                0.206298828125,
+                0.3671875
+              ],
+              "translated": [
+                0.385009765625,
+                0.89794921875
+              ],
+              "similarity": 0.7242298126220703,
+              "english_span": "The plan identifies the owners' corporation as the owner of the wall itself.",
+              "chinese_span": "圖則列明牆身本身屬毗鄰土地業主所有。",
+              "translation": "The wall itself is owned by the neighbouring landowners."
+            }
+          ]
+        },
+        "decision_path": "v10_contextual_comparison",
+        "coverage": "complete_notice",
+        "v7_fallback": false
+      }
+    },
+    {
+      "outcome": "FN",
+      "topic": "Renewal effect",
+      "reference": {
+        "case_id": "J0073",
+        "family_id": "fresh-21",
+        "split": "holdout",
+        "domain": "public_email",
+        "topic": "Renewal effect",
+        "difficulty": "difficult",
+        "source_language": "en",
+        "english": "[S21-003] Your renewal changes the membership status only. The existing publishing preferences carry forward.",
+        "chinese": "【S21-003】續會只會更改會籍狀態。原有的發佈偏好設定會被重設。",
+        "expected_status": "issue",
+        "english_evidence": "carry forward",
+        "chinese_evidence": "會被重設",
+        "expected_issue_or_clean_rationale": "Renewal effect: English specifies 'carry forward'; Chinese specifies '會被重設'.",
+        "severity": "material"
+      },
+      "prediction": {
+        "case_id": "D0055",
+        "flagged": false,
+        "warnings": [],
+        "signals": {
+          "cross": [
+            0.85498046875,
+            0.0113677978515625
+          ],
+          "translated": [
+            0.498779296875,
+            0.006855010986328125
+          ],
+          "entailment": [
+            0.38623046875,
+            0.0279541015625
+          ],
+          "neutral": [
+            0.1151123046875,
+            0.96533203125
+          ],
+          "similarity": 0.8377954959869385,
+          "translation": "This is the only way to change the status of the membership. In the meantime, we're going to re-establish the original posting preferences.",
+          "passages": [
+            {
+              "cross": [
+                0.00032591819763183594,
+                0.00019049644470214844
+              ],
+              "translated": [
+                0.0005064010620117188,
+                0.00019240379333496094
+              ],
+              "similarity": 0.79899662733078,
+              "english_span": "Your renewal changes the membership status only.",
+              "chinese_span": "續會只會更改會籍狀態。",
+              "translation": "This is the only way to change the status of the membership."
+            },
+            {
+              "cross": [
+                0.85791015625,
+                0.03985595703125
+              ],
+              "translated": [
+                0.75341796875,
+                0.2529296875
+              ],
+              "similarity": 0.6674993634223938,
+              "english_span": "The existing publishing preferences carry forward.",
+              "chinese_span": "原有的發佈偏好設定會被重設。",
+              "translation": "In the meantime, we're going to re-establish the original posting preferences."
+            }
+          ]
+        },
+        "decision_path": "v10_contextual_comparison",
+        "coverage": "complete_notice",
+        "v7_fallback": false
+      }
+    },
+    {
+      "outcome": "FN",
+      "topic": "Science specimen",
+      "reference": {
+        "case_id": "J0075",
+        "family_id": "fresh-02",
+        "split": "holdout",
+        "domain": "school",
+        "topic": "Science specimen",
+        "difficulty": "routine",
+        "source_language": "zh",
+        "english": "For the leaf survey, label the sample with the tree species: camphor.\nPublication reference: S02-022",
+        "chinese": "進行葉片調查時，請在樣本上標明樹種：榕樹。\n刊登編號：S02-022",
+        "expected_status": "issue",
+        "english_evidence": "camphor",
+        "chinese_evidence": "榕樹",
+        "expected_issue_or_clean_rationale": "Science specimen: English specifies 'camphor'; Chinese specifies '榕樹'.",
+        "severity": "material"
+      },
+      "prediction": {
+        "case_id": "D0056",
+        "flagged": false,
+        "warnings": [],
+        "signals": {
+          "cross": [
+            0.98779296875,
+            0.98779296875
+          ],
+          "translated": [
+            0.18212890625,
+            0.01078033447265625
+          ],
+          "entailment": [
+            0.0162811279296875,
+            0.77734375
+          ],
+          "neutral": [
+            0.8017578125,
+            0.211669921875
+          ],
+          "similarity": 0.7247183322906494,
+          "translation": "If you want to know more about the species of banyan tree, please use the samples to identify the species of banyan tree.",
+          "passages": [
+            {
+              "cross": [
+                0.98779296875,
+                0.98779296875
+              ],
+              "translated": [
+                0.18212890625,
+                0.01078033447265625
+              ],
+              "similarity": 0.7247183322906494,
+              "english_span": "For the leaf survey, label the sample with the tree species: camphor.",
+              "chinese_span": "進行葉片調查時,請在樣本上標明樹種:榕樹。",
+              "translation": "If you want to know more about the species of banyan tree, please use the samples to identify the species of banyan tree."
+            }
+          ]
+        },
+        "decision_path": "v10_contextual_comparison",
+        "coverage": "complete_notice",
+        "v7_fallback": false
+      }
+    },
+    {
+      "outcome": "FN",
+      "topic": "Reset persistence",
+      "reference": {
+        "case_id": "J0087",
+        "family_id": "fresh-28",
+        "split": "holdout",
+        "domain": "instructions",
+        "topic": "Reset persistence",
+        "difficulty": "difficult",
+        "source_language": "zh",
+        "english": "Operational circular (S28-013)\nResetting the display clears the readings. The calibration values are deleted as well.",
+        "chinese": "工作通告（S28-013）\n重設顯示器會清除讀數。校準數值仍會保留。",
+        "expected_status": "issue",
+        "english_evidence": "are deleted as well",
+        "chinese_evidence": "仍會保留",
+        "expected_issue_or_clean_rationale": "Reset persistence: English specifies 'are deleted as well'; Chinese specifies '仍會保留'.",
+        "severity": "material"
+      },
+      "prediction": {
+        "case_id": "D0060",
+        "flagged": false,
+        "warnings": [],
+        "signals": {
+          "cross": [
+            0.45751953125,
+            0.69677734375
+          ],
+          "translated": [
+            0.0250701904296875,
+            0.04107666015625
+          ],
+          "entailment": [
+            0.030517578125,
+            0.0015001296997070312
+          ],
+          "neutral": [
+            0.9443359375,
+            0.95751953125
+          ],
+          "similarity": 0.8095024824142456,
+          "translation": "This is the first time I've ever seen a video of my life. I'm not sure if this is a good idea, but I'm sure it's a good idea.",
+          "passages": [
+            {
+              "cross": [
+                0.0002455711364746094,
+                0.00035834312438964844
+              ],
+              "translated": [
+                0.06585693359375,
+                0.75732421875
+              ],
+              "similarity": 0.8901145458221436,
+              "english_span": "Resetting the display clears the readings.",
+              "chinese_span": "重設顯示器會清除讀數。",
+              "translation": "This is the first time I've ever seen a video of my life."
+            },
+            {
+              "cross": [
+                0.99853515625,
+                0.99951171875
+              ],
+              "translated": [
+                0.084716796875,
+                0.031494140625
+              ],
+              "similarity": 0.5810580849647522,
+              "english_span": "The calibration values are deleted as well.",
+              "chinese_span": "校準數值仍會保留。",
+              "translation": "I'm not sure if this is a good idea, but I'm sure it's a good idea."
+            }
+          ]
+        },
+        "decision_path": "v10_contextual_comparison",
+        "coverage": "complete_notice",
+        "v7_fallback": false
+      }
+    },
+    {
+      "outcome": "FP",
+      "topic": "Recycling material",
+      "reference": {
+        "case_id": "J0181",
+        "family_id": "fresh-10",
+        "split": "holdout",
+        "domain": "government",
+        "topic": "Recycling material",
+        "difficulty": "routine",
+        "source_language": "en",
+        "english": "Revision notice (S10-057)\nDeposit plastic bottles in this compartment. Rinse containers first.",
+        "chinese": "修訂通知（S10-057）\n此格供投放膠樽。容器須先沖洗。",
+        "expected_status": "clean",
+        "english_evidence": "plastic bottles",
+        "chinese_evidence": "膠樽",
+        "expected_issue_or_clean_rationale": "Recycling material: Both versions convey the same value, 'plastic bottles' / '膠樽'.",
+        "severity": "none"
+      },
+      "prediction": {
+        "case_id": "D0101",
+        "flagged": true,
+        "warnings": [
+          {
+            "kind": "contextual_model",
+            "category": "The versions may describe different facts or instructions",
+            "why": "The versions may describe different facts or instructions. Review the quoted passages; the machine back-translation is supporting evidence, not a reference translation.",
+            "english_span": "Deposit plastic bottles in this compartment. Rinse containers first.",
+            "chinese_span": "此格供投放膠樽。容器須先沖洗。",
+            "machine_backtranslation": "This is the place to put rubber bottles. The containers have to be washed first.",
+            "comparison_edits": [
+              {
+                "english": "Deposit plastic bottles in this compartment. Rinse",
+                "machine_backtranslation": "This is the place to put rubber bottles. The"
+              },
+              {
+                "english": "",
+                "machine_backtranslation": "have to be washed"
+              }
+            ]
+          }
+        ],
+        "signals": {
+          "cross": [
+            0.0048370361328125,
+            0.0006985664367675781
+          ],
+          "translated": [
+            0.99267578125,
+            0.99853515625
+          ],
+          "entailment": [
+            0.003936767578125,
+            0.00038623809814453125
+          ],
+          "neutral": [
+            0.003437042236328125,
+            0.00104522705078125
+          ],
+          "similarity": 0.6763637661933899,
+          "translation": "This is the place to put rubber bottles. The containers have to be washed first.",
+          "passages": [
+            {
+              "cross": [
+                0.0015316009521484375,
+                0.0005397796630859375
+              ],
+              "translated": [
+                0.9169921875,
+                0.99072265625
+              ],
+              "similarity": 0.5136375427246094,
+              "english_span": "Deposit plastic bottles in this compartment.",
+              "chinese_span": "此格供投放膠樽。",
+              "translation": "This is the place to put rubber bottles."
+            },
+            {
+              "cross": [
+                0.0008606910705566406,
+                0.0008416175842285156
+              ],
+              "translated": [
+                0.0002770423889160156,
+                0.0025768280029296875
+              ],
+              "similarity": 0.825007975101471,
+              "english_span": "Rinse containers first.",
+              "chinese_span": "容器須先沖洗。",
+              "translation": "The containers have to be washed first."
+            }
+          ]
+        },
+        "decision_path": "v10_contextual_comparison",
+        "coverage": "complete_notice",
+        "v7_fallback": false
+      }
+    },
+    {
+      "outcome": "FN",
+      "topic": "Calibration mark",
+      "reference": {
+        "case_id": "J0201",
+        "family_id": "fresh-26",
+        "split": "holdout",
+        "domain": "instructions",
+        "topic": "Calibration mark",
+        "difficulty": "routine",
+        "source_language": "en",
+        "english": "Notice extract\nAlign the pointer with the zero mark before taking the reading.\n[S26-040]",
+        "chinese": "通告節錄\n讀數前，請將指針對準最高刻度。\n【S26-040】",
+        "expected_status": "issue",
+        "english_evidence": "zero",
+        "chinese_evidence": "最高",
+        "expected_issue_or_clean_rationale": "Calibration mark: English specifies 'zero'; Chinese specifies '最高'.",
+        "severity": "material"
+      },
+      "prediction": {
+        "case_id": "D0111",
+        "flagged": false,
+        "warnings": [],
+        "signals": {
+          "cross": [
+            0.8740234375,
+            0.990234375
+          ],
+          "translated": [
+            0.458740234375,
+            0.1414794921875
+          ],
+          "entailment": [
+            0.014251708984375,
+            0.347412109375
+          ],
+          "neutral": [
+            0.52685546875,
+            0.51123046875
+          ],
+          "similarity": 0.6821098327636719,
+          "translation": "Before reading, please point to the highest accuracy.",
+          "passages": [
+            {
+              "cross": [
+                0.8740234375,
+                0.990234375
+              ],
+              "translated": [
+                0.458740234375,
+                0.1414794921875
+              ],
+              "similarity": 0.6821098327636719,
+              "english_span": "Align the pointer with the zero mark before taking the reading.",
+              "chinese_span": "讀數前,請將指針對準最高刻度。",
+              "translation": "Before reading, please point to the highest accuracy."
+            }
+          ]
+        },
+        "decision_path": "v10_contextual_comparison",
+        "coverage": "complete_notice",
+        "v7_fallback": false
+      }
+    },
+    {
+      "outcome": "FN",
+      "topic": "Label reference frame",
+      "reference": {
+        "case_id": "J0246",
+        "family_id": "fresh-29",
+        "split": "holdout",
+        "domain": "instructions",
+        "topic": "Label reference frame",
+        "difficulty": "difficult",
+        "source_language": "zh",
+        "english": "[S29-015] The left-hand mark is the one on your left when you stand with your back to the panel.",
+        "chinese": "【S29-015】當你面向面板時，你左手邊的標記就是左側標記。",
+        "expected_status": "issue",
+        "english_evidence": "stand with your back to",
+        "chinese_evidence": "面向",
+        "expected_issue_or_clean_rationale": "Label reference frame: English specifies 'stand with your back to'; Chinese specifies '面向'.",
+        "severity": "material"
+      },
+      "prediction": {
+        "case_id": "D0123",
+        "flagged": false,
+        "warnings": [],
+        "signals": {
+          "cross": [
+            0.5283203125,
+            0.032135009765625
+          ],
+          "translated": [
+            0.0894775390625,
+            0.022186279296875
+          ],
+          "entailment": [
+            0.89501953125,
+            0.94873046875
+          ],
+          "neutral": [
+            0.0155029296875,
+            0.028961181640625
+          ],
+          "similarity": 0.7410295009613037,
+          "translation": "When you face the board, the sign on your left hand is the sign on your left.",
+          "passages": [
+            {
+              "cross": [
+                0.5283203125,
+                0.032135009765625
+              ],
+              "translated": [
+                0.0894775390625,
+                0.022186279296875
+              ],
+              "similarity": 0.7410295009613037,
+              "english_span": "The left-hand mark is the one on your left when you stand with your back to the panel.",
+              "chinese_span": "當你面向面板時,你左手邊的標記就是左側標記。",
+              "translation": "When you face the board, the sign on your left hand is the sign on your left."
+            }
+          ]
+        },
+        "decision_path": "v10_contextual_comparison",
+        "coverage": "complete_notice",
+        "v7_fallback": false
+      }
+    },
+    {
+      "outcome": "FN",
+      "topic": "Reporting denominator",
+      "reference": {
+        "case_id": "J0394",
+        "family_id": "fresh-14",
+        "split": "holdout",
+        "domain": "government",
+        "topic": "Reporting denominator",
+        "difficulty": "difficult",
+        "source_language": "zh",
+        "english": "[S14-003] The published percentage uses only completed submissions as its denominator. Withdrawn entries still appear in the appendix.",
+        "chinese": "【S14-003】公布的百分比以所有提交個案為分母。已撤回的個案仍會列於附錄。",
+        "expected_status": "issue",
+        "english_evidence": "only completed submissions",
+        "chinese_evidence": "所有提交個案",
+        "expected_issue_or_clean_rationale": "Reporting denominator: English specifies 'only completed submissions'; Chinese specifies '所有提交個案'.",
+        "severity": "material"
+      },
+      "prediction": {
+        "case_id": "D0152",
+        "flagged": false,
+        "warnings": [],
+        "signals": {
+          "cross": [
+            0.262451171875,
+            0.33642578125
+          ],
+          "translated": [
+            0.0234527587890625,
+            0.0029087066650390625
+          ],
+          "entailment": [
+            0.91796875,
+            0.09210205078125
+          ],
+          "neutral": [
+            0.058624267578125,
+            0.90478515625
+          ],
+          "similarity": 0.7092230319976807,
+          "translation": "This is the percentage of cases that have been filed that have been distributed to the public. The case that has been withdrawn will still be listed in the annex.",
+          "passages": [
+            {
+              "cross": [
+                0.0875244140625,
+                0.73046875
+              ],
+              "translated": [
+                0.265380859375,
+                0.0019207000732421875
+              ],
+              "similarity": 0.5970238447189331,
+              "english_span": "The published percentage uses only completed submissions as its denominator.",
+              "chinese_span": "公布的百分比以所有提交個案為分母。",
+              "translation": "This is the percentage of cases that have been filed that have been distributed to the public."
+            },
+            {
+              "cross": [
+                0.0005550384521484375,
+                0.0005369186401367188
+              ],
+              "translated": [
+                0.0007214546203613281,
+                0.0005254745483398438
+              ],
+              "similarity": 0.7745383977890015,
+              "english_span": "Withdrawn entries still appear in the appendix.",
+              "chinese_span": "已撤回的個案仍會列於附錄。",
+              "translation": "The case that has been withdrawn will still be listed in the annex."
+            }
+          ]
+        },
+        "decision_path": "v10_contextual_comparison",
+        "coverage": "complete_notice",
+        "v7_fallback": false
+      }
+    },
+    {
+      "outcome": "FN",
+      "topic": "Archive attribution",
+      "reference": {
+        "case_id": "J0423",
+        "family_id": "fresh-05",
+        "split": "holdout",
+        "domain": "school",
+        "topic": "Archive attribution",
+        "difficulty": "difficult",
+        "source_language": "en",
+        "english": "Revision notice (S05-009)\nThe exhibition label should credit the original artist. The person who mounts the work is listed separately.",
+        "chinese": "修訂通知（S05-009）\n展品說明牌應列明捐贈者的姓名。負責裝裱者的姓名另行列出。",
+        "expected_status": "issue",
+        "english_evidence": "the original artist",
+        "chinese_evidence": "捐贈者",
+        "expected_issue_or_clean_rationale": "Archive attribution: English specifies 'the original artist'; Chinese specifies '捐贈者'.",
+        "severity": "material"
+      },
+      "prediction": {
+        "case_id": "D0160",
+        "flagged": false,
+        "warnings": [],
+        "signals": {
+          "cross": [
+            0.1212158203125,
+            0.27783203125
+          ],
+          "translated": [
+            0.970703125,
+            0.98779296875
+          ],
+          "entailment": [
+            0.00510406494140625,
+            0.0004572868347167969
+          ],
+          "neutral": [
+            0.024200439453125,
+            0.01172637939453125
+          ],
+          "similarity": 0.7476931810379028,
+          "translation": "The exhibition signs should list the names of the donors. The name of the person responsible for mounting the artwork is also listed.",
+          "passages": [
+            {
+              "cross": [
+                0.425048828125,
+                0.396240234375
+              ],
+              "translated": [
+                0.8115234375,
+                0.93896484375
+              ],
+              "similarity": 0.6786823272705078,
+              "english_span": "The exhibition label should credit the original artist.",
+              "chinese_span": "展品說明牌應列明捐贈者的姓名。",
+              "translation": "The exhibition signs should list the names of the donors."
+            },
+            {
+              "cross": [
+                0.00530242919921875,
+                0.003139495849609375
+              ],
+              "translated": [
+                0.84326171875,
+                0.958984375
+              ],
+              "similarity": 0.6307058334350586,
+              "english_span": "The person who mounts the work is listed separately.",
+              "chinese_span": "負責裝裱者的姓名另行列出。",
+              "translation": "The name of the person responsible for mounting the artwork is also listed."
+            }
+          ]
+        },
+        "decision_path": "v10_contextual_comparison",
+        "coverage": "complete_notice",
+        "v7_fallback": false
+      }
+    },
+    {
+      "outcome": "FN",
+      "topic": "Consent inheritance",
+      "reference": {
+        "case_id": "J0471",
+        "family_id": "fresh-07",
+        "split": "holdout",
+        "domain": "school",
+        "topic": "Consent inheritance",
+        "difficulty": "edge",
+        "source_language": "en",
+        "english": "The consent form covers the student photograph and caption as a pair. When a caption is replaced, the existing consent still permits publication. This applies even if the photograph itself has not changed.\nPublication reference: S07-002",
+        "chinese": "同意書同時涵蓋學生照片及其說明文字。如更換說明文字，刊登前須重新取得同意，即使照片本身維持不變亦然。\n刊登編號：S07-002",
+        "expected_status": "issue",
+        "english_evidence": "the existing consent still permits publication",
+        "chinese_evidence": "刊登前須重新取得同意",
+        "expected_issue_or_clean_rationale": "Consent inheritance: English specifies 'the existing consent still permits publication'; Chinese specifies '刊登前須重新取得同意'.",
+        "severity": "material"
+      },
+      "prediction": {
+        "case_id": "D0165",
+        "flagged": false,
+        "warnings": [],
+        "signals": {
+          "cross": [
+            0.0066986083984375,
+            0.0212249755859375
+          ],
+          "translated": [
+            0.0936279296875,
+            0.01456451416015625
+          ],
+          "entailment": [
+            0.62451171875,
+            0.40673828125
+          ],
+          "neutral": [
+            0.281982421875,
+            0.57861328125
+          ],
+          "similarity": 0.8028929829597473,
+          "translation": "The letter of consent also includes photos of the students and their explanatory text. If you want to change the text, you need to get your consent again before publishing, even if the photo itself remains unchanged.",
+          "passages": [
+            {
+              "cross": [
+                0.0017938613891601562,
+                0.0003094673156738281
+              ],
+              "translated": [
+                0.0010061264038085938,
+                0.402099609375
+              ],
+              "similarity": 0.7678130269050598,
+              "english_span": "The consent form covers the student photograph and caption as a pair.",
+              "chinese_span": "同意書同時涵蓋學生照片及其說明文字。",
+              "translation": "The letter of consent also includes photos of the students and their explanatory text."
+            },
+            {
+              "cross": [
+                0.0078582763671875,
+                0.0123291015625
+              ],
+              "translated": [
+                0.11297607421875,
+                0.0020961761474609375
+              ],
+              "similarity": 0.6815500259399414,
+              "english_span": "When a caption is replaced, the existing consent still permits publication. This applies even if the photograph itself has not changed.",
+              "chinese_span": "如更換說明文字,刊登前須重新取得同意,即使照片本身維持不變亦然。",
+              "translation": "If you want to change the text, you need to get your consent again before publishing, even if the photo itself remains unchanged."
+            }
+          ]
+        },
+        "decision_path": "v10_contextual_comparison",
+        "coverage": "complete_notice",
+        "v7_fallback": false
+      }
+    },
+    {
+      "outcome": "FN",
+      "topic": "Units across a mode change",
+      "reference": {
+        "case_id": "J0915",
+        "family_id": "fresh-32",
+        "split": "holdout",
+        "domain": "instructions",
+        "topic": "Units across a mode change",
+        "difficulty": "edge",
+        "source_language": "en",
+        "english": "Revision notice (S32-001)\nSwitching modes changes the units for new entries. Previously saved measurements retain their original units, even if the register groups old and new entries together.",
+        "chinese": "修訂通知（S32-001）\n切換模式會更改新輸入項目的單位。即使紀錄冊將新舊項目合併顯示，先前儲存的測量數值會按新單位解讀。",
+        "expected_status": "issue",
+        "english_evidence": "retain their original units",
+        "chinese_evidence": "會按新單位解讀",
+        "expected_issue_or_clean_rationale": "Units across a mode change: English specifies 'retain their original units'; Chinese specifies '會按新單位解讀'.",
+        "severity": "material"
+      },
+      "prediction": {
+        "case_id": "D0191",
+        "flagged": false,
+        "warnings": [],
+        "signals": {
+          "cross": [
+            0.0063629150390625,
+            0.00240325927734375
+          ],
+          "translated": [
+            0.01490020751953125,
+            0.0177001953125
+          ],
+          "entailment": [
+            0.9765625,
+            0.96240234375
+          ],
+          "neutral": [
+            0.0085601806640625,
+            0.0196685791015625
+          ],
+          "similarity": 0.8330942392349243,
+          "translation": "The change mode will change the unit of the newly imported item. Even if the logbook shows the merger of new and old projects, previously stored measurement values will be read as new units.",
+          "passages": [
+            {
+              "cross": [
+                0.0005221366882324219,
+                0.0006608963012695312
+              ],
+              "translated": [
+                0.0003848075866699219,
+                0.000354766845703125
+              ],
+              "similarity": 0.8613404631614685,
+              "english_span": "Switching modes changes the units for new entries.",
+              "chinese_span": "切換模式會更改新輸入項目的單位。",
+              "translation": "The change mode will change the unit of the newly imported item."
+            },
+            {
+              "cross": [
+                0.05047607421875,
+                0.004505157470703125
+              ],
+              "translated": [
+                0.4560546875,
+                0.0323486328125
+              ],
+              "similarity": 0.746737539768219,
+              "english_span": "Previously saved measurements retain their original units, even if the register groups old and new entries together.",
+              "chinese_span": "即使紀錄冊將新舊項目合併顯示,先前儲存的測量數值會按新單位解讀。",
+              "translation": "Even if the logbook shows the merger of new and old projects, previously stored measurement values will be read as new units."
+            }
+          ]
+        },
+        "decision_path": "v10_contextual_comparison",
+        "coverage": "complete_notice",
+        "v7_fallback": false
+      }
+    },
+    {
+      "outcome": "FN",
+      "topic": "Transcript page",
+      "reference": {
+        "case_id": "J0916",
+        "family_id": "fresh-19",
+        "split": "holdout",
+        "domain": "public_email",
+        "topic": "Transcript page",
+        "difficulty": "routine",
+        "source_language": "en",
+        "english": "Update for readers\nThe correction appears on page 8 of the transcript.\n[S19-012]",
+        "chinese": "讀者須知\n更正內容載於逐字紀錄第6頁。\n【S19-012】",
+        "expected_status": "issue",
+        "english_evidence": "8",
+        "chinese_evidence": "6",
+        "expected_issue_or_clean_rationale": "Transcript page: English specifies '8'; Chinese specifies '6'.",
+        "severity": "material"
+      },
+      "prediction": {
+        "case_id": "D0192",
+        "flagged": false,
+        "warnings": [],
+        "signals": {
+          "cross": [
+            0.9775390625,
+            0.80419921875
+          ],
+          "translated": [
+            0.00867462158203125,
+            0.8115234375
+          ],
+          "entailment": [
+            0.0005512237548828125,
+            0.0004029273986816406
+          ],
+          "neutral": [
+            0.99072265625,
+            0.188232421875
+          ],
+          "similarity": 0.7026535272598267,
+          "translation": "The article is published on page 6 of the literary archive.",
+          "passages": [
+            {
+              "cross": [
+                0.9775390625,
+                0.80419921875
+              ],
+              "translated": [
+                0.00867462158203125,
+                0.8115234375
+              ],
+              "similarity": 0.7026535272598267,
+              "english_span": "The correction appears on page 8 of the transcript.",
+              "chinese_span": "更正內容載於逐字紀錄第6頁。",
+              "translation": "The article is published on page 6 of the literary archive."
+            }
+          ]
+        },
+        "decision_path": "v10_contextual_comparison",
+        "coverage": "complete_notice",
+        "v7_fallback": false
+      }
+    }
+  ]
+}

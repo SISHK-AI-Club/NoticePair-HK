@@ -1,0 +1,80 @@
+@routine|Window blind pulley adjustment
+position|Attach the guide bracket {}.|請把導向托架裝在{}。|above the pulley~滑輪上方|beside the frame~窗框旁|under the ledge~窗台下方|across the opening~橫跨開口的位置
+procedure|Before loosening the screw, {}.|鬆開螺絲前，請{}。|support the blind~托穩窗簾|mark the current position~標記原有位置|pull the blind sharply~猛力拉動窗簾
+condition|Test the blind once {}.|待{}後，請測試窗簾。|the bracket is fixed~托架已固定|the cord is threaded through the guide~拉繩已穿過導向件|the replacement screw is missing~發現後備螺絲不見了
+@routine|Sponge paint stencil use
+equipment|Apply the paint with {}.|請用{}上色。|a foam pad~海綿墊|a small sponge roller~小型海綿滾筒|a stencil brush~模板刷|a wet towel~濕毛巾
+procedure|{} before lifting the stencil.|拿起模板前，請{}。|wipe away surplus paint~抹走多餘的顏料|hold down the edge~按住模板邊緣|add water to the design~往圖案上加水
+position|Place the wet stencil {} to dry.|請把濕模板放在{}晾乾。|on the drying rack~晾乾架上|on a clean sheet~乾淨的墊紙上|on the painted surface~剛上色的表面
+@routine|Digital caliper jaw care
+setting|Set the display to {} for this check.|進行本項檢查時，請把顯示器設為以{}顯示。|millimetres~毫米|centimetres~厘米|inches~英吋|metres~米
+procedure|{} before setting the reading to zero.|將讀數歸零前，請{}。|close the jaws~合上量爪|wipe the contact faces~抹拭接觸面|stretch the jaws as far apart as possible~把量爪拉至最開
+equipment|Clean the sliding scale using {}.|清潔滑動刻度時，請使用{}。|a dry microfibre cloth~乾的超細纖維布|an air blower~吹塵球|a stiff wire brush~硬鋼絲刷
+@routine|Folding banquet table storage
+position|Place the folded table {}.|請把摺合後的枱放在{}。|against the padded wall~有軟墊的牆邊|on the lower storage shelf~下層儲物架|beside the marked trolley~有標記的手推車旁|across the emergency exit~緊急出口前
+procedure|Before turning the table upright, {}.|把枱直立前，請{}。|lock both legs in place~鎖穩兩隻枱腳|ask a second person to help~請多一人協助|remove the support bar~拆除支撐桿
+condition|Fold the legs only when {}.|只有在{}的情況下，才可收摺枱腳。|the tabletop is empty~枱面沒有物品|the table is upside down~枱已翻轉至枱面朝下|the table is in use~枱仍在使用中
+@routine|Rolling whiteboard brake
+position|Engage the brake on the {} castor first.|請先鎖緊{}腳輪的制動掣。|front-left~左前方|front-right~右前方|rear-left~左後方|rear-right~右後方
+procedure|Before writing, {}.|在白板上書寫前，請{}。|check that the board cannot roll~確認白板不能滑動|tighten the pivot knob~扭緊轉軸旋鈕|unlock both wheels~鬆開兩個輪的制動掣
+equipment|Remove ink marks with {}.|請用{}清除墨漬。|a whiteboard eraser~白板擦|a soft cloth~軟布|a wire scourer~鋼絲刷
+@routine|Reusable cool-pack rack
+quantity|Freeze each pack for {} before first use.|首次使用前，每個冰袋須冷凍{}。|two hours~兩小時|four hours~四小時|six hours~六小時|eight hours~八小時
+position|Put the packs in the drawer and arrange them {}.|冰袋須放進抽屜，並以{}方式排列。|flat in a single layer~單層平放的|upright in the organiser~直立於收納架內的|flat in two layers~雙層平放的
+procedure|If a pack leaks, {}.|如有冰袋漏液，請{}。|place it in the damaged-items tray~把它放進損壞物品托盤|tell the shift supervisor~通知當值主管|return it to the clean supply~把它放回潔淨冰袋存放處
+@routine|Portable backdrop assembly
+equipment|Use the {} clips to secure the fabric.|請用{}夾子固定布幕。|black~黑色|white~白色|spring-loaded~有彈簧的|magnetic~磁力
+position|Set the crossbar {}.|請把橫桿設在{}。|at shoulder height~肩膀高度|above the two uprights~兩條立桿上方|below the floor mat~地墊下方
+procedure|To pack away the frame, {} first.|收起支架前，請先{}。|remove the fabric~拆下布幕|release the crossbar clips~解開橫桿的夾子|cut the fabric~剪斷布幕
+@routine|Herb drying mesh trays
+material|Line the tray with {} before adding the herbs.|把香草放進托盤前，請先用{}墊底。|food-grade mesh~食品級網布|baking paper~焗爐紙|a clean cotton cloth~乾淨棉布|used newspaper~用過的報紙
+procedure|After the leaves dry, {}.|葉片晾乾後，請{}。|transfer them to a sealed container~將其移至密封容器|label the container~為容器加上標籤|return the leaves to the rinse water~把葉片放回沖洗用水
+location|Put the loaded trays {}.|請把載有香草的托盤放在{}。|in the ventilated cupboard~通風儲物櫃內|on the shaded shelf~背光的架上|under a dripping tap~滴水的水龍頭下
+@routine|Thermal jug serving station
+content|Fill the insulated jug with {}.|請把{}倒進保溫壺內。|warm water~溫水|hot tea~熱茶|chilled water~冰水|washing-up liquid~洗潔精
+procedure|{} before serving the drink.|倒出飲品前，請{}。|tighten the lid~扭緊壺蓋|verify the label~核對標籤|remove the handle~拆下壺柄
+timing|Rinse the jug {}.|請{}沖洗保溫壺。|after each service~每輪供應完畢後|before filling it again~再次注入飲品前|while the last cup is being poured~倒出最後一杯飲品時
+@routine|Canvas frame stretching
+procedure|Fasten the canvas to {} first.|請先把畫布固定在{}。|the centre of the top edge~上緣中央|the centre of the bottom edge~下緣中央|the middle of the left edge~左緣中點|all four corners~四個角位
+equipment|Tighten the canvas with {}.|請用{}拉緊畫布。|canvas pliers~畫布鉗|the adjustable tensioner~可調校的張緊器|a paint scraper~油漆刮刀
+procedure|Before adding a second row of staples, {}.|加上第二排釘書釘前，請{}。|check the tension~檢查張力|smooth the corner folds~撫平角位的摺痕|loosen every staple~鬆開所有釘書釘
+@routine|Manual label embosser
+object|Load the embosser with {} tape.|請在壓字機內裝上{}字帶。|black~黑色|white~白色|transparent~透明|metallic~金屬色
+procedure|{} before cutting the finished label.|剪下完成的標籤前，請{}。|advance the tape once~將字帶送前一格|check the spelling~核對串法|pull the tape out by force~強行拉出字帶
+position|Apply the finished label {}.|請把完成的標籤貼在{}。|along the upper edge~上邊緣沿線|beside the serial number~序號旁|over the ventilation slots~通風槽上
+@routine|Conical coffee filter preparation
+equipment|Rinse the paper filter with {}.|請用{}沖洗濾紙。|warm water~溫水|filtered water~過濾水|freshly boiled water~剛煮沸的水|dishwashing liquid~洗潔精
+timing|Add the ground coffee {}.|請{}加入咖啡粉。|after emptying the rinse water~在倒掉沖洗用水後|after fitting the filter to the cone~在濾紙裝入錐形濾杯後|before fitting the filter~在裝入濾紙前
+quantity|Pre-infusion\nPour {} of water over the grounds. Wait for the flow to stop before the main pour.|預先浸潤\n請先注水{}浸潤咖啡粉，然後待水流停止才開始正式注水。|30 millilitres~30毫升|40 millilitres~40毫升|70 millilitres~70毫升
+@difficult|Backup power load staging
+condition|A second work light may be connected only if {}.|只有在{}的情況下，才可接駁第二盞工作燈。|the first light has stabilised~第一盞燈已穩定亮起|the displayed load is below half capacity~顯示的負載低於容量一半|the supervisor approves the connection~主管批准接駁|the overload warning is lit~過載警告燈已亮起
+scope|Use the backup outlet for {} only. Start the remaining equipment separately.|其他設備須另行啟動；後備插座只可用於{}。|the low-voltage lighting~低壓照明設備|the emergency indicator~緊急指示燈|the standby fan~備用風扇
+exception|Keep the extension disconnected unless {}.|除非{}，否則延長線須保持斷開。|the electrician has signed the inspection sheet~電工已簽署檢查表|the backup unit is explicitly cleared for use~後備裝置已獲明確准許使用|the mains cable is damaged~市電電纜有損毀
+@difficult|Shared locker temporary access
+eligibility|Issue a temporary code only to someone who {}.|只有{}的人士方可獲發臨時密碼。|is listed as an authorised user~名列獲授權使用者名單|holds the custodian’s signed permission~持有管理員簽署的許可|can confirm the locker identification~能確認儲物櫃的識別資料|has expressly declined access~已明確拒絕使用儲物櫃
+scope|The code can open {} only.|密碼只可開啟{}。|the assigned compartment~獲編配的儲物格|the temporary compartment identified on the slip~單據上指明的臨時儲物格|every compartment on the floor~該層所有儲物格
+exception|A code expires on first use unless {}.|密碼用過一次即告失效，除非{}。|the displayed expiry time specifies otherwise~所顯示的有效期限另有說明|the custodian has enabled repeat use~管理員已啟用重複使用功能|the code is written down~密碼已被抄下
+@difficult|Conditional colour swatch approval
+scope|Approval of the sample applies to {} only.|樣本的批准只適用於{}。|the finish on the sample board~樣本板上的表面效果|the coating in indoor light~室內照明下的塗層效果|the material specified in the order~訂單所指明的物料|all future colours~日後採用的所有顏色
+condition|Additional coats may be applied only when {}.|只有在{}的情況下，才可再加塗層。|the last coat has dried~上一層塗料已乾|the gloss level has been checked~光澤度已核實|the existing coat is still wet~現有塗層仍未乾
+exception|There is no need to submit another swatch unless {}.|除非{}，否則無須另交色樣。|the finish changes~表面效果有變|the supplier changes the formulation~供應商更改配方|the same approved coating is used again~再次使用相同的認可塗料
+@difficult|Pressure log treatment of a held value
+calculation|While the display is on hold, enter {} in the log.|顯示器暫停更新時，須在紀錄中填寫{}。|the most recent live reading~最近一次實時讀數|the displayed held reading~畫面所示暫停更新的讀數|the independently verified reading~經獨立核實的讀數|a figure copied from another device’s manual~從另一台儀器的手冊抄錄的數字
+scope|A held reading may be used for {} only.|暫停更新的讀數只可用於{}。|marking the interval~標示時段|checking the screen~檢查顯示屏|determining all subsequent readings~決定其後所有讀數
+condition|End the hold only if {}.|只有在{}的情況下，才可結束暫停更新。|the supervisor confirms that recording can resume~主管確認可以恢復記錄|the new reading is stable~新讀數已穩定|the display has lost power~顯示器已斷電
+@difficult|External battery charge indicator
+condition|Before charging, confirm {}. Check the power cable separately.|電源線須另外檢查。充電前，請確認{}。|the status light flashes green~狀態指示燈閃爍綠光|the label can be read clearly~標籤清晰可讀|the connector is dry~接頭乾爽|the status light stays steadily green~狀態指示燈持續亮起綠光
+scope|The alert applies to {} alone.|警示只關乎{}。|the active charging port~正在使用的充電埠|the battery’s external temperature~電池外部溫度|every power supply in the building~大樓內所有電源
+exception|Disconnect the battery before packing it unless {}.|把電池裝箱前須先斷開接駁，除非{}。|the charging cable is already unplugged~充電線已拔除|the connector has already been removed~接頭已拆除|the battery is still charging~電池仍在充電
+@difficult|Tool bench substitution record
+eligibility|A substitute tool may be used if {}.|如{}，可使用替代工具。|it is listed on the approved equipment sheet~替代工具列於認可器材表上|the workshop supervisor confirms that it fits~工場主管確認適用|the specified tool has been withdrawn from service~指定工具已停止使用|its use is prohibited by the workshop~工場禁止使用該工具
+scope|The substitution applies to {} only.|替換安排只適用於{}。|the alignment step~校正步驟|the task named on the work order~工作指令上列明的工序|all work orders~所有工作指令
+condition|Retain the original tool in the case unless {}.|除非{}，否則須把原有工具留在工具箱內。|it is sent for inspection~須把它送檢|it has been formally withdrawn~它已被正式停用|the substitute has already been signed out~替代工具已辦妥借用手續
+@edge|Independent freeze of chart exports
+scope|Freezing the chart stops {}. Existing values remain visible.|原有數值仍然可見。凍結圖表會停止{}。|automatic redraws of the chart~自動重繪圖表|the display of new values on the chart~在圖表上顯示新數值|updates to the chart’s visible labels~更新圖表上可見的標籤|edits to the underlying worksheet~編輯基礎工作表
+exception|An exported image can be replaced without unfreezing the chart if {}.|如{}，毋須解除凍結圖表，即可更換已匯出的圖像。|a corrected copy is already available~已有修正版本|only the image file is being overwritten~只會覆寫圖像檔案|someone edits the worksheet’s formula~有人修改工作表的公式
+condition|To resume automatic redraws, select Resume{}. The exported image will stay as it is.|匯出的圖像維持原狀。要繼續自動重繪，請選擇「恢復」{}。|~| only after closing the preview~，但須先關閉預覽| only after replacing the exported image~，但須先更換匯出的圖像
+@edge|Paired rinse and drying release controls
+scope|The first release unlocks {}. The drying chamber has a separate release.|第一道解鎖會解除{}的鎖定。乾燥室須另行解鎖。|the rinse basket~沖洗籃|the rinse door~沖洗門|the rinse water outlet~沖洗排水口|the drying chamber~乾燥室
+exception|The basket may be removed before the display clears only if {}.|在顯示內容清除前，只有在{}的情況下，才可取出籃子。|the manual release has been approved~手動解鎖已獲批准|the supervisor has verified that the rinse is finished~主管已確認沖洗完畢|the rinse cycle has just started~沖洗程序剛啟動
+condition|Restart the combined cycle only after both chambers have closed{}.|兩個室門均關妥{}後，才可重新啟動聯合程序。| and the basket is latched~且籃子扣穩| and a supervisor has checked the seals~且主管已檢查密封位|~

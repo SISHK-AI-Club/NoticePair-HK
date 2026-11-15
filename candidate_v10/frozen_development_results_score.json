@@ -1,0 +1,1430 @@
+{
+  "evaluation": "195 distinct content pairs extracted from old V9 data; weighted to original 1000; stripped layout; development only",
+  "counts": {
+    "overall": {
+      "TN": 700,
+      "TP": 244,
+      "FN": 56
+    },
+    "routine": {
+      "TN": 420,
+      "TP": 167,
+      "FN": 13
+    },
+    "Survey datum": {
+      "TN": 43,
+      "TP": 19
+    },
+    "edge": {
+      "TP": 18,
+      "FN": 12,
+      "TN": 70
+    },
+    "Branch convergence": {
+      "TP": 3,
+      "TN": 7
+    },
+    "Exhibition medium": {
+      "TN": 28,
+      "TP": 12
+    },
+    "difficult": {
+      "TN": 210,
+      "TP": 59,
+      "FN": 31
+    },
+    "Boundary ownership": {
+      "TN": 22,
+      "FN": 8
+    },
+    "Glyph orientation": {
+      "TP": 13,
+      "TN": 29
+    },
+    "Archive attribution": {
+      "TN": 21,
+      "FN": 9
+    },
+    "Caption language": {
+      "TP": 13,
+      "TN": 29
+    },
+    "Reporting denominator": {
+      "TN": 20,
+      "FN": 8
+    },
+    "Sorting key": {
+      "TN": 13,
+      "TP": 5
+    },
+    "Science specimen": {
+      "TN": 42,
+      "TP": 8,
+      "FN": 10
+    },
+    "Assessment aggregation": {
+      "TN": 21,
+      "TP": 10
+    },
+    "Paper fold": {
+      "TN": 27,
+      "TP": 11
+    },
+    "Instrument tuning": {
+      "TN": 41,
+      "TP": 17
+    },
+    "Consultation identity publication": {
+      "TN": 22,
+      "TP": 10
+    },
+    "Attendance classification": {
+      "TN": 20,
+      "TP": 9
+    },
+    "Transcript page": {
+      "TP": 11,
+      "TN": 27
+    },
+    "Stage cue": {
+      "TN": 43,
+      "TP": 19
+    },
+    "Recycling material": {
+      "TN": 42,
+      "TP": 18
+    },
+    "Superseding map layer": {
+      "FN": 5,
+      "TN": 10
+    },
+    "Assessment dependency": {
+      "TN": 11,
+      "TP": 4
+    },
+    "Reset persistence": {
+      "TN": 15,
+      "TP": 7
+    },
+    "Attachment replacement": {
+      "TN": 13,
+      "TP": 5
+    },
+    "Renewal effect": {
+      "TN": 14,
+      "TP": 6
+    },
+    "Grandfathered classification": {
+      "TN": 10,
+      "TP": 3,
+      "FN": 2
+    },
+    "Print orientation": {
+      "TN": 41,
+      "TP": 17
+    },
+    "Thread visibility": {
+      "TN": 15,
+      "TP": 7
+    },
+    "Consent inheritance": {
+      "TN": 11,
+      "FN": 3,
+      "TP": 1
+    },
+    "Calibration mark": {
+      "TN": 28,
+      "TP": 9,
+      "FN": 3
+    },
+    "Label reference frame": {
+      "TN": 14,
+      "FN": 6
+    },
+    "Individual versus shared edits": {
+      "TP": 3,
+      "TN": 7
+    },
+    "Units across a mode change": {
+      "TN": 7,
+      "TP": 2,
+      "FN": 1
+    },
+    "Cancellation message scope": {
+      "TN": 7,
+      "FN": 1,
+      "TP": 2
+    }
+  },
+  "errors": [
+    {
+      "outcome": "FN",
+      "topic": "Superseding map layer",
+      "reference": {
+        "case_id": "J0027",
+        "family_id": "fresh-15",
+        "split": "holdout",
+        "domain": "government",
+        "topic": "Superseding map layer",
+        "difficulty": "edge",
+        "source_language": "zh",
+        "english": "Revision notice (S15-001)\nThe shaded area on the new map replaces the boundary on the old map for inspection purposes. For maintenance purposes, use the new shaded area, irrespective of the inspection schedule.",
+        "chinese": "修訂通知（S15-001）\n就巡查而言，新圖的陰影範圍取代舊圖的界線。至於維修，無論巡查如何編排，均以原來的界線為準。",
+        "expected_status": "issue",
+        "english_evidence": "the new shaded area",
+        "chinese_evidence": "原來的界線",
+        "expected_issue_or_clean_rationale": "Superseding map layer: English specifies 'the new shaded area'; Chinese specifies '原來的界線'.",
+        "severity": "material"
+      },
+      "prediction": {
+        "case_id": "D0025",
+        "flagged": false,
+        "warnings": [],
+        "signals": {
+          "cross": [
+            0.09173583984375,
+            0.01108551025390625
+          ],
+          "cross_entailment": [
+            0.875,
+            0.978515625
+          ],
+          "cross_neutral": [
+            0.033172607421875,
+            0.010406494140625
+          ],
+          "translated": [
+            0.0039043426513671875,
+            0.01306915283203125
+          ],
+          "entailment": [
+            0.98583984375,
+            0.95361328125
+          ],
+          "neutral": [
+            0.01023101806640625,
+            0.033447265625
+          ],
+          "similarity": 0.7103860974311829,
+          "translation_quality": 0.8377386331558228,
+          "translation": "In terms of scrutiny, the shadow range of the new chart replaces the boundary lines of the old chart. Regarding repairs, no matter how the inspections are organized, they are in line with the original boundaries.",
+          "passages": [
+            {
+              "cross": [
+                0.0002319812774658203,
+                0.00022840499877929688
+              ],
+              "cross_entailment": [
+                0.99658203125,
+                0.99853515625
+              ],
+              "cross_neutral": [
+                0.0033664703369140625,
+                0.0011758804321289062
+              ],
+              "entailment": [
+                0.998046875,
+                0.99853515625
+              ],
+              "neutral": [
+                0.00199127197265625,
+                0.0010747909545898438
+              ],
+              "translated": [
+                0.00015878677368164062,
+                0.0002142190933227539
+              ],
+              "similarity": 0.749646782875061,
+              "translation_quality": 0.8367756605148315,
+              "english_span": "The shaded area on the new map replaces the boundary on the old map for inspection purposes.",
+              "chinese_span": "就巡查而言,新圖的陰影範圍取代舊圖的界線。",
+              "translation": "In terms of scrutiny, the shadow range of the new chart replaces the boundary lines of the old chart."
+            },
+            {
+              "cross": [
+                0.07940673828125,
+                0.8310546875
+              ],
+              "cross_entailment": [
+                0.7578125,
+                0.1358642578125
+              ],
+              "cross_neutral": [
+                0.1629638671875,
+                0.033203125
+              ],
+              "entailment": [
+                0.01380157470703125,
+                0.02734375
+              ],
+              "neutral": [
+                0.08447265625,
+                0.8681640625
+              ],
+              "translated": [
+                0.90185546875,
+                0.104248046875
+              ],
+              "similarity": 0.45945122838020325,
+              "translation_quality": 0.8095340728759766,
+              "english_span": "For maintenance purposes, use the new shaded area, irrespective of the inspection schedule.",
+              "chinese_span": "至於維修,無論巡查如何編排,均以原來的界線為準。",
+              "translation": "Regarding repairs, no matter how the inspections are organized, they are in line with the original boundaries."
+            }
+          ]
+        },
+        "decision_path": "v10_contextual_comparison",
+        "coverage": "complete_notice",
+        "v7_fallback": false
+      }
+    },
+    {
+      "outcome": "FN",
+      "topic": "Boundary ownership",
+      "reference": {
+        "case_id": "J0068",
+        "family_id": "fresh-13",
+        "split": "holdout",
+        "domain": "government",
+        "topic": "Boundary ownership",
+        "difficulty": "difficult",
+        "source_language": "zh",
+        "english": "[S13-007] Maintenance of the retaining wall is shared. The plan identifies the owners' corporation as the owner of the wall itself.",
+        "chinese": "【S13-007】擋土牆由各方共同維修。圖則列明牆身本身屬毗鄰土地業主所有。",
+        "expected_status": "issue",
+        "english_evidence": "the owners' corporation",
+        "chinese_evidence": "毗鄰土地業主",
+        "expected_issue_or_clean_rationale": "Boundary ownership: English specifies \"the owners' corporation\"; Chinese specifies '毗鄰土地業主'.",
+        "severity": "material"
+      },
+      "prediction": {
+        "case_id": "D0053",
+        "flagged": false,
+        "warnings": [],
+        "signals": {
+          "cross": [
+            0.234375,
+            0.5537109375
+          ],
+          "cross_entailment": [
+            0.3779296875,
+            0.02838134765625
+          ],
+          "cross_neutral": [
+            0.387451171875,
+            0.41796875
+          ],
+          "translated": [
+            0.3759765625,
+            0.86083984375
+          ],
+          "entailment": [
+            0.01361846923828125,
+            0.0014925003051757812
+          ],
+          "neutral": [
+            0.6103515625,
+            0.137939453125
+          ],
+          "similarity": 0.7444503307342529,
+          "translation_quality": 0.845840573310852,
+          "translation": "The brick wall was repaired jointly by all parties. The wall itself is owned by neighbouring landowners.",
+          "passages": [
+            {
+              "cross": [
+                0.002819061279296875,
+                0.46435546875
+              ],
+              "cross_entailment": [
+                0.990234375,
+                0.45849609375
+              ],
+              "cross_neutral": [
+                0.00684356689453125,
+                0.0771484375
+              ],
+              "entailment": [
+                0.9111328125,
+                0.0006422996520996094
+              ],
+              "neutral": [
+                0.0271148681640625,
+                0.02545166015625
+              ],
+              "translated": [
+                0.06195068359375,
+                0.97412109375
+              ],
+              "similarity": 0.688566267490387,
+              "translation_quality": 0.7874657511711121,
+              "english_span": "Maintenance of the retaining wall is shared.",
+              "chinese_span": "擋土牆由各方共同維修。",
+              "translation": "The brick wall was repaired jointly by all parties."
+            },
+            {
+              "cross": [
+                0.206298828125,
+                0.3671875
+              ],
+              "cross_entailment": [
+                0.250732421875,
+                0.024749755859375
+              ],
+              "cross_neutral": [
+                0.54296875,
+                0.60791015625
+              ],
+              "entailment": [
+                0.0085601806640625,
+                0.007381439208984375
+              ],
+              "neutral": [
+                0.471923828125,
+                0.1944580078125
+              ],
+              "translated": [
+                0.51953125,
+                0.79833984375
+              ],
+              "similarity": 0.7242298126220703,
+              "translation_quality": 0.7759932279586792,
+              "english_span": "The plan identifies the owners' corporation as the owner of the wall itself.",
+              "chinese_span": "圖則列明牆身本身屬毗鄰土地業主所有。",
+              "translation": "The wall itself is owned by neighbouring landowners."
+            }
+          ]
+        },
+        "decision_path": "v10_contextual_comparison",
+        "coverage": "complete_notice",
+        "v7_fallback": false
+      }
+    },
+    {
+      "outcome": "FN",
+      "topic": "Science specimen",
+      "reference": {
+        "case_id": "J0093",
+        "family_id": "fresh-02",
+        "split": "holdout",
+        "domain": "school",
+        "topic": "Science specimen",
+        "difficulty": "routine",
+        "source_language": "en",
+        "english": "Notice extract\nFor the leaf survey, label the sample with the tree species: bauhinia.\n[S02-032]",
+        "chinese": "通告節錄\n進行葉片調查時，請在樣本上標明樹種：榕樹。\n【S02-032】",
+        "expected_status": "issue",
+        "english_evidence": "bauhinia",
+        "chinese_evidence": "榕樹",
+        "expected_issue_or_clean_rationale": "Science specimen: English specifies 'bauhinia'; Chinese specifies '榕樹'.",
+        "severity": "material"
+      },
+      "prediction": {
+        "case_id": "D0064",
+        "flagged": false,
+        "warnings": [],
+        "signals": {
+          "cross": [
+            0.96435546875,
+            0.98974609375
+          ],
+          "cross_entailment": [
+            0.022216796875,
+            0.00470733642578125
+          ],
+          "cross_neutral": [
+            0.0133819580078125,
+            0.00547027587890625
+          ],
+          "translated": [
+            0.001110076904296875,
+            0.0002598762512207031
+          ],
+          "entailment": [
+            0.9912109375,
+            0.998046875
+          ],
+          "neutral": [
+            0.007625579833984375,
+            0.001556396484375
+          ],
+          "similarity": 0.6577877402305603,
+          "translation_quality": 0.7622776031494141,
+          "translation": "When conducting a leaf survey, please indicate the banyan tree on the sample.",
+          "passages": [
+            {
+              "cross": [
+                0.96435546875,
+                0.98974609375
+              ],
+              "cross_entailment": [
+                0.022216796875,
+                0.00470733642578125
+              ],
+              "cross_neutral": [
+                0.0133819580078125,
+                0.00547027587890625
+              ],
+              "entailment": [
+                0.9912109375,
+                0.998046875
+              ],
+              "neutral": [
+                0.007625579833984375,
+                0.001556396484375
+              ],
+              "translated": [
+                0.001110076904296875,
+                0.0002598762512207031
+              ],
+              "similarity": 0.6577877402305603,
+              "translation_quality": 0.7622776031494141,
+              "english_span": "For the leaf survey, label the sample with the tree species: bauhinia.",
+              "chinese_span": "進行葉片調查時,請在樣本上標明樹種:榕樹。",
+              "translation": "When conducting a leaf survey, please indicate the banyan tree on the sample."
+            }
+          ]
+        },
+        "decision_path": "v10_contextual_comparison",
+        "coverage": "complete_notice",
+        "v7_fallback": false
+      }
+    },
+    {
+      "outcome": "FN",
+      "topic": "Reporting denominator",
+      "reference": {
+        "case_id": "J0237",
+        "family_id": "fresh-14",
+        "split": "holdout",
+        "domain": "government",
+        "topic": "Reporting denominator",
+        "difficulty": "difficult",
+        "source_language": "en",
+        "english": "[S14-007] The published percentage uses all submissions as its denominator. Withdrawn entries still appear in the appendix.",
+        "chinese": "【S14-007】公布的百分比以已完成的提交個案為分母。已撤回的個案仍會列於附錄。",
+        "expected_status": "issue",
+        "english_evidence": "all submissions",
+        "chinese_evidence": "已完成的提交個案",
+        "expected_issue_or_clean_rationale": "Reporting denominator: English specifies 'all submissions'; Chinese specifies '已完成的提交個案'.",
+        "severity": "material"
+      },
+      "prediction": {
+        "case_id": "D0117",
+        "flagged": false,
+        "warnings": [],
+        "signals": {
+          "cross": [
+            0.047271728515625,
+            0.01389312744140625
+          ],
+          "cross_entailment": [
+            0.8486328125,
+            0.96728515625
+          ],
+          "cross_neutral": [
+            0.1038818359375,
+            0.018768310546875
+          ],
+          "translated": [
+            0.035125732421875,
+            0.4111328125
+          ],
+          "entailment": [
+            0.95166015625,
+            0.42041015625
+          ],
+          "neutral": [
+            0.013275146484375,
+            0.1685791015625
+          ],
+          "similarity": 0.731099009513855,
+          "translation_quality": 0.8512095212936401,
+          "translation": "The percentage of publications divided by the completed submission of individual cases. The case that has been withdrawn will still be included in the appendix.",
+          "passages": [
+            {
+              "cross": [
+                0.63232421875,
+                0.242919921875
+              ],
+              "cross_entailment": [
+                0.07427978515625,
+                0.7353515625
+              ],
+              "cross_neutral": [
+                0.293212890625,
+                0.021636962890625
+              ],
+              "entailment": [
+                0.0166168212890625,
+                0.0164794921875
+              ],
+              "neutral": [
+                0.006626129150390625,
+                0.0239105224609375
+              ],
+              "translated": [
+                0.9765625,
+                0.95947265625
+              ],
+              "similarity": 0.5999967455863953,
+              "translation_quality": 0.7569888234138489,
+              "english_span": "The published percentage uses all submissions as its denominator.",
+              "chinese_span": "公布的百分比以已完成的提交個案為分母。",
+              "translation": "The percentage of publications divided by the completed submission of individual cases."
+            },
+            {
+              "cross": [
+                0.0005550384521484375,
+                0.0005369186401367188
+              ],
+              "cross_entailment": [
+                0.990234375,
+                0.994140625
+              ],
+              "cross_neutral": [
+                0.0094146728515625,
+                0.005420684814453125
+              ],
+              "entailment": [
+                0.9619140625,
+                0.97119140625
+              ],
+              "neutral": [
+                0.03607177734375,
+                0.02764892578125
+              ],
+              "translated": [
+                0.001850128173828125,
+                0.0011892318725585938
+              ],
+              "similarity": 0.7745383977890015,
+              "translation_quality": 0.8283843994140625,
+              "english_span": "Withdrawn entries still appear in the appendix.",
+              "chinese_span": "已撤回的個案仍會列於附錄。",
+              "translation": "The case that has been withdrawn will still be included in the appendix."
+            }
+          ]
+        },
+        "decision_path": "v10_contextual_comparison",
+        "coverage": "complete_notice",
+        "v7_fallback": false
+      }
+    },
+    {
+      "outcome": "FN",
+      "topic": "Label reference frame",
+      "reference": {
+        "case_id": "J0246",
+        "family_id": "fresh-29",
+        "split": "holdout",
+        "domain": "instructions",
+        "topic": "Label reference frame",
+        "difficulty": "difficult",
+        "source_language": "zh",
+        "english": "[S29-015] The left-hand mark is the one on your left when you stand with your back to the panel.",
+        "chinese": "【S29-015】當你面向面板時，你左手邊的標記就是左側標記。",
+        "expected_status": "issue",
+        "english_evidence": "stand with your back to",
+        "chinese_evidence": "面向",
+        "expected_issue_or_clean_rationale": "Label reference frame: English specifies 'stand with your back to'; Chinese specifies '面向'.",
+        "severity": "material"
+      },
+      "prediction": {
+        "case_id": "D0123",
+        "flagged": false,
+        "warnings": [],
+        "signals": {
+          "cross": [
+            0.5283203125,
+            0.032135009765625
+          ],
+          "cross_entailment": [
+            0.3603515625,
+            0.7734375
+          ],
+          "cross_neutral": [
+            0.11138916015625,
+            0.1944580078125
+          ],
+          "translated": [
+            0.188232421875,
+            0.0318603515625
+          ],
+          "entailment": [
+            0.79296875,
+            0.9365234375
+          ],
+          "neutral": [
+            0.0187835693359375,
+            0.03155517578125
+          ],
+          "similarity": 0.7410295009613037,
+          "translation_quality": 0.8530715703964233,
+          "translation": "When you face the board, the mark on your left hand is the mark on your left.",
+          "passages": [
+            {
+              "cross": [
+                0.5283203125,
+                0.032135009765625
+              ],
+              "cross_entailment": [
+                0.3603515625,
+                0.7734375
+              ],
+              "cross_neutral": [
+                0.11138916015625,
+                0.1944580078125
+              ],
+              "entailment": [
+                0.79296875,
+                0.9365234375
+              ],
+              "neutral": [
+                0.0187835693359375,
+                0.03155517578125
+              ],
+              "translated": [
+                0.188232421875,
+                0.0318603515625
+              ],
+              "similarity": 0.7410295009613037,
+              "translation_quality": 0.8530715703964233,
+              "english_span": "The left-hand mark is the one on your left when you stand with your back to the panel.",
+              "chinese_span": "當你面向面板時,你左手邊的標記就是左側標記。",
+              "translation": "When you face the board, the mark on your left hand is the mark on your left."
+            }
+          ]
+        },
+        "decision_path": "v10_contextual_comparison",
+        "coverage": "complete_notice",
+        "v7_fallback": false
+      }
+    },
+    {
+      "outcome": "FN",
+      "topic": "Cancellation message scope",
+      "reference": {
+        "case_id": "J0267",
+        "family_id": "fresh-23",
+        "split": "holdout",
+        "domain": "public_email",
+        "topic": "Cancellation message scope",
+        "difficulty": "edge",
+        "source_language": "en",
+        "english": "The cancellation applies to the live interview. If you already submitted a recording instead of attending, your contribution will also be withdrawn, even though the appointment has been removed from the calendar.\nPublication reference: S23-006",
+        "chinese": "取消安排適用於即時訪談。如你已提交錄音以代替出席，即使預約已從行事曆移除，該錄音仍會納入考慮。\n刊登編號：S23-006",
+        "expected_status": "issue",
+        "english_evidence": "will also be withdrawn",
+        "chinese_evidence": "仍會納入考慮",
+        "expected_issue_or_clean_rationale": "Cancellation message scope: English specifies 'will also be withdrawn'; Chinese specifies '仍會納入考慮'.",
+        "severity": "material"
+      },
+      "prediction": {
+        "case_id": "D0128",
+        "flagged": false,
+        "warnings": [],
+        "signals": {
+          "cross": [
+            0.87353515625,
+            0.6142578125
+          ],
+          "cross_entailment": [
+            0.0738525390625,
+            0.191650390625
+          ],
+          "cross_neutral": [
+            0.052520751953125,
+            0.19384765625
+          ],
+          "translated": [
+            0.97509765625,
+            0.95556640625
+          ],
+          "entailment": [
+            0.0091552734375,
+            0.025115966796875
+          ],
+          "neutral": [
+            0.0159454345703125,
+            0.0193328857421875
+          ],
+          "similarity": 0.8748177289962769,
+          "translation_quality": 0.9023119211196899,
+          "translation": "Cancellation of the appointment applies to instant interviews. If you have submitted a recording instead of attending, the recording will still be taken into account even if the appointment has been removed from the calendar.",
+          "passages": [
+            {
+              "cross": [
+                0.0030975341796875,
+                0.0205535888671875
+              ],
+              "cross_entailment": [
+                0.9677734375,
+                0.8017578125
+              ],
+              "cross_neutral": [
+                0.0291900634765625,
+                0.177490234375
+              ],
+              "entailment": [
+                0.430908203125,
+                0.040313720703125
+              ],
+              "neutral": [
+                0.37841796875,
+                0.7294921875
+              ],
+              "translated": [
+                0.190673828125,
+                0.2301025390625
+              ],
+              "similarity": 0.7460638880729675,
+              "translation_quality": 0.8241980075836182,
+              "english_span": "The cancellation applies to the live interview.",
+              "chinese_span": "取消安排適用於即時訪談。",
+              "translation": "Cancellation of the appointment applies to instant interviews."
+            },
+            {
+              "cross": [
+                0.82958984375,
+                0.630859375
+              ],
+              "cross_entailment": [
+                0.060699462890625,
+                0.303466796875
+              ],
+              "cross_neutral": [
+                0.10968017578125,
+                0.06573486328125
+              ],
+              "entailment": [
+                0.0056915283203125,
+                0.08477783203125
+              ],
+              "neutral": [
+                0.00992584228515625,
+                0.01155853271484375
+              ],
+              "translated": [
+                0.984375,
+                0.90380859375
+              ],
+              "similarity": 0.8438398838043213,
+              "translation_quality": 0.8765970468521118,
+              "english_span": "If you already submitted a recording instead of attending, your contribution will also be withdrawn, even though the appointment has been removed from the calendar.",
+              "chinese_span": "如你已提交錄音以代替出席,即使預約已從行事曆移除,該錄音仍會納入考慮。",
+              "translation": "If you have submitted a recording instead of attending, the recording will still be taken into account even if the appointment has been removed from the calendar."
+            }
+          ]
+        },
+        "decision_path": "v10_contextual_comparison",
+        "coverage": "complete_notice",
+        "v7_fallback": false
+      }
+    },
+    {
+      "outcome": "FN",
+      "topic": "Calibration mark",
+      "reference": {
+        "case_id": "J0367",
+        "family_id": "fresh-26",
+        "split": "holdout",
+        "domain": "instructions",
+        "topic": "Calibration mark",
+        "difficulty": "routine",
+        "source_language": "en",
+        "english": "Notice extract\nAlign the pointer with the midpoint mark before taking the reading.\n[S26-032]",
+        "chinese": "通告節錄\n讀數前，請將指針對準最高刻度。\n【S26-032】",
+        "expected_status": "issue",
+        "english_evidence": "midpoint",
+        "chinese_evidence": "最高",
+        "expected_issue_or_clean_rationale": "Calibration mark: English specifies 'midpoint'; Chinese specifies '最高'.",
+        "severity": "material"
+      },
+      "prediction": {
+        "case_id": "D0148",
+        "flagged": false,
+        "warnings": [],
+        "signals": {
+          "cross": [
+            0.87939453125,
+            0.9892578125
+          ],
+          "cross_entailment": [
+            0.0166778564453125,
+            0.0018262863159179688
+          ],
+          "cross_neutral": [
+            0.10400390625,
+            0.008819580078125
+          ],
+          "translated": [
+            0.08489990234375,
+            0.49072265625
+          ],
+          "entailment": [
+            0.30029296875,
+            0.31005859375
+          ],
+          "neutral": [
+            0.61474609375,
+            0.19921875
+          ],
+          "similarity": 0.6873419284820557,
+          "translation_quality": 0.7352190613746643,
+          "translation": "Before reading, please refer to the highest degree of accuracy.",
+          "passages": [
+            {
+              "cross": [
+                0.87939453125,
+                0.9892578125
+              ],
+              "cross_entailment": [
+                0.0166778564453125,
+                0.0018262863159179688
+              ],
+              "cross_neutral": [
+                0.10400390625,
+                0.008819580078125
+              ],
+              "entailment": [
+                0.30029296875,
+                0.31005859375
+              ],
+              "neutral": [
+                0.61474609375,
+                0.19921875
+              ],
+              "translated": [
+                0.08489990234375,
+                0.49072265625
+              ],
+              "similarity": 0.6873419284820557,
+              "translation_quality": 0.7352190613746643,
+              "english_span": "Align the pointer with the midpoint mark before taking the reading.",
+              "chinese_span": "讀數前,請將指針對準最高刻度。",
+              "translation": "Before reading, please refer to the highest degree of accuracy."
+            }
+          ]
+        },
+        "decision_path": "v10_contextual_comparison",
+        "coverage": "complete_notice",
+        "v7_fallback": false
+      }
+    },
+    {
+      "outcome": "FN",
+      "topic": "Archive attribution",
+      "reference": {
+        "case_id": "J0423",
+        "family_id": "fresh-05",
+        "split": "holdout",
+        "domain": "school",
+        "topic": "Archive attribution",
+        "difficulty": "difficult",
+        "source_language": "en",
+        "english": "Revision notice (S05-009)\nThe exhibition label should credit the original artist. The person who mounts the work is listed separately.",
+        "chinese": "修訂通知（S05-009）\n展品說明牌應列明捐贈者的姓名。負責裝裱者的姓名另行列出。",
+        "expected_status": "issue",
+        "english_evidence": "the original artist",
+        "chinese_evidence": "捐贈者",
+        "expected_issue_or_clean_rationale": "Archive attribution: English specifies 'the original artist'; Chinese specifies '捐贈者'.",
+        "severity": "material"
+      },
+      "prediction": {
+        "case_id": "D0160",
+        "flagged": false,
+        "warnings": [],
+        "signals": {
+          "cross": [
+            0.1212158203125,
+            0.27783203125
+          ],
+          "cross_entailment": [
+            0.87255859375,
+            0.693359375
+          ],
+          "cross_neutral": [
+            0.006031036376953125,
+            0.0286865234375
+          ],
+          "translated": [
+            0.83935546875,
+            0.9169921875
+          ],
+          "entailment": [
+            0.11163330078125,
+            0.00821685791015625
+          ],
+          "neutral": [
+            0.049224853515625,
+            0.07452392578125
+          ],
+          "similarity": 0.7476931810379028,
+          "translation_quality": 0.8287440538406372,
+          "translation": "The name of the donor should be indicated on the bill of lading. The name of the person responsible for mounting the artwork is also given.",
+          "passages": [
+            {
+              "cross": [
+                0.425048828125,
+                0.396240234375
+              ],
+              "cross_entailment": [
+                0.0523681640625,
+                0.06927490234375
+              ],
+              "cross_neutral": [
+                0.5224609375,
+                0.53466796875
+              ],
+              "entailment": [
+                0.0310821533203125,
+                0.00435638427734375
+              ],
+              "neutral": [
+                0.440185546875,
+                0.034881591796875
+              ],
+              "translated": [
+                0.52880859375,
+                0.9609375
+              ],
+              "similarity": 0.6786823272705078,
+              "translation_quality": 0.8185234069824219,
+              "english_span": "The exhibition label should credit the original artist.",
+              "chinese_span": "展品說明牌應列明捐贈者的姓名。",
+              "translation": "The name of the donor should be indicated on the bill of lading."
+            },
+            {
+              "cross": [
+                0.00530242919921875,
+                0.003139495849609375
+              ],
+              "cross_entailment": [
+                0.9853515625,
+                0.9140625
+              ],
+              "cross_neutral": [
+                0.0093994140625,
+                0.0830078125
+              ],
+              "entailment": [
+                0.2440185546875,
+                0.01275634765625
+              ],
+              "neutral": [
+                0.061676025390625,
+                0.168212890625
+              ],
+              "translated": [
+                0.6943359375,
+                0.81884765625
+              ],
+              "similarity": 0.6307058334350586,
+              "translation_quality": 0.7150940299034119,
+              "english_span": "The person who mounts the work is listed separately.",
+              "chinese_span": "負責裝裱者的姓名另行列出。",
+              "translation": "The name of the person responsible for mounting the artwork is also given."
+            }
+          ]
+        },
+        "decision_path": "v10_contextual_comparison",
+        "coverage": "complete_notice",
+        "v7_fallback": false
+      }
+    },
+    {
+      "outcome": "FN",
+      "topic": "Grandfathered classification",
+      "reference": {
+        "case_id": "J0459",
+        "family_id": "fresh-16",
+        "split": "holdout",
+        "domain": "government",
+        "topic": "Grandfathered classification",
+        "difficulty": "edge",
+        "source_language": "en",
+        "english": "The revised code applies when a designation is first recorded. If a previously recorded designation changes because of a clerical correction alone, the revised code applies. A change in use is treated separately.\nPublication reference: S16-006",
+        "chinese": "新代碼適用於首次登記的用途分類。如原已登記的分類純粹因文書更正而變動，仍沿用原有代碼。用途變更則另行處理。\n刊登編號：S16-006",
+        "expected_status": "issue",
+        "english_evidence": "the revised code applies",
+        "chinese_evidence": "仍沿用原有代碼",
+        "expected_issue_or_clean_rationale": "Grandfathered classification: English specifies 'the revised code applies'; Chinese specifies '仍沿用原有代碼'.",
+        "severity": "material"
+      },
+      "prediction": {
+        "case_id": "D0163",
+        "flagged": false,
+        "warnings": [],
+        "signals": {
+          "cross": [
+            0.97119140625,
+            0.93408203125
+          ],
+          "cross_entailment": [
+            0.02496337890625,
+            0.04290771484375
+          ],
+          "cross_neutral": [
+            0.0038700103759765625,
+            0.023193359375
+          ],
+          "translated": [
+            0.477294921875,
+            0.912109375
+          ],
+          "entailment": [
+            0.486083984375,
+            0.05181884765625
+          ],
+          "neutral": [
+            0.03662109375,
+            0.036041259765625
+          ],
+          "similarity": 0.8460012674331665,
+          "translation_quality": 0.9002246856689453,
+          "translation": "The new code is used for first-time registration purposes. If the previously registered classification is changed purely due to the correction of the document, it will continue to follow the original code. The use changes are treated as alternatives.",
+          "passages": [
+            {
+              "cross": [
+                0.0100555419921875,
+                0.0020294189453125
+              ],
+              "cross_entailment": [
+                0.94482421875,
+                0.36767578125
+              ],
+              "cross_neutral": [
+                0.045135498046875,
+                0.63037109375
+              ],
+              "entailment": [
+                0.9814453125,
+                0.8056640625
+              ],
+              "neutral": [
+                0.0178985595703125,
+                0.1893310546875
+              ],
+              "translated": [
+                0.0005407333374023438,
+                0.005069732666015625
+              ],
+              "similarity": 0.6983168125152588,
+              "translation_quality": 0.8240187168121338,
+              "english_span": "The revised code applies when a designation is first recorded.",
+              "chinese_span": "新代碼適用於首次登記的用途分類。",
+              "translation": "The new code is used for first-time registration purposes."
+            },
+            {
+              "cross": [
+                0.6005859375,
+                0.841796875
+              ],
+              "cross_entailment": [
+                0.3388671875,
+                0.097412109375
+              ],
+              "cross_neutral": [
+                0.0604248046875,
+                0.061004638671875
+              ],
+              "entailment": [
+                0.335205078125,
+                0.697265625
+              ],
+              "neutral": [
+                0.42578125,
+                0.171875
+              ],
+              "translated": [
+                0.239013671875,
+                0.1309814453125
+              ],
+              "similarity": 0.7328896522521973,
+              "translation_quality": 0.829403281211853,
+              "english_span": "If a previously recorded designation changes because of a clerical correction alone, the revised code applies.",
+              "chinese_span": "如原已登記的分類純粹因文書更正而變動,仍沿用原有代碼。",
+              "translation": "If the previously registered classification is changed purely due to the correction of the document, it will continue to follow the original code."
+            },
+            {
+              "cross": [
+                0.00652313232421875,
+                0.032257080078125
+              ],
+              "cross_entailment": [
+                0.98046875,
+                0.9560546875
+              ],
+              "cross_neutral": [
+                0.01293182373046875,
+                0.01171112060546875
+              ],
+              "entailment": [
+                0.0379638671875,
+                0.23974609375
+              ],
+              "neutral": [
+                0.0268402099609375,
+                0.406982421875
+              ],
+              "translated": [
+                0.93505859375,
+                0.353271484375
+              ],
+              "similarity": 0.7692543864250183,
+              "translation_quality": 0.7385079264640808,
+              "english_span": "A change in use is treated separately.",
+              "chinese_span": "用途變更則另行處理。",
+              "translation": "The use changes are treated as alternatives."
+            }
+          ]
+        },
+        "decision_path": "v10_contextual_comparison",
+        "coverage": "complete_notice",
+        "v7_fallback": false
+      }
+    },
+    {
+      "outcome": "FN",
+      "topic": "Consent inheritance",
+      "reference": {
+        "case_id": "J0471",
+        "family_id": "fresh-07",
+        "split": "holdout",
+        "domain": "school",
+        "topic": "Consent inheritance",
+        "difficulty": "edge",
+        "source_language": "en",
+        "english": "The consent form covers the student photograph and caption as a pair. When a caption is replaced, the existing consent still permits publication. This applies even if the photograph itself has not changed.\nPublication reference: S07-002",
+        "chinese": "同意書同時涵蓋學生照片及其說明文字。如更換說明文字，刊登前須重新取得同意，即使照片本身維持不變亦然。\n刊登編號：S07-002",
+        "expected_status": "issue",
+        "english_evidence": "the existing consent still permits publication",
+        "chinese_evidence": "刊登前須重新取得同意",
+        "expected_issue_or_clean_rationale": "Consent inheritance: English specifies 'the existing consent still permits publication'; Chinese specifies '刊登前須重新取得同意'.",
+        "severity": "material"
+      },
+      "prediction": {
+        "case_id": "D0165",
+        "flagged": false,
+        "warnings": [],
+        "signals": {
+          "cross": [
+            0.0066986083984375,
+            0.0212249755859375
+          ],
+          "cross_entailment": [
+            0.84033203125,
+            0.071044921875
+          ],
+          "cross_neutral": [
+            0.153076171875,
+            0.90771484375
+          ],
+          "translated": [
+            0.2919921875,
+            0.148193359375
+          ],
+          "entailment": [
+            0.388671875,
+            0.06494140625
+          ],
+          "neutral": [
+            0.3193359375,
+            0.787109375
+          ],
+          "similarity": 0.8028929829597473,
+          "translation_quality": 0.8457913994789124,
+          "translation": "The consent book also includes photos of students and their explanatory texts. For example, if the text is replaced, the consent must be obtained again before publication, even if the photo itself remains unchanged.",
+          "passages": [
+            {
+              "cross": [
+                0.0017938613891601562,
+                0.0003094673156738281
+              ],
+              "cross_entailment": [
+                0.2337646484375,
+                0.99560546875
+              ],
+              "cross_neutral": [
+                0.76416015625,
+                0.003986358642578125
+              ],
+              "entailment": [
+                0.0167999267578125,
+                0.1055908203125
+              ],
+              "neutral": [
+                0.978515625,
+                0.1573486328125
+              ],
+              "translated": [
+                0.00476837158203125,
+                0.7373046875
+              ],
+              "similarity": 0.7678130269050598,
+              "translation_quality": 0.8740634918212891,
+              "english_span": "The consent form covers the student photograph and caption as a pair.",
+              "chinese_span": "同意書同時涵蓋學生照片及其說明文字。",
+              "translation": "The consent book also includes photos of students and their explanatory texts."
+            },
+            {
+              "cross": [
+                0.0078582763671875,
+                0.0123291015625
+              ],
+              "cross_entailment": [
+                0.93896484375,
+                0.4609375
+              ],
+              "cross_neutral": [
+                0.052978515625,
+                0.52685546875
+              ],
+              "entailment": [
+                0.1763916015625,
+                0.92578125
+              ],
+              "neutral": [
+                0.47998046875,
+                0.059600830078125
+              ],
+              "translated": [
+                0.34375,
+                0.01439666748046875
+              ],
+              "similarity": 0.6815500259399414,
+              "translation_quality": 0.8012540340423584,
+              "english_span": "When a caption is replaced, the existing consent still permits publication. This applies even if the photograph itself has not changed.",
+              "chinese_span": "如更換說明文字,刊登前須重新取得同意,即使照片本身維持不變亦然。",
+              "translation": "For example, if the text is replaced, the consent must be obtained again before publication, even if the photo itself remains unchanged."
+            }
+          ]
+        },
+        "decision_path": "v10_contextual_comparison",
+        "coverage": "complete_notice",
+        "v7_fallback": false
+      }
+    },
+    {
+      "outcome": "FN",
+      "topic": "Units across a mode change",
+      "reference": {
+        "case_id": "J0915",
+        "family_id": "fresh-32",
+        "split": "holdout",
+        "domain": "instructions",
+        "topic": "Units across a mode change",
+        "difficulty": "edge",
+        "source_language": "en",
+        "english": "Revision notice (S32-001)\nSwitching modes changes the units for new entries. Previously saved measurements retain their original units, even if the register groups old and new entries together.",
+        "chinese": "修訂通知（S32-001）\n切換模式會更改新輸入項目的單位。即使紀錄冊將新舊項目合併顯示，先前儲存的測量數值會按新單位解讀。",
+        "expected_status": "issue",
+        "english_evidence": "retain their original units",
+        "chinese_evidence": "會按新單位解讀",
+        "expected_issue_or_clean_rationale": "Units across a mode change: English specifies 'retain their original units'; Chinese specifies '會按新單位解讀'.",
+        "severity": "material"
+      },
+      "prediction": {
+        "case_id": "D0191",
+        "flagged": false,
+        "warnings": [],
+        "signals": {
+          "cross": [
+            0.0063629150390625,
+            0.00240325927734375
+          ],
+          "cross_entailment": [
+            0.98388671875,
+            0.99267578125
+          ],
+          "cross_neutral": [
+            0.00974273681640625,
+            0.0050811767578125
+          ],
+          "translated": [
+            0.1019287109375,
+            0.006786346435546875
+          ],
+          "entailment": [
+            0.875,
+            0.98388671875
+          ],
+          "neutral": [
+            0.02313232421875,
+            0.0091552734375
+          ],
+          "similarity": 0.8330942392349243,
+          "translation_quality": 0.8535341024398804,
+          "translation": "The switching mode changes the units of the new input project. Even if the logbook shows the merger of new and old projects, previously stored measurement values will be interpreted in new units.",
+          "passages": [
+            {
+              "cross": [
+                0.0005221366882324219,
+                0.0006608963012695312
+              ],
+              "cross_entailment": [
+                0.9873046875,
+                0.99267578125
+              ],
+              "cross_neutral": [
+                0.01204681396484375,
+                0.0066070556640625
+              ],
+              "entailment": [
+                0.98876953125,
+                0.7841796875
+              ],
+              "neutral": [
+                0.01006317138671875,
+                0.214599609375
+              ],
+              "translated": [
+                0.0011644363403320312,
+                0.0012998580932617188
+              ],
+              "similarity": 0.8613404631614685,
+              "translation_quality": 0.8444674611091614,
+              "english_span": "Switching modes changes the units for new entries.",
+              "chinese_span": "切換模式會更改新輸入項目的單位。",
+              "translation": "The switching mode changes the units of the new input project."
+            },
+            {
+              "cross": [
+                0.05047607421875,
+                0.004505157470703125
+              ],
+              "cross_entailment": [
+                0.8984375,
+                0.98046875
+              ],
+              "cross_neutral": [
+                0.051116943359375,
+                0.01500701904296875
+              ],
+              "entailment": [
+                0.05035400390625,
+                0.82666015625
+              ],
+              "neutral": [
+                0.026092529296875,
+                0.15283203125
+              ],
+              "translated": [
+                0.92333984375,
+                0.02069091796875
+              ],
+              "similarity": 0.746737539768219,
+              "translation_quality": 0.8126099705696106,
+              "english_span": "Previously saved measurements retain their original units, even if the register groups old and new entries together.",
+              "chinese_span": "即使紀錄冊將新舊項目合併顯示,先前儲存的測量數值會按新單位解讀。",
+              "translation": "Even if the logbook shows the merger of new and old projects, previously stored measurement values will be interpreted in new units."
+            }
+          ]
+        },
+        "decision_path": "v10_contextual_comparison",
+        "coverage": "complete_notice",
+        "v7_fallback": false
+      }
+    }
+  ]
+}

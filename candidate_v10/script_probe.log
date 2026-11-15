@@ -1,0 +1,8 @@
+W1115 09:39:31.585000 53506 /private/tmp/veritas-v9-runtime/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/512 [00:00<?, ?it/s]Loading weights: 100%|██████████| 512/512 [00:00<00:00, 46774.93it/s]
+SRC zho_Hant TOKEN ['zho_Hant', '▁重', '設', '顯', '示', '器', '會', '清', '除', '讀', '數', '。', '</s>', '<pad>', '<pad>', '<pad>', '<pad>']
+[transformers] Both `max_new_tokens` (=100) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[('重設顯示器會清除讀數。', "This is the first time I've ever seen a video of my life."), ('校準數值仍會保留。', "I'm not sure if this is a good idea, but I'm sure it's a good idea."), ('請在樣本上標明樹種：榕樹。', 'Please indicate the species of trees on the sample: Oak trees.'), ('讀數前，請將指針對準最高刻度。', 'Before reading, please point to the highest accuracy.')]
+SRC zho_Hans TOKEN ['zho_Hans', '▁重', '设', '显示', '器', '会', '清', '除', '读', '数', '。', '</s>', '<pad>', '<pad>', '<pad>', '<pad>']
+[transformers] Both `max_new_tokens` (=100) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[('重设显示器会清除读数。', 'Reset the display to clear the readings.'), ('校准数值仍会保留。', 'The calibration values will remain.'), ('请在样本上标明树种：榕树。', 'Please indicate the tree species in the sample: oak trees.'), ('读数前，请将指针对准最高刻度。', 'Before reading, please refer to the highest degree of accuracy.')]

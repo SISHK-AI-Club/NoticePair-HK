@@ -1,0 +1,21 @@
+W1115 09:37:31.602000 53166 /private/tmp/veritas-v9-runtime/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading V10 models (no V7 fallback).
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 5686.40it/s]
+/tmp/veritas-v9-runtime/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 2104.54it/s]
+Loading weights:   0%|          | 0/512 [00:00<?, ?it/s]Loading weights: 100%|██████████| 512/512 [00:00<00:00, 44035.59it/s]
+V10 ready on cpu
+[transformers] Both `max_new_tokens` (=300) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Translation cross-check: 8/8 new passages
+Contextual inference: 12/22 new pairs
+PREDICTIONS 50 / 195
+[transformers] Both `max_new_tokens` (=300) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Translation cross-check: 3/3 new passages
+Contextual inference: 12/20 new pairs
+PREDICTIONS 100 / 195
+Contextual inference: 12/14 new pairs
+PREDICTIONS 150 / 195
+Contextual inference: 12/18 new pairs
+PREDICTIONS 195 / 195
+V10 COMPLETE 195

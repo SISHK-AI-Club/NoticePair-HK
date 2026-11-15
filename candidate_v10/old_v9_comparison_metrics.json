@@ -1,0 +1,347 @@
+{
+  "evaluation": "same exact original 1000 cases; now development data for V10, not held out",
+  "dataset_sha256": "e99de209ce48848ea2d4ff3a1a68adcb421600265a0043926be9bdc673fa13e9",
+  "counts": {
+    "v9": {
+      "overall": {
+        "TN": 537,
+        "TP": 238,
+        "FN": 62,
+        "FP": 163
+      },
+      "routine": {
+        "TN": 328,
+        "TP": 131,
+        "FN": 49,
+        "FP": 92
+      },
+      "Survey datum": {
+        "TN": 43,
+        "TP": 12,
+        "FN": 7
+      },
+      "edge": {
+        "TP": 29,
+        "FP": 22,
+        "TN": 48,
+        "FN": 1
+      },
+      "Branch convergence": {
+        "TP": 3,
+        "TN": 7
+      },
+      "Exhibition medium": {
+        "TN": 28,
+        "TP": 12
+      },
+      "difficult": {
+        "TN": 161,
+        "FP": 49,
+        "TP": 78,
+        "FN": 12
+      },
+      "Boundary ownership": {
+        "TN": 22,
+        "FN": 7,
+        "TP": 1
+      },
+      "Glyph orientation": {
+        "TP": 10,
+        "TN": 29,
+        "FN": 3
+      },
+      "Archive attribution": {
+        "TN": 21,
+        "FN": 2,
+        "TP": 7
+      },
+      "Caption language": {
+        "FN": 13,
+        "TN": 29
+      },
+      "Reporting denominator": {
+        "FP": 20,
+        "TP": 8
+      },
+      "Sorting key": {
+        "TN": 13,
+        "TP": 5
+      },
+      "Science specimen": {
+        "FP": 42,
+        "TP": 15,
+        "FN": 3
+      },
+      "Assessment aggregation": {
+        "TN": 21,
+        "TP": 10
+      },
+      "Paper fold": {
+        "TN": 27,
+        "TP": 11
+      },
+      "Instrument tuning": {
+        "TN": 41,
+        "TP": 17
+      },
+      "Consultation identity publication": {
+        "FP": 9,
+        "TN": 13,
+        "TP": 10
+      },
+      "Attendance classification": {
+        "FP": 20,
+        "TP": 9
+      },
+      "Transcript page": {
+        "TP": 11,
+        "TN": 27
+      },
+      "Stage cue": {
+        "TN": 43,
+        "TP": 19
+      },
+      "Recycling material": {
+        "TN": 42,
+        "TP": 7,
+        "FN": 11
+      },
+      "Superseding map layer": {
+        "TP": 5,
+        "TN": 10
+      },
+      "Assessment dependency": {
+        "FP": 11,
+        "TP": 4
+      },
+      "Reset persistence": {
+        "TN": 15,
+        "TP": 7
+      },
+      "Attachment replacement": {
+        "TN": 13,
+        "TP": 5
+      },
+      "Renewal effect": {
+        "TN": 14,
+        "TP": 6
+      },
+      "Grandfathered classification": {
+        "TN": 10,
+        "TP": 5
+      },
+      "Print orientation": {
+        "FP": 41,
+        "FN": 12,
+        "TP": 5
+      },
+      "Thread visibility": {
+        "TN": 15,
+        "TP": 7
+      },
+      "Consent inheritance": {
+        "FP": 11,
+        "TP": 4
+      },
+      "Calibration mark": {
+        "FP": 9,
+        "TN": 19,
+        "TP": 12
+      },
+      "Label reference frame": {
+        "TN": 14,
+        "TP": 3,
+        "FN": 3
+      },
+      "Individual versus shared edits": {
+        "TP": 3,
+        "TN": 7
+      },
+      "Units across a mode change": {
+        "TN": 7,
+        "TP": 2,
+        "FN": 1
+      },
+      "Cancellation message scope": {
+        "TN": 7,
+        "TP": 3
+      }
+    },
+    "v10": {
+      "overall": {
+        "TN": 700,
+        "TP": 247,
+        "FN": 53
+      },
+      "routine": {
+        "TN": 420,
+        "TP": 165,
+        "FN": 15
+      },
+      "Survey datum": {
+        "TN": 43,
+        "TP": 19
+      },
+      "edge": {
+        "TP": 18,
+        "FN": 12,
+        "TN": 70
+      },
+      "Branch convergence": {
+        "TP": 3,
+        "TN": 7
+      },
+      "Exhibition medium": {
+        "TN": 28,
+        "TP": 12
+      },
+      "difficult": {
+        "TN": 210,
+        "TP": 64,
+        "FN": 26
+      },
+      "Boundary ownership": {
+        "TN": 22,
+        "FN": 8
+      },
+      "Glyph orientation": {
+        "TP": 13,
+        "TN": 29
+      },
+      "Archive attribution": {
+        "TN": 21,
+        "FN": 5,
+        "TP": 4
+      },
+      "Caption language": {
+        "TP": 13,
+        "TN": 29
+      },
+      "Reporting denominator": {
+        "TN": 20,
+        "FN": 8
+      },
+      "Sorting key": {
+        "TN": 13,
+        "TP": 5
+      },
+      "Science specimen": {
+        "TN": 42,
+        "TP": 8,
+        "FN": 10
+      },
+      "Assessment aggregation": {
+        "TN": 21,
+        "TP": 10
+      },
+      "Paper fold": {
+        "TN": 27,
+        "TP": 11
+      },
+      "Instrument tuning": {
+        "TN": 41,
+        "TP": 17
+      },
+      "Consultation identity publication": {
+        "TN": 22,
+        "TP": 10
+      },
+      "Attendance classification": {
+        "TN": 20,
+        "TP": 9
+      },
+      "Transcript page": {
+        "TP": 11,
+        "TN": 27
+      },
+      "Stage cue": {
+        "TN": 43,
+        "TP": 19
+      },
+      "Recycling material": {
+        "TN": 42,
+        "TP": 18
+      },
+      "Superseding map layer": {
+        "FN": 5,
+        "TN": 10
+      },
+      "Assessment dependency": {
+        "TN": 11,
+        "TP": 4
+      },
+      "Reset persistence": {
+        "TN": 15,
+        "TP": 7
+      },
+      "Attachment replacement": {
+        "TN": 13,
+        "TP": 5
+      },
+      "Renewal effect": {
+        "TN": 14,
+        "TP": 6
+      },
+      "Grandfathered classification": {
+        "TN": 10,
+        "TP": 3,
+        "FN": 2
+      },
+      "Print orientation": {
+        "TN": 41,
+        "TP": 17
+      },
+      "Thread visibility": {
+        "TN": 15,
+        "TP": 7
+      },
+      "Consent inheritance": {
+        "TN": 11,
+        "FN": 3,
+        "TP": 1
+      },
+      "Calibration mark": {
+        "TN": 28,
+        "TP": 7,
+        "FN": 5
+      },
+      "Label reference frame": {
+        "TN": 14,
+        "FN": 5,
+        "TP": 1
+      },
+      "Individual versus shared edits": {
+        "TP": 3,
+        "TN": 7
+      },
+      "Units across a mode change": {
+        "TN": 7,
+        "TP": 2,
+        "FN": 1
+      },
+      "Cancellation message scope": {
+        "TN": 7,
+        "FN": 1,
+        "TP": 2
+      }
+    }
+  },
+  "changes": {
+    "unchanged": 754,
+    "TN -> TN": 537,
+    "TP -> TP": 201,
+    "fixed": 209,
+    "FN -> TP": 46,
+    "FP -> TN": 163,
+    "regressed": 37,
+    "TP -> FN": 37,
+    "FN -> FN": 16
+  },
+  "paths": {
+    "v10_contextual_comparison": 1000
+  },
+  "coverage": {
+    "complete_notice": 1000
+  },
+  "candidate_sha256": "c8d31da1510ad1d6a2270742b8745c8c676a79941cada37c8265f94443d3f449"
+}

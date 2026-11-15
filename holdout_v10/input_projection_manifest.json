@@ -1,0 +1,17 @@
+{
+  "created_before_inference": "2026-11-15T01:46:14.694175+00:00",
+  "original": "v10_blind_inputs.csv",
+  "original_sha256": "67361fc532c73eef9d5000aab2790616792f4893d8b2ceaacf45bed52ea0147c",
+  "projected": "v10_runner_inputs.csv",
+  "projected_sha256": "57273985ed1508d63788944fc90335e2081983945e956e83533439099122006e",
+  "allowed_columns": [
+    "case_id",
+    "english",
+    "chinese"
+  ],
+  "removed_columns": [
+    "source_language"
+  ],
+  "checked_rows": 1000,
+  "check": "All 1000 case IDs and both bilingual strings have identical UTF-8 bytes after parsing; row ordering preserved."
+}

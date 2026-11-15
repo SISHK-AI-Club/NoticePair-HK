@@ -1,0 +1,6 @@
+sentence-transformers==5.7.0
+transformers==5.22.1
+sentencepiece
+pandas
+scipy
+opencc-python-reimplemented==0.1.7

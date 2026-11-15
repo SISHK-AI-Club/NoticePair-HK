@@ -1,0 +1,4002 @@
+{
+  "evaluation": "old V9 content pairs; reference/layout removed; development only",
+  "selection_rule": "FP<=7/700 then highest accuracy",
+  "selected": {
+    "config": {
+      "mt_bidirectional": 0.75,
+      "mt_oneway": 0.75,
+      "cross_support": 0.85,
+      "similarity_max": 0.6,
+      "mt_low_similarity": 0.75,
+      "fact_alignment_min": 0.6,
+      "translation_quality_min": 0.55,
+      "semantic_alignment_min": 0.45,
+      "whole_cross_min": 0.9,
+      "whole_mt_min": 0.95
+    },
+    "counts": {
+      "TN": 700,
+      "TP": 244,
+      "FN": 56
+    },
+    "accuracy": 0.944,
+    "precision": 1.0,
+    "recall": 0.8133333333333334,
+    "by_family": {
+      "fresh-09": {
+        "TN": 43,
+        "TP": 19
+      },
+      "fresh-31": {
+        "TP": 3,
+        "TN": 7
+      },
+      "fresh-18": {
+        "TN": 28,
+        "TP": 12
+      },
+      "fresh-13": {
+        "TN": 22,
+        "FN": 8
+      },
+      "fresh-25": {
+        "TP": 13,
+        "TN": 29
+      },
+      "fresh-05": {
+        "TN": 21,
+        "FN": 9
+      },
+      "fresh-17": {
+        "TP": 13,
+        "TN": 29
+      },
+      "fresh-14": {
+        "TN": 20,
+        "FN": 8
+      },
+      "fresh-30": {
+        "TN": 13,
+        "TP": 5
+      },
+      "fresh-02": {
+        "TN": 42,
+        "TP": 8,
+        "FN": 10
+      },
+      "fresh-04": {
+        "TN": 21,
+        "TP": 10
+      },
+      "fresh-27": {
+        "TN": 27,
+        "TP": 11
+      },
+      "fresh-03": {
+        "TN": 41,
+        "TP": 17
+      },
+      "fresh-12": {
+        "TN": 22,
+        "TP": 10
+      },
+      "fresh-06": {
+        "TN": 20,
+        "TP": 9
+      },
+      "fresh-19": {
+        "TP": 11,
+        "TN": 27
+      },
+      "fresh-01": {
+        "TN": 43,
+        "TP": 19
+      },
+      "fresh-10": {
+        "TN": 42,
+        "TP": 18
+      },
+      "fresh-15": {
+        "FN": 5,
+        "TN": 10
+      },
+      "fresh-08": {
+        "TN": 11,
+        "TP": 4
+      },
+      "fresh-28": {
+        "TN": 15,
+        "TP": 7
+      },
+      "fresh-22": {
+        "TN": 13,
+        "TP": 5
+      },
+      "fresh-21": {
+        "TN": 14,
+        "TP": 6
+      },
+      "fresh-16": {
+        "TN": 10,
+        "TP": 3,
+        "FN": 2
+      },
+      "fresh-11": {
+        "TN": 41,
+        "TP": 17
+      },
+      "fresh-20": {
+        "TN": 15,
+        "TP": 7
+      },
+      "fresh-07": {
+        "TN": 11,
+        "FN": 3,
+        "TP": 1
+      },
+      "fresh-26": {
+        "TN": 28,
+        "TP": 9,
+        "FN": 3
+      },
+      "fresh-29": {
+        "TN": 14,
+        "FN": 6
+      },
+      "fresh-24": {
+        "TP": 3,
+        "TN": 7
+      },
+      "fresh-32": {
+        "TN": 7,
+        "TP": 2,
+        "FN": 1
+      },
+      "fresh-23": {
+        "TN": 7,
+        "FN": 1,
+        "TP": 2
+      }
+    }
+  },
+  "trials": [
+    {
+      "config": {
+        "mt_bidirectional": 0.75,
+        "mt_oneway": 0.75,
+        "cross_support": 0.4,
+        "similarity_max": 0.6,
+        "mt_low_similarity": 0.75,
+        "fact_alignment_min": 0.6,
+        "translation_quality_min": 0.55,
+        "semantic_alignment_min": 0.45,
+        "whole_cross_min": 0.9,
+        "whole_mt_min": 0.95
+      },
+      "counts": {
+        "TN": 662,
+        "TP": 276,
+        "FP": 38,
+        "FN": 24
+      },
+      "accuracy": 0.938,
+      "precision": 0.8789808917197452,
+      "recall": 0.92,
+      "by_family": {
+        "fresh-09": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-31": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-18": {
+          "TN": 28,
+          "TP": 12
+        },
+        "fresh-13": {
+          "FP": 22,
+          "TP": 8
+        },
+        "fresh-25": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-05": {
+          "TN": 21,
+          "TP": 3,
+          "FN": 6
+        },
+        "fresh-17": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-14": {
+          "TN": 20,
+          "TP": 8
+        },
+        "fresh-30": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-02": {
+          "TN": 31,
+          "FP": 11,
+          "TP": 17,
+          "FN": 1
+        },
+        "fresh-04": {
+          "TN": 21,
+          "TP": 10
+        },
+        "fresh-27": {
+          "TN": 27,
+          "TP": 11
+        },
+        "fresh-03": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-12": {
+          "TN": 22,
+          "TP": 10
+        },
+        "fresh-06": {
+          "TN": 20,
+          "TP": 9
+        },
+        "fresh-19": {
+          "TP": 11,
+          "TN": 27
+        },
+        "fresh-01": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-10": {
+          "TN": 42,
+          "TP": 18
+        },
+        "fresh-15": {
+          "TP": 3,
+          "TN": 10,
+          "FN": 2
+        },
+        "fresh-08": {
+          "TN": 11,
+          "TP": 4
+        },
+        "fresh-28": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-22": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-21": {
+          "TN": 14,
+          "TP": 6
+        },
+        "fresh-16": {
+          "TN": 5,
+          "TP": 3,
+          "FP": 5,
+          "FN": 2
+        },
+        "fresh-11": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-20": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-07": {
+          "TN": 11,
+          "FN": 3,
+          "TP": 1
+        },
+        "fresh-26": {
+          "TN": 28,
+          "TP": 9,
+          "FN": 3
+        },
+        "fresh-29": {
+          "TN": 14,
+          "FN": 6
+        },
+        "fresh-24": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-32": {
+          "TN": 7,
+          "TP": 2,
+          "FN": 1
+        },
+        "fresh-23": {
+          "TN": 7,
+          "TP": 3
+        }
+      }
+    },
+    {
+      "config": {
+        "mt_bidirectional": 0.85,
+        "mt_oneway": 0.85,
+        "cross_support": 0.4,
+        "similarity_max": 0.6,
+        "mt_low_similarity": 0.75,
+        "fact_alignment_min": 0.6,
+        "translation_quality_min": 0.55,
+        "semantic_alignment_min": 0.45,
+        "whole_cross_min": 0.9,
+        "whole_mt_min": 0.95
+      },
+      "counts": {
+        "TN": 667,
+        "TP": 276,
+        "FP": 33,
+        "FN": 24
+      },
+      "accuracy": 0.943,
+      "precision": 0.8932038834951457,
+      "recall": 0.92,
+      "by_family": {
+        "fresh-09": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-31": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-18": {
+          "TN": 28,
+          "TP": 12
+        },
+        "fresh-13": {
+          "FP": 22,
+          "TP": 8
+        },
+        "fresh-25": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-05": {
+          "TN": 21,
+          "TP": 3,
+          "FN": 6
+        },
+        "fresh-17": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-14": {
+          "TN": 20,
+          "TP": 8
+        },
+        "fresh-30": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-02": {
+          "TN": 31,
+          "FP": 11,
+          "TP": 17,
+          "FN": 1
+        },
+        "fresh-04": {
+          "TN": 21,
+          "TP": 10
+        },
+        "fresh-27": {
+          "TN": 27,
+          "TP": 11
+        },
+        "fresh-03": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-12": {
+          "TN": 22,
+          "TP": 10
+        },
+        "fresh-06": {
+          "TN": 20,
+          "TP": 9
+        },
+        "fresh-19": {
+          "TP": 11,
+          "TN": 27
+        },
+        "fresh-01": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-10": {
+          "TN": 42,
+          "TP": 18
+        },
+        "fresh-15": {
+          "TP": 3,
+          "TN": 10,
+          "FN": 2
+        },
+        "fresh-08": {
+          "TN": 11,
+          "TP": 4
+        },
+        "fresh-28": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-22": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-21": {
+          "TN": 14,
+          "TP": 6
+        },
+        "fresh-16": {
+          "TN": 10,
+          "TP": 3,
+          "FN": 2
+        },
+        "fresh-11": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-20": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-07": {
+          "TN": 11,
+          "FN": 3,
+          "TP": 1
+        },
+        "fresh-26": {
+          "TN": 28,
+          "TP": 9,
+          "FN": 3
+        },
+        "fresh-29": {
+          "TN": 14,
+          "FN": 6
+        },
+        "fresh-24": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-32": {
+          "TN": 7,
+          "TP": 2,
+          "FN": 1
+        },
+        "fresh-23": {
+          "TN": 7,
+          "TP": 3
+        }
+      }
+    },
+    {
+      "config": {
+        "mt_bidirectional": 0.9,
+        "mt_oneway": 0.9,
+        "cross_support": 0.4,
+        "similarity_max": 0.6,
+        "mt_low_similarity": 0.75,
+        "fact_alignment_min": 0.6,
+        "translation_quality_min": 0.55,
+        "semantic_alignment_min": 0.45,
+        "whole_cross_min": 0.9,
+        "whole_mt_min": 0.95
+      },
+      "counts": {
+        "TN": 667,
+        "TP": 276,
+        "FP": 33,
+        "FN": 24
+      },
+      "accuracy": 0.943,
+      "precision": 0.8932038834951457,
+      "recall": 0.92,
+      "by_family": {
+        "fresh-09": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-31": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-18": {
+          "TN": 28,
+          "TP": 12
+        },
+        "fresh-13": {
+          "FP": 22,
+          "TP": 8
+        },
+        "fresh-25": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-05": {
+          "TN": 21,
+          "TP": 3,
+          "FN": 6
+        },
+        "fresh-17": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-14": {
+          "TN": 20,
+          "TP": 8
+        },
+        "fresh-30": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-02": {
+          "TN": 31,
+          "FP": 11,
+          "TP": 17,
+          "FN": 1
+        },
+        "fresh-04": {
+          "TN": 21,
+          "TP": 10
+        },
+        "fresh-27": {
+          "TN": 27,
+          "TP": 11
+        },
+        "fresh-03": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-12": {
+          "TN": 22,
+          "TP": 10
+        },
+        "fresh-06": {
+          "TN": 20,
+          "TP": 9
+        },
+        "fresh-19": {
+          "TP": 11,
+          "TN": 27
+        },
+        "fresh-01": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-10": {
+          "TN": 42,
+          "TP": 18
+        },
+        "fresh-15": {
+          "TP": 3,
+          "TN": 10,
+          "FN": 2
+        },
+        "fresh-08": {
+          "TN": 11,
+          "TP": 4
+        },
+        "fresh-28": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-22": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-21": {
+          "TN": 14,
+          "TP": 6
+        },
+        "fresh-16": {
+          "TN": 10,
+          "TP": 3,
+          "FN": 2
+        },
+        "fresh-11": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-20": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-07": {
+          "TN": 11,
+          "FN": 3,
+          "TP": 1
+        },
+        "fresh-26": {
+          "TN": 28,
+          "TP": 9,
+          "FN": 3
+        },
+        "fresh-29": {
+          "TN": 14,
+          "FN": 6
+        },
+        "fresh-24": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-32": {
+          "TN": 7,
+          "TP": 2,
+          "FN": 1
+        },
+        "fresh-23": {
+          "TN": 7,
+          "TP": 3
+        }
+      }
+    },
+    {
+      "config": {
+        "mt_bidirectional": 0.95,
+        "mt_oneway": 0.95,
+        "cross_support": 0.4,
+        "similarity_max": 0.6,
+        "mt_low_similarity": 0.75,
+        "fact_alignment_min": 0.6,
+        "translation_quality_min": 0.55,
+        "semantic_alignment_min": 0.45,
+        "whole_cross_min": 0.9,
+        "whole_mt_min": 0.95
+      },
+      "counts": {
+        "TN": 667,
+        "TP": 271,
+        "FP": 33,
+        "FN": 29
+      },
+      "accuracy": 0.938,
+      "precision": 0.8914473684210527,
+      "recall": 0.9033333333333333,
+      "by_family": {
+        "fresh-09": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-31": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-18": {
+          "TN": 28,
+          "TP": 12
+        },
+        "fresh-13": {
+          "FP": 22,
+          "TP": 8
+        },
+        "fresh-25": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-05": {
+          "TN": 21,
+          "TP": 3,
+          "FN": 6
+        },
+        "fresh-17": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-14": {
+          "TN": 20,
+          "TP": 8
+        },
+        "fresh-30": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-02": {
+          "TN": 31,
+          "FP": 11,
+          "TP": 17,
+          "FN": 1
+        },
+        "fresh-04": {
+          "TN": 21,
+          "TP": 10
+        },
+        "fresh-27": {
+          "TN": 27,
+          "TP": 11
+        },
+        "fresh-03": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-12": {
+          "TN": 22,
+          "TP": 10
+        },
+        "fresh-06": {
+          "TN": 20,
+          "TP": 9
+        },
+        "fresh-19": {
+          "TP": 11,
+          "TN": 27
+        },
+        "fresh-01": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-10": {
+          "TN": 42,
+          "TP": 18
+        },
+        "fresh-15": {
+          "TP": 3,
+          "TN": 10,
+          "FN": 2
+        },
+        "fresh-08": {
+          "TN": 11,
+          "TP": 4
+        },
+        "fresh-28": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-22": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-21": {
+          "TN": 14,
+          "TP": 6
+        },
+        "fresh-16": {
+          "TN": 10,
+          "TP": 3,
+          "FN": 2
+        },
+        "fresh-11": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-20": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-07": {
+          "TN": 11,
+          "FN": 3,
+          "TP": 1
+        },
+        "fresh-26": {
+          "TN": 28,
+          "FN": 8,
+          "TP": 4
+        },
+        "fresh-29": {
+          "TN": 14,
+          "FN": 6
+        },
+        "fresh-24": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-32": {
+          "TN": 7,
+          "TP": 2,
+          "FN": 1
+        },
+        "fresh-23": {
+          "TN": 7,
+          "TP": 3
+        }
+      }
+    },
+    {
+      "config": {
+        "mt_bidirectional": 0.75,
+        "mt_oneway": 0.75,
+        "cross_support": 0.5,
+        "similarity_max": 0.6,
+        "mt_low_similarity": 0.75,
+        "fact_alignment_min": 0.6,
+        "translation_quality_min": 0.55,
+        "semantic_alignment_min": 0.45,
+        "whole_cross_min": 0.9,
+        "whole_mt_min": 0.95
+      },
+      "counts": {
+        "TN": 684,
+        "TP": 262,
+        "FP": 16,
+        "FN": 38
+      },
+      "accuracy": 0.946,
+      "precision": 0.9424460431654677,
+      "recall": 0.8733333333333333,
+      "by_family": {
+        "fresh-09": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-31": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-18": {
+          "TN": 28,
+          "TP": 12
+        },
+        "fresh-13": {
+          "TN": 22,
+          "FN": 8
+        },
+        "fresh-25": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-05": {
+          "TN": 21,
+          "FN": 9
+        },
+        "fresh-17": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-14": {
+          "TN": 20,
+          "TP": 8
+        },
+        "fresh-30": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-02": {
+          "TN": 31,
+          "FP": 11,
+          "TP": 14,
+          "FN": 4
+        },
+        "fresh-04": {
+          "TN": 21,
+          "TP": 10
+        },
+        "fresh-27": {
+          "TN": 27,
+          "TP": 11
+        },
+        "fresh-03": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-12": {
+          "TN": 22,
+          "TP": 10
+        },
+        "fresh-06": {
+          "TN": 20,
+          "TP": 9
+        },
+        "fresh-19": {
+          "TP": 11,
+          "TN": 27
+        },
+        "fresh-01": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-10": {
+          "TN": 42,
+          "TP": 18
+        },
+        "fresh-15": {
+          "TP": 3,
+          "TN": 10,
+          "FN": 2
+        },
+        "fresh-08": {
+          "TN": 11,
+          "TP": 4
+        },
+        "fresh-28": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-22": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-21": {
+          "TN": 14,
+          "TP": 6
+        },
+        "fresh-16": {
+          "TN": 5,
+          "TP": 3,
+          "FP": 5,
+          "FN": 2
+        },
+        "fresh-11": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-20": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-07": {
+          "TN": 11,
+          "FN": 3,
+          "TP": 1
+        },
+        "fresh-26": {
+          "TN": 28,
+          "TP": 9,
+          "FN": 3
+        },
+        "fresh-29": {
+          "TN": 14,
+          "FN": 6
+        },
+        "fresh-24": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-32": {
+          "TN": 7,
+          "TP": 2,
+          "FN": 1
+        },
+        "fresh-23": {
+          "TN": 7,
+          "TP": 3
+        }
+      }
+    },
+    {
+      "config": {
+        "mt_bidirectional": 0.85,
+        "mt_oneway": 0.85,
+        "cross_support": 0.5,
+        "similarity_max": 0.6,
+        "mt_low_similarity": 0.75,
+        "fact_alignment_min": 0.6,
+        "translation_quality_min": 0.55,
+        "semantic_alignment_min": 0.45,
+        "whole_cross_min": 0.9,
+        "whole_mt_min": 0.95
+      },
+      "counts": {
+        "TN": 689,
+        "TP": 262,
+        "FP": 11,
+        "FN": 38
+      },
+      "accuracy": 0.951,
+      "precision": 0.9597069597069597,
+      "recall": 0.8733333333333333,
+      "by_family": {
+        "fresh-09": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-31": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-18": {
+          "TN": 28,
+          "TP": 12
+        },
+        "fresh-13": {
+          "TN": 22,
+          "FN": 8
+        },
+        "fresh-25": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-05": {
+          "TN": 21,
+          "FN": 9
+        },
+        "fresh-17": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-14": {
+          "TN": 20,
+          "TP": 8
+        },
+        "fresh-30": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-02": {
+          "TN": 31,
+          "FP": 11,
+          "TP": 14,
+          "FN": 4
+        },
+        "fresh-04": {
+          "TN": 21,
+          "TP": 10
+        },
+        "fresh-27": {
+          "TN": 27,
+          "TP": 11
+        },
+        "fresh-03": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-12": {
+          "TN": 22,
+          "TP": 10
+        },
+        "fresh-06": {
+          "TN": 20,
+          "TP": 9
+        },
+        "fresh-19": {
+          "TP": 11,
+          "TN": 27
+        },
+        "fresh-01": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-10": {
+          "TN": 42,
+          "TP": 18
+        },
+        "fresh-15": {
+          "TP": 3,
+          "TN": 10,
+          "FN": 2
+        },
+        "fresh-08": {
+          "TN": 11,
+          "TP": 4
+        },
+        "fresh-28": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-22": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-21": {
+          "TN": 14,
+          "TP": 6
+        },
+        "fresh-16": {
+          "TN": 10,
+          "TP": 3,
+          "FN": 2
+        },
+        "fresh-11": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-20": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-07": {
+          "TN": 11,
+          "FN": 3,
+          "TP": 1
+        },
+        "fresh-26": {
+          "TN": 28,
+          "TP": 9,
+          "FN": 3
+        },
+        "fresh-29": {
+          "TN": 14,
+          "FN": 6
+        },
+        "fresh-24": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-32": {
+          "TN": 7,
+          "TP": 2,
+          "FN": 1
+        },
+        "fresh-23": {
+          "TN": 7,
+          "TP": 3
+        }
+      }
+    },
+    {
+      "config": {
+        "mt_bidirectional": 0.9,
+        "mt_oneway": 0.9,
+        "cross_support": 0.5,
+        "similarity_max": 0.6,
+        "mt_low_similarity": 0.75,
+        "fact_alignment_min": 0.6,
+        "translation_quality_min": 0.55,
+        "semantic_alignment_min": 0.45,
+        "whole_cross_min": 0.9,
+        "whole_mt_min": 0.95
+      },
+      "counts": {
+        "TN": 689,
+        "TP": 262,
+        "FP": 11,
+        "FN": 38
+      },
+      "accuracy": 0.951,
+      "precision": 0.9597069597069597,
+      "recall": 0.8733333333333333,
+      "by_family": {
+        "fresh-09": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-31": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-18": {
+          "TN": 28,
+          "TP": 12
+        },
+        "fresh-13": {
+          "TN": 22,
+          "FN": 8
+        },
+        "fresh-25": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-05": {
+          "TN": 21,
+          "FN": 9
+        },
+        "fresh-17": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-14": {
+          "TN": 20,
+          "TP": 8
+        },
+        "fresh-30": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-02": {
+          "TN": 31,
+          "FP": 11,
+          "TP": 14,
+          "FN": 4
+        },
+        "fresh-04": {
+          "TN": 21,
+          "TP": 10
+        },
+        "fresh-27": {
+          "TN": 27,
+          "TP": 11
+        },
+        "fresh-03": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-12": {
+          "TN": 22,
+          "TP": 10
+        },
+        "fresh-06": {
+          "TN": 20,
+          "TP": 9
+        },
+        "fresh-19": {
+          "TP": 11,
+          "TN": 27
+        },
+        "fresh-01": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-10": {
+          "TN": 42,
+          "TP": 18
+        },
+        "fresh-15": {
+          "TP": 3,
+          "TN": 10,
+          "FN": 2
+        },
+        "fresh-08": {
+          "TN": 11,
+          "TP": 4
+        },
+        "fresh-28": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-22": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-21": {
+          "TN": 14,
+          "TP": 6
+        },
+        "fresh-16": {
+          "TN": 10,
+          "TP": 3,
+          "FN": 2
+        },
+        "fresh-11": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-20": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-07": {
+          "TN": 11,
+          "FN": 3,
+          "TP": 1
+        },
+        "fresh-26": {
+          "TN": 28,
+          "TP": 9,
+          "FN": 3
+        },
+        "fresh-29": {
+          "TN": 14,
+          "FN": 6
+        },
+        "fresh-24": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-32": {
+          "TN": 7,
+          "TP": 2,
+          "FN": 1
+        },
+        "fresh-23": {
+          "TN": 7,
+          "TP": 3
+        }
+      }
+    },
+    {
+      "config": {
+        "mt_bidirectional": 0.95,
+        "mt_oneway": 0.95,
+        "cross_support": 0.5,
+        "similarity_max": 0.6,
+        "mt_low_similarity": 0.75,
+        "fact_alignment_min": 0.6,
+        "translation_quality_min": 0.55,
+        "semantic_alignment_min": 0.45,
+        "whole_cross_min": 0.9,
+        "whole_mt_min": 0.95
+      },
+      "counts": {
+        "TN": 689,
+        "TP": 257,
+        "FP": 11,
+        "FN": 43
+      },
+      "accuracy": 0.946,
+      "precision": 0.9589552238805971,
+      "recall": 0.8566666666666667,
+      "by_family": {
+        "fresh-09": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-31": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-18": {
+          "TN": 28,
+          "TP": 12
+        },
+        "fresh-13": {
+          "TN": 22,
+          "FN": 8
+        },
+        "fresh-25": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-05": {
+          "TN": 21,
+          "FN": 9
+        },
+        "fresh-17": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-14": {
+          "TN": 20,
+          "TP": 8
+        },
+        "fresh-30": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-02": {
+          "TN": 31,
+          "FP": 11,
+          "TP": 14,
+          "FN": 4
+        },
+        "fresh-04": {
+          "TN": 21,
+          "TP": 10
+        },
+        "fresh-27": {
+          "TN": 27,
+          "TP": 11
+        },
+        "fresh-03": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-12": {
+          "TN": 22,
+          "TP": 10
+        },
+        "fresh-06": {
+          "TN": 20,
+          "TP": 9
+        },
+        "fresh-19": {
+          "TP": 11,
+          "TN": 27
+        },
+        "fresh-01": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-10": {
+          "TN": 42,
+          "TP": 18
+        },
+        "fresh-15": {
+          "TP": 3,
+          "TN": 10,
+          "FN": 2
+        },
+        "fresh-08": {
+          "TN": 11,
+          "TP": 4
+        },
+        "fresh-28": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-22": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-21": {
+          "TN": 14,
+          "TP": 6
+        },
+        "fresh-16": {
+          "TN": 10,
+          "TP": 3,
+          "FN": 2
+        },
+        "fresh-11": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-20": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-07": {
+          "TN": 11,
+          "FN": 3,
+          "TP": 1
+        },
+        "fresh-26": {
+          "TN": 28,
+          "FN": 8,
+          "TP": 4
+        },
+        "fresh-29": {
+          "TN": 14,
+          "FN": 6
+        },
+        "fresh-24": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-32": {
+          "TN": 7,
+          "TP": 2,
+          "FN": 1
+        },
+        "fresh-23": {
+          "TN": 7,
+          "TP": 3
+        }
+      }
+    },
+    {
+      "config": {
+        "mt_bidirectional": 0.75,
+        "mt_oneway": 0.75,
+        "cross_support": 0.65,
+        "similarity_max": 0.6,
+        "mt_low_similarity": 0.75,
+        "fact_alignment_min": 0.6,
+        "translation_quality_min": 0.55,
+        "semantic_alignment_min": 0.45,
+        "whole_cross_min": 0.9,
+        "whole_mt_min": 0.95
+      },
+      "counts": {
+        "TN": 689,
+        "TP": 256,
+        "FP": 11,
+        "FN": 44
+      },
+      "accuracy": 0.945,
+      "precision": 0.9588014981273408,
+      "recall": 0.8533333333333334,
+      "by_family": {
+        "fresh-09": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-31": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-18": {
+          "TN": 28,
+          "TP": 12
+        },
+        "fresh-13": {
+          "TN": 22,
+          "FN": 8
+        },
+        "fresh-25": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-05": {
+          "TN": 21,
+          "FN": 9
+        },
+        "fresh-17": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-14": {
+          "TN": 20,
+          "FN": 6,
+          "TP": 2
+        },
+        "fresh-30": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-02": {
+          "TN": 31,
+          "FP": 11,
+          "TP": 14,
+          "FN": 4
+        },
+        "fresh-04": {
+          "TN": 21,
+          "TP": 10
+        },
+        "fresh-27": {
+          "TN": 27,
+          "TP": 11
+        },
+        "fresh-03": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-12": {
+          "TN": 22,
+          "TP": 10
+        },
+        "fresh-06": {
+          "TN": 20,
+          "TP": 9
+        },
+        "fresh-19": {
+          "TP": 11,
+          "TN": 27
+        },
+        "fresh-01": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-10": {
+          "TN": 42,
+          "TP": 18
+        },
+        "fresh-15": {
+          "TP": 3,
+          "TN": 10,
+          "FN": 2
+        },
+        "fresh-08": {
+          "TN": 11,
+          "TP": 4
+        },
+        "fresh-28": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-22": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-21": {
+          "TN": 14,
+          "TP": 6
+        },
+        "fresh-16": {
+          "TN": 10,
+          "TP": 3,
+          "FN": 2
+        },
+        "fresh-11": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-20": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-07": {
+          "TN": 11,
+          "FN": 3,
+          "TP": 1
+        },
+        "fresh-26": {
+          "TN": 28,
+          "TP": 9,
+          "FN": 3
+        },
+        "fresh-29": {
+          "TN": 14,
+          "FN": 6
+        },
+        "fresh-24": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-32": {
+          "TN": 7,
+          "TP": 2,
+          "FN": 1
+        },
+        "fresh-23": {
+          "TN": 7,
+          "TP": 3
+        }
+      }
+    },
+    {
+      "config": {
+        "mt_bidirectional": 0.85,
+        "mt_oneway": 0.85,
+        "cross_support": 0.65,
+        "similarity_max": 0.6,
+        "mt_low_similarity": 0.75,
+        "fact_alignment_min": 0.6,
+        "translation_quality_min": 0.55,
+        "semantic_alignment_min": 0.45,
+        "whole_cross_min": 0.9,
+        "whole_mt_min": 0.95
+      },
+      "counts": {
+        "TN": 689,
+        "TP": 256,
+        "FP": 11,
+        "FN": 44
+      },
+      "accuracy": 0.945,
+      "precision": 0.9588014981273408,
+      "recall": 0.8533333333333334,
+      "by_family": {
+        "fresh-09": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-31": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-18": {
+          "TN": 28,
+          "TP": 12
+        },
+        "fresh-13": {
+          "TN": 22,
+          "FN": 8
+        },
+        "fresh-25": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-05": {
+          "TN": 21,
+          "FN": 9
+        },
+        "fresh-17": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-14": {
+          "TN": 20,
+          "FN": 6,
+          "TP": 2
+        },
+        "fresh-30": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-02": {
+          "TN": 31,
+          "FP": 11,
+          "TP": 14,
+          "FN": 4
+        },
+        "fresh-04": {
+          "TN": 21,
+          "TP": 10
+        },
+        "fresh-27": {
+          "TN": 27,
+          "TP": 11
+        },
+        "fresh-03": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-12": {
+          "TN": 22,
+          "TP": 10
+        },
+        "fresh-06": {
+          "TN": 20,
+          "TP": 9
+        },
+        "fresh-19": {
+          "TP": 11,
+          "TN": 27
+        },
+        "fresh-01": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-10": {
+          "TN": 42,
+          "TP": 18
+        },
+        "fresh-15": {
+          "TP": 3,
+          "TN": 10,
+          "FN": 2
+        },
+        "fresh-08": {
+          "TN": 11,
+          "TP": 4
+        },
+        "fresh-28": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-22": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-21": {
+          "TN": 14,
+          "TP": 6
+        },
+        "fresh-16": {
+          "TN": 10,
+          "TP": 3,
+          "FN": 2
+        },
+        "fresh-11": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-20": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-07": {
+          "TN": 11,
+          "FN": 3,
+          "TP": 1
+        },
+        "fresh-26": {
+          "TN": 28,
+          "TP": 9,
+          "FN": 3
+        },
+        "fresh-29": {
+          "TN": 14,
+          "FN": 6
+        },
+        "fresh-24": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-32": {
+          "TN": 7,
+          "TP": 2,
+          "FN": 1
+        },
+        "fresh-23": {
+          "TN": 7,
+          "TP": 3
+        }
+      }
+    },
+    {
+      "config": {
+        "mt_bidirectional": 0.9,
+        "mt_oneway": 0.9,
+        "cross_support": 0.65,
+        "similarity_max": 0.6,
+        "mt_low_similarity": 0.75,
+        "fact_alignment_min": 0.6,
+        "translation_quality_min": 0.55,
+        "semantic_alignment_min": 0.45,
+        "whole_cross_min": 0.9,
+        "whole_mt_min": 0.95
+      },
+      "counts": {
+        "TN": 689,
+        "TP": 256,
+        "FP": 11,
+        "FN": 44
+      },
+      "accuracy": 0.945,
+      "precision": 0.9588014981273408,
+      "recall": 0.8533333333333334,
+      "by_family": {
+        "fresh-09": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-31": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-18": {
+          "TN": 28,
+          "TP": 12
+        },
+        "fresh-13": {
+          "TN": 22,
+          "FN": 8
+        },
+        "fresh-25": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-05": {
+          "TN": 21,
+          "FN": 9
+        },
+        "fresh-17": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-14": {
+          "TN": 20,
+          "FN": 6,
+          "TP": 2
+        },
+        "fresh-30": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-02": {
+          "TN": 31,
+          "FP": 11,
+          "TP": 14,
+          "FN": 4
+        },
+        "fresh-04": {
+          "TN": 21,
+          "TP": 10
+        },
+        "fresh-27": {
+          "TN": 27,
+          "TP": 11
+        },
+        "fresh-03": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-12": {
+          "TN": 22,
+          "TP": 10
+        },
+        "fresh-06": {
+          "TN": 20,
+          "TP": 9
+        },
+        "fresh-19": {
+          "TP": 11,
+          "TN": 27
+        },
+        "fresh-01": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-10": {
+          "TN": 42,
+          "TP": 18
+        },
+        "fresh-15": {
+          "TP": 3,
+          "TN": 10,
+          "FN": 2
+        },
+        "fresh-08": {
+          "TN": 11,
+          "TP": 4
+        },
+        "fresh-28": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-22": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-21": {
+          "TN": 14,
+          "TP": 6
+        },
+        "fresh-16": {
+          "TN": 10,
+          "TP": 3,
+          "FN": 2
+        },
+        "fresh-11": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-20": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-07": {
+          "TN": 11,
+          "FN": 3,
+          "TP": 1
+        },
+        "fresh-26": {
+          "TN": 28,
+          "TP": 9,
+          "FN": 3
+        },
+        "fresh-29": {
+          "TN": 14,
+          "FN": 6
+        },
+        "fresh-24": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-32": {
+          "TN": 7,
+          "TP": 2,
+          "FN": 1
+        },
+        "fresh-23": {
+          "TN": 7,
+          "TP": 3
+        }
+      }
+    },
+    {
+      "config": {
+        "mt_bidirectional": 0.95,
+        "mt_oneway": 0.95,
+        "cross_support": 0.65,
+        "similarity_max": 0.6,
+        "mt_low_similarity": 0.75,
+        "fact_alignment_min": 0.6,
+        "translation_quality_min": 0.55,
+        "semantic_alignment_min": 0.45,
+        "whole_cross_min": 0.9,
+        "whole_mt_min": 0.95
+      },
+      "counts": {
+        "TN": 689,
+        "TP": 251,
+        "FP": 11,
+        "FN": 49
+      },
+      "accuracy": 0.94,
+      "precision": 0.9580152671755725,
+      "recall": 0.8366666666666667,
+      "by_family": {
+        "fresh-09": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-31": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-18": {
+          "TN": 28,
+          "TP": 12
+        },
+        "fresh-13": {
+          "TN": 22,
+          "FN": 8
+        },
+        "fresh-25": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-05": {
+          "TN": 21,
+          "FN": 9
+        },
+        "fresh-17": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-14": {
+          "TN": 20,
+          "FN": 6,
+          "TP": 2
+        },
+        "fresh-30": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-02": {
+          "TN": 31,
+          "FP": 11,
+          "TP": 14,
+          "FN": 4
+        },
+        "fresh-04": {
+          "TN": 21,
+          "TP": 10
+        },
+        "fresh-27": {
+          "TN": 27,
+          "TP": 11
+        },
+        "fresh-03": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-12": {
+          "TN": 22,
+          "TP": 10
+        },
+        "fresh-06": {
+          "TN": 20,
+          "TP": 9
+        },
+        "fresh-19": {
+          "TP": 11,
+          "TN": 27
+        },
+        "fresh-01": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-10": {
+          "TN": 42,
+          "TP": 18
+        },
+        "fresh-15": {
+          "TP": 3,
+          "TN": 10,
+          "FN": 2
+        },
+        "fresh-08": {
+          "TN": 11,
+          "TP": 4
+        },
+        "fresh-28": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-22": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-21": {
+          "TN": 14,
+          "TP": 6
+        },
+        "fresh-16": {
+          "TN": 10,
+          "TP": 3,
+          "FN": 2
+        },
+        "fresh-11": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-20": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-07": {
+          "TN": 11,
+          "FN": 3,
+          "TP": 1
+        },
+        "fresh-26": {
+          "TN": 28,
+          "FN": 8,
+          "TP": 4
+        },
+        "fresh-29": {
+          "TN": 14,
+          "FN": 6
+        },
+        "fresh-24": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-32": {
+          "TN": 7,
+          "TP": 2,
+          "FN": 1
+        },
+        "fresh-23": {
+          "TN": 7,
+          "TP": 3
+        }
+      }
+    },
+    {
+      "config": {
+        "mt_bidirectional": 0.75,
+        "mt_oneway": 0.75,
+        "cross_support": 0.75,
+        "similarity_max": 0.6,
+        "mt_low_similarity": 0.75,
+        "fact_alignment_min": 0.6,
+        "translation_quality_min": 0.55,
+        "semantic_alignment_min": 0.45,
+        "whole_cross_min": 0.9,
+        "whole_mt_min": 0.95
+      },
+      "counts": {
+        "TN": 689,
+        "TP": 248,
+        "FP": 11,
+        "FN": 52
+      },
+      "accuracy": 0.937,
+      "precision": 0.9575289575289575,
+      "recall": 0.8266666666666667,
+      "by_family": {
+        "fresh-09": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-31": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-18": {
+          "TN": 28,
+          "TP": 12
+        },
+        "fresh-13": {
+          "TN": 22,
+          "FN": 8
+        },
+        "fresh-25": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-05": {
+          "TN": 21,
+          "FN": 9
+        },
+        "fresh-17": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-14": {
+          "TN": 20,
+          "FN": 8
+        },
+        "fresh-30": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-02": {
+          "TN": 31,
+          "FP": 11,
+          "TP": 8,
+          "FN": 10
+        },
+        "fresh-04": {
+          "TN": 21,
+          "TP": 10
+        },
+        "fresh-27": {
+          "TN": 27,
+          "TP": 11
+        },
+        "fresh-03": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-12": {
+          "TN": 22,
+          "TP": 10
+        },
+        "fresh-06": {
+          "TN": 20,
+          "TP": 9
+        },
+        "fresh-19": {
+          "TP": 11,
+          "TN": 27
+        },
+        "fresh-01": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-10": {
+          "TN": 42,
+          "TP": 18
+        },
+        "fresh-15": {
+          "TP": 3,
+          "TN": 10,
+          "FN": 2
+        },
+        "fresh-08": {
+          "TN": 11,
+          "TP": 4
+        },
+        "fresh-28": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-22": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-21": {
+          "TN": 14,
+          "TP": 6
+        },
+        "fresh-16": {
+          "TN": 10,
+          "TP": 3,
+          "FN": 2
+        },
+        "fresh-11": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-20": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-07": {
+          "TN": 11,
+          "FN": 3,
+          "TP": 1
+        },
+        "fresh-26": {
+          "TN": 28,
+          "TP": 9,
+          "FN": 3
+        },
+        "fresh-29": {
+          "TN": 14,
+          "FN": 6
+        },
+        "fresh-24": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-32": {
+          "TN": 7,
+          "TP": 2,
+          "FN": 1
+        },
+        "fresh-23": {
+          "TN": 7,
+          "TP": 3
+        }
+      }
+    },
+    {
+      "config": {
+        "mt_bidirectional": 0.85,
+        "mt_oneway": 0.85,
+        "cross_support": 0.75,
+        "similarity_max": 0.6,
+        "mt_low_similarity": 0.75,
+        "fact_alignment_min": 0.6,
+        "translation_quality_min": 0.55,
+        "semantic_alignment_min": 0.45,
+        "whole_cross_min": 0.9,
+        "whole_mt_min": 0.95
+      },
+      "counts": {
+        "TN": 689,
+        "TP": 248,
+        "FP": 11,
+        "FN": 52
+      },
+      "accuracy": 0.937,
+      "precision": 0.9575289575289575,
+      "recall": 0.8266666666666667,
+      "by_family": {
+        "fresh-09": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-31": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-18": {
+          "TN": 28,
+          "TP": 12
+        },
+        "fresh-13": {
+          "TN": 22,
+          "FN": 8
+        },
+        "fresh-25": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-05": {
+          "TN": 21,
+          "FN": 9
+        },
+        "fresh-17": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-14": {
+          "TN": 20,
+          "FN": 8
+        },
+        "fresh-30": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-02": {
+          "TN": 31,
+          "FP": 11,
+          "TP": 8,
+          "FN": 10
+        },
+        "fresh-04": {
+          "TN": 21,
+          "TP": 10
+        },
+        "fresh-27": {
+          "TN": 27,
+          "TP": 11
+        },
+        "fresh-03": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-12": {
+          "TN": 22,
+          "TP": 10
+        },
+        "fresh-06": {
+          "TN": 20,
+          "TP": 9
+        },
+        "fresh-19": {
+          "TP": 11,
+          "TN": 27
+        },
+        "fresh-01": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-10": {
+          "TN": 42,
+          "TP": 18
+        },
+        "fresh-15": {
+          "TP": 3,
+          "TN": 10,
+          "FN": 2
+        },
+        "fresh-08": {
+          "TN": 11,
+          "TP": 4
+        },
+        "fresh-28": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-22": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-21": {
+          "TN": 14,
+          "TP": 6
+        },
+        "fresh-16": {
+          "TN": 10,
+          "TP": 3,
+          "FN": 2
+        },
+        "fresh-11": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-20": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-07": {
+          "TN": 11,
+          "FN": 3,
+          "TP": 1
+        },
+        "fresh-26": {
+          "TN": 28,
+          "TP": 9,
+          "FN": 3
+        },
+        "fresh-29": {
+          "TN": 14,
+          "FN": 6
+        },
+        "fresh-24": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-32": {
+          "TN": 7,
+          "TP": 2,
+          "FN": 1
+        },
+        "fresh-23": {
+          "TN": 7,
+          "TP": 3
+        }
+      }
+    },
+    {
+      "config": {
+        "mt_bidirectional": 0.9,
+        "mt_oneway": 0.9,
+        "cross_support": 0.75,
+        "similarity_max": 0.6,
+        "mt_low_similarity": 0.75,
+        "fact_alignment_min": 0.6,
+        "translation_quality_min": 0.55,
+        "semantic_alignment_min": 0.45,
+        "whole_cross_min": 0.9,
+        "whole_mt_min": 0.95
+      },
+      "counts": {
+        "TN": 689,
+        "TP": 248,
+        "FP": 11,
+        "FN": 52
+      },
+      "accuracy": 0.937,
+      "precision": 0.9575289575289575,
+      "recall": 0.8266666666666667,
+      "by_family": {
+        "fresh-09": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-31": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-18": {
+          "TN": 28,
+          "TP": 12
+        },
+        "fresh-13": {
+          "TN": 22,
+          "FN": 8
+        },
+        "fresh-25": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-05": {
+          "TN": 21,
+          "FN": 9
+        },
+        "fresh-17": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-14": {
+          "TN": 20,
+          "FN": 8
+        },
+        "fresh-30": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-02": {
+          "TN": 31,
+          "FP": 11,
+          "TP": 8,
+          "FN": 10
+        },
+        "fresh-04": {
+          "TN": 21,
+          "TP": 10
+        },
+        "fresh-27": {
+          "TN": 27,
+          "TP": 11
+        },
+        "fresh-03": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-12": {
+          "TN": 22,
+          "TP": 10
+        },
+        "fresh-06": {
+          "TN": 20,
+          "TP": 9
+        },
+        "fresh-19": {
+          "TP": 11,
+          "TN": 27
+        },
+        "fresh-01": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-10": {
+          "TN": 42,
+          "TP": 18
+        },
+        "fresh-15": {
+          "TP": 3,
+          "TN": 10,
+          "FN": 2
+        },
+        "fresh-08": {
+          "TN": 11,
+          "TP": 4
+        },
+        "fresh-28": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-22": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-21": {
+          "TN": 14,
+          "TP": 6
+        },
+        "fresh-16": {
+          "TN": 10,
+          "TP": 3,
+          "FN": 2
+        },
+        "fresh-11": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-20": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-07": {
+          "TN": 11,
+          "FN": 3,
+          "TP": 1
+        },
+        "fresh-26": {
+          "TN": 28,
+          "TP": 9,
+          "FN": 3
+        },
+        "fresh-29": {
+          "TN": 14,
+          "FN": 6
+        },
+        "fresh-24": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-32": {
+          "TN": 7,
+          "TP": 2,
+          "FN": 1
+        },
+        "fresh-23": {
+          "TN": 7,
+          "TP": 3
+        }
+      }
+    },
+    {
+      "config": {
+        "mt_bidirectional": 0.95,
+        "mt_oneway": 0.95,
+        "cross_support": 0.75,
+        "similarity_max": 0.6,
+        "mt_low_similarity": 0.75,
+        "fact_alignment_min": 0.6,
+        "translation_quality_min": 0.55,
+        "semantic_alignment_min": 0.45,
+        "whole_cross_min": 0.9,
+        "whole_mt_min": 0.95
+      },
+      "counts": {
+        "TN": 689,
+        "TP": 243,
+        "FP": 11,
+        "FN": 57
+      },
+      "accuracy": 0.932,
+      "precision": 0.9566929133858267,
+      "recall": 0.81,
+      "by_family": {
+        "fresh-09": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-31": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-18": {
+          "TN": 28,
+          "TP": 12
+        },
+        "fresh-13": {
+          "TN": 22,
+          "FN": 8
+        },
+        "fresh-25": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-05": {
+          "TN": 21,
+          "FN": 9
+        },
+        "fresh-17": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-14": {
+          "TN": 20,
+          "FN": 8
+        },
+        "fresh-30": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-02": {
+          "TN": 31,
+          "FP": 11,
+          "TP": 8,
+          "FN": 10
+        },
+        "fresh-04": {
+          "TN": 21,
+          "TP": 10
+        },
+        "fresh-27": {
+          "TN": 27,
+          "TP": 11
+        },
+        "fresh-03": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-12": {
+          "TN": 22,
+          "TP": 10
+        },
+        "fresh-06": {
+          "TN": 20,
+          "TP": 9
+        },
+        "fresh-19": {
+          "TP": 11,
+          "TN": 27
+        },
+        "fresh-01": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-10": {
+          "TN": 42,
+          "TP": 18
+        },
+        "fresh-15": {
+          "TP": 3,
+          "TN": 10,
+          "FN": 2
+        },
+        "fresh-08": {
+          "TN": 11,
+          "TP": 4
+        },
+        "fresh-28": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-22": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-21": {
+          "TN": 14,
+          "TP": 6
+        },
+        "fresh-16": {
+          "TN": 10,
+          "TP": 3,
+          "FN": 2
+        },
+        "fresh-11": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-20": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-07": {
+          "TN": 11,
+          "FN": 3,
+          "TP": 1
+        },
+        "fresh-26": {
+          "TN": 28,
+          "FN": 8,
+          "TP": 4
+        },
+        "fresh-29": {
+          "TN": 14,
+          "FN": 6
+        },
+        "fresh-24": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-32": {
+          "TN": 7,
+          "TP": 2,
+          "FN": 1
+        },
+        "fresh-23": {
+          "TN": 7,
+          "TP": 3
+        }
+      }
+    },
+    {
+      "config": {
+        "mt_bidirectional": 0.75,
+        "mt_oneway": 0.75,
+        "cross_support": 0.85,
+        "similarity_max": 0.6,
+        "mt_low_similarity": 0.75,
+        "fact_alignment_min": 0.6,
+        "translation_quality_min": 0.55,
+        "semantic_alignment_min": 0.45,
+        "whole_cross_min": 0.9,
+        "whole_mt_min": 0.95
+      },
+      "counts": {
+        "TN": 700,
+        "TP": 244,
+        "FN": 56
+      },
+      "accuracy": 0.944,
+      "precision": 1.0,
+      "recall": 0.8133333333333334,
+      "by_family": {
+        "fresh-09": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-31": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-18": {
+          "TN": 28,
+          "TP": 12
+        },
+        "fresh-13": {
+          "TN": 22,
+          "FN": 8
+        },
+        "fresh-25": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-05": {
+          "TN": 21,
+          "FN": 9
+        },
+        "fresh-17": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-14": {
+          "TN": 20,
+          "FN": 8
+        },
+        "fresh-30": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-02": {
+          "TN": 42,
+          "TP": 8,
+          "FN": 10
+        },
+        "fresh-04": {
+          "TN": 21,
+          "TP": 10
+        },
+        "fresh-27": {
+          "TN": 27,
+          "TP": 11
+        },
+        "fresh-03": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-12": {
+          "TN": 22,
+          "TP": 10
+        },
+        "fresh-06": {
+          "TN": 20,
+          "TP": 9
+        },
+        "fresh-19": {
+          "TP": 11,
+          "TN": 27
+        },
+        "fresh-01": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-10": {
+          "TN": 42,
+          "TP": 18
+        },
+        "fresh-15": {
+          "FN": 5,
+          "TN": 10
+        },
+        "fresh-08": {
+          "TN": 11,
+          "TP": 4
+        },
+        "fresh-28": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-22": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-21": {
+          "TN": 14,
+          "TP": 6
+        },
+        "fresh-16": {
+          "TN": 10,
+          "TP": 3,
+          "FN": 2
+        },
+        "fresh-11": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-20": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-07": {
+          "TN": 11,
+          "FN": 3,
+          "TP": 1
+        },
+        "fresh-26": {
+          "TN": 28,
+          "TP": 9,
+          "FN": 3
+        },
+        "fresh-29": {
+          "TN": 14,
+          "FN": 6
+        },
+        "fresh-24": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-32": {
+          "TN": 7,
+          "TP": 2,
+          "FN": 1
+        },
+        "fresh-23": {
+          "TN": 7,
+          "FN": 1,
+          "TP": 2
+        }
+      }
+    },
+    {
+      "config": {
+        "mt_bidirectional": 0.85,
+        "mt_oneway": 0.85,
+        "cross_support": 0.85,
+        "similarity_max": 0.6,
+        "mt_low_similarity": 0.75,
+        "fact_alignment_min": 0.6,
+        "translation_quality_min": 0.55,
+        "semantic_alignment_min": 0.45,
+        "whole_cross_min": 0.9,
+        "whole_mt_min": 0.95
+      },
+      "counts": {
+        "TN": 700,
+        "TP": 244,
+        "FN": 56
+      },
+      "accuracy": 0.944,
+      "precision": 1.0,
+      "recall": 0.8133333333333334,
+      "by_family": {
+        "fresh-09": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-31": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-18": {
+          "TN": 28,
+          "TP": 12
+        },
+        "fresh-13": {
+          "TN": 22,
+          "FN": 8
+        },
+        "fresh-25": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-05": {
+          "TN": 21,
+          "FN": 9
+        },
+        "fresh-17": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-14": {
+          "TN": 20,
+          "FN": 8
+        },
+        "fresh-30": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-02": {
+          "TN": 42,
+          "TP": 8,
+          "FN": 10
+        },
+        "fresh-04": {
+          "TN": 21,
+          "TP": 10
+        },
+        "fresh-27": {
+          "TN": 27,
+          "TP": 11
+        },
+        "fresh-03": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-12": {
+          "TN": 22,
+          "TP": 10
+        },
+        "fresh-06": {
+          "TN": 20,
+          "TP": 9
+        },
+        "fresh-19": {
+          "TP": 11,
+          "TN": 27
+        },
+        "fresh-01": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-10": {
+          "TN": 42,
+          "TP": 18
+        },
+        "fresh-15": {
+          "FN": 5,
+          "TN": 10
+        },
+        "fresh-08": {
+          "TN": 11,
+          "TP": 4
+        },
+        "fresh-28": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-22": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-21": {
+          "TN": 14,
+          "TP": 6
+        },
+        "fresh-16": {
+          "TN": 10,
+          "TP": 3,
+          "FN": 2
+        },
+        "fresh-11": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-20": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-07": {
+          "TN": 11,
+          "FN": 3,
+          "TP": 1
+        },
+        "fresh-26": {
+          "TN": 28,
+          "TP": 9,
+          "FN": 3
+        },
+        "fresh-29": {
+          "TN": 14,
+          "FN": 6
+        },
+        "fresh-24": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-32": {
+          "TN": 7,
+          "TP": 2,
+          "FN": 1
+        },
+        "fresh-23": {
+          "TN": 7,
+          "FN": 1,
+          "TP": 2
+        }
+      }
+    },
+    {
+      "config": {
+        "mt_bidirectional": 0.9,
+        "mt_oneway": 0.9,
+        "cross_support": 0.85,
+        "similarity_max": 0.6,
+        "mt_low_similarity": 0.75,
+        "fact_alignment_min": 0.6,
+        "translation_quality_min": 0.55,
+        "semantic_alignment_min": 0.45,
+        "whole_cross_min": 0.9,
+        "whole_mt_min": 0.95
+      },
+      "counts": {
+        "TN": 700,
+        "TP": 244,
+        "FN": 56
+      },
+      "accuracy": 0.944,
+      "precision": 1.0,
+      "recall": 0.8133333333333334,
+      "by_family": {
+        "fresh-09": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-31": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-18": {
+          "TN": 28,
+          "TP": 12
+        },
+        "fresh-13": {
+          "TN": 22,
+          "FN": 8
+        },
+        "fresh-25": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-05": {
+          "TN": 21,
+          "FN": 9
+        },
+        "fresh-17": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-14": {
+          "TN": 20,
+          "FN": 8
+        },
+        "fresh-30": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-02": {
+          "TN": 42,
+          "TP": 8,
+          "FN": 10
+        },
+        "fresh-04": {
+          "TN": 21,
+          "TP": 10
+        },
+        "fresh-27": {
+          "TN": 27,
+          "TP": 11
+        },
+        "fresh-03": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-12": {
+          "TN": 22,
+          "TP": 10
+        },
+        "fresh-06": {
+          "TN": 20,
+          "TP": 9
+        },
+        "fresh-19": {
+          "TP": 11,
+          "TN": 27
+        },
+        "fresh-01": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-10": {
+          "TN": 42,
+          "TP": 18
+        },
+        "fresh-15": {
+          "FN": 5,
+          "TN": 10
+        },
+        "fresh-08": {
+          "TN": 11,
+          "TP": 4
+        },
+        "fresh-28": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-22": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-21": {
+          "TN": 14,
+          "TP": 6
+        },
+        "fresh-16": {
+          "TN": 10,
+          "TP": 3,
+          "FN": 2
+        },
+        "fresh-11": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-20": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-07": {
+          "TN": 11,
+          "FN": 3,
+          "TP": 1
+        },
+        "fresh-26": {
+          "TN": 28,
+          "TP": 9,
+          "FN": 3
+        },
+        "fresh-29": {
+          "TN": 14,
+          "FN": 6
+        },
+        "fresh-24": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-32": {
+          "TN": 7,
+          "TP": 2,
+          "FN": 1
+        },
+        "fresh-23": {
+          "TN": 7,
+          "FN": 1,
+          "TP": 2
+        }
+      }
+    },
+    {
+      "config": {
+        "mt_bidirectional": 0.95,
+        "mt_oneway": 0.95,
+        "cross_support": 0.85,
+        "similarity_max": 0.6,
+        "mt_low_similarity": 0.75,
+        "fact_alignment_min": 0.6,
+        "translation_quality_min": 0.55,
+        "semantic_alignment_min": 0.45,
+        "whole_cross_min": 0.9,
+        "whole_mt_min": 0.95
+      },
+      "counts": {
+        "TN": 700,
+        "TP": 239,
+        "FN": 61
+      },
+      "accuracy": 0.939,
+      "precision": 1.0,
+      "recall": 0.7966666666666666,
+      "by_family": {
+        "fresh-09": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-31": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-18": {
+          "TN": 28,
+          "TP": 12
+        },
+        "fresh-13": {
+          "TN": 22,
+          "FN": 8
+        },
+        "fresh-25": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-05": {
+          "TN": 21,
+          "FN": 9
+        },
+        "fresh-17": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-14": {
+          "TN": 20,
+          "FN": 8
+        },
+        "fresh-30": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-02": {
+          "TN": 42,
+          "TP": 8,
+          "FN": 10
+        },
+        "fresh-04": {
+          "TN": 21,
+          "TP": 10
+        },
+        "fresh-27": {
+          "TN": 27,
+          "TP": 11
+        },
+        "fresh-03": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-12": {
+          "TN": 22,
+          "TP": 10
+        },
+        "fresh-06": {
+          "TN": 20,
+          "TP": 9
+        },
+        "fresh-19": {
+          "TP": 11,
+          "TN": 27
+        },
+        "fresh-01": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-10": {
+          "TN": 42,
+          "TP": 18
+        },
+        "fresh-15": {
+          "FN": 5,
+          "TN": 10
+        },
+        "fresh-08": {
+          "TN": 11,
+          "TP": 4
+        },
+        "fresh-28": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-22": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-21": {
+          "TN": 14,
+          "TP": 6
+        },
+        "fresh-16": {
+          "TN": 10,
+          "TP": 3,
+          "FN": 2
+        },
+        "fresh-11": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-20": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-07": {
+          "TN": 11,
+          "FN": 3,
+          "TP": 1
+        },
+        "fresh-26": {
+          "TN": 28,
+          "FN": 8,
+          "TP": 4
+        },
+        "fresh-29": {
+          "TN": 14,
+          "FN": 6
+        },
+        "fresh-24": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-32": {
+          "TN": 7,
+          "TP": 2,
+          "FN": 1
+        },
+        "fresh-23": {
+          "TN": 7,
+          "FN": 1,
+          "TP": 2
+        }
+      }
+    },
+    {
+      "config": {
+        "mt_bidirectional": 0.75,
+        "mt_oneway": 0.75,
+        "cross_support": 0.9,
+        "similarity_max": 0.6,
+        "mt_low_similarity": 0.75,
+        "fact_alignment_min": 0.6,
+        "translation_quality_min": 0.55,
+        "semantic_alignment_min": 0.45,
+        "whole_cross_min": 0.9,
+        "whole_mt_min": 0.95
+      },
+      "counts": {
+        "TN": 700,
+        "TP": 240,
+        "FN": 60
+      },
+      "accuracy": 0.94,
+      "precision": 1.0,
+      "recall": 0.8,
+      "by_family": {
+        "fresh-09": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-31": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-18": {
+          "TN": 28,
+          "TP": 12
+        },
+        "fresh-13": {
+          "TN": 22,
+          "FN": 8
+        },
+        "fresh-25": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-05": {
+          "TN": 21,
+          "FN": 9
+        },
+        "fresh-17": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-14": {
+          "TN": 20,
+          "FN": 8
+        },
+        "fresh-30": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-02": {
+          "TN": 42,
+          "TP": 8,
+          "FN": 10
+        },
+        "fresh-04": {
+          "TN": 21,
+          "TP": 10
+        },
+        "fresh-27": {
+          "TN": 27,
+          "TP": 11
+        },
+        "fresh-03": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-12": {
+          "TN": 22,
+          "TP": 10
+        },
+        "fresh-06": {
+          "TN": 20,
+          "TP": 9
+        },
+        "fresh-19": {
+          "TP": 11,
+          "TN": 27
+        },
+        "fresh-01": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-10": {
+          "TN": 42,
+          "TP": 18
+        },
+        "fresh-15": {
+          "FN": 5,
+          "TN": 10
+        },
+        "fresh-08": {
+          "TN": 11,
+          "TP": 4
+        },
+        "fresh-28": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-22": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-21": {
+          "TN": 14,
+          "FN": 4,
+          "TP": 2
+        },
+        "fresh-16": {
+          "TN": 10,
+          "TP": 3,
+          "FN": 2
+        },
+        "fresh-11": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-20": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-07": {
+          "TN": 11,
+          "FN": 3,
+          "TP": 1
+        },
+        "fresh-26": {
+          "TN": 28,
+          "TP": 9,
+          "FN": 3
+        },
+        "fresh-29": {
+          "TN": 14,
+          "FN": 6
+        },
+        "fresh-24": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-32": {
+          "TN": 7,
+          "TP": 2,
+          "FN": 1
+        },
+        "fresh-23": {
+          "TN": 7,
+          "FN": 1,
+          "TP": 2
+        }
+      }
+    },
+    {
+      "config": {
+        "mt_bidirectional": 0.85,
+        "mt_oneway": 0.85,
+        "cross_support": 0.9,
+        "similarity_max": 0.6,
+        "mt_low_similarity": 0.75,
+        "fact_alignment_min": 0.6,
+        "translation_quality_min": 0.55,
+        "semantic_alignment_min": 0.45,
+        "whole_cross_min": 0.9,
+        "whole_mt_min": 0.95
+      },
+      "counts": {
+        "TN": 700,
+        "TP": 240,
+        "FN": 60
+      },
+      "accuracy": 0.94,
+      "precision": 1.0,
+      "recall": 0.8,
+      "by_family": {
+        "fresh-09": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-31": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-18": {
+          "TN": 28,
+          "TP": 12
+        },
+        "fresh-13": {
+          "TN": 22,
+          "FN": 8
+        },
+        "fresh-25": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-05": {
+          "TN": 21,
+          "FN": 9
+        },
+        "fresh-17": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-14": {
+          "TN": 20,
+          "FN": 8
+        },
+        "fresh-30": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-02": {
+          "TN": 42,
+          "TP": 8,
+          "FN": 10
+        },
+        "fresh-04": {
+          "TN": 21,
+          "TP": 10
+        },
+        "fresh-27": {
+          "TN": 27,
+          "TP": 11
+        },
+        "fresh-03": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-12": {
+          "TN": 22,
+          "TP": 10
+        },
+        "fresh-06": {
+          "TN": 20,
+          "TP": 9
+        },
+        "fresh-19": {
+          "TP": 11,
+          "TN": 27
+        },
+        "fresh-01": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-10": {
+          "TN": 42,
+          "TP": 18
+        },
+        "fresh-15": {
+          "FN": 5,
+          "TN": 10
+        },
+        "fresh-08": {
+          "TN": 11,
+          "TP": 4
+        },
+        "fresh-28": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-22": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-21": {
+          "TN": 14,
+          "FN": 4,
+          "TP": 2
+        },
+        "fresh-16": {
+          "TN": 10,
+          "TP": 3,
+          "FN": 2
+        },
+        "fresh-11": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-20": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-07": {
+          "TN": 11,
+          "FN": 3,
+          "TP": 1
+        },
+        "fresh-26": {
+          "TN": 28,
+          "TP": 9,
+          "FN": 3
+        },
+        "fresh-29": {
+          "TN": 14,
+          "FN": 6
+        },
+        "fresh-24": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-32": {
+          "TN": 7,
+          "TP": 2,
+          "FN": 1
+        },
+        "fresh-23": {
+          "TN": 7,
+          "FN": 1,
+          "TP": 2
+        }
+      }
+    },
+    {
+      "config": {
+        "mt_bidirectional": 0.9,
+        "mt_oneway": 0.9,
+        "cross_support": 0.9,
+        "similarity_max": 0.6,
+        "mt_low_similarity": 0.75,
+        "fact_alignment_min": 0.6,
+        "translation_quality_min": 0.55,
+        "semantic_alignment_min": 0.45,
+        "whole_cross_min": 0.9,
+        "whole_mt_min": 0.95
+      },
+      "counts": {
+        "TN": 700,
+        "TP": 240,
+        "FN": 60
+      },
+      "accuracy": 0.94,
+      "precision": 1.0,
+      "recall": 0.8,
+      "by_family": {
+        "fresh-09": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-31": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-18": {
+          "TN": 28,
+          "TP": 12
+        },
+        "fresh-13": {
+          "TN": 22,
+          "FN": 8
+        },
+        "fresh-25": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-05": {
+          "TN": 21,
+          "FN": 9
+        },
+        "fresh-17": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-14": {
+          "TN": 20,
+          "FN": 8
+        },
+        "fresh-30": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-02": {
+          "TN": 42,
+          "TP": 8,
+          "FN": 10
+        },
+        "fresh-04": {
+          "TN": 21,
+          "TP": 10
+        },
+        "fresh-27": {
+          "TN": 27,
+          "TP": 11
+        },
+        "fresh-03": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-12": {
+          "TN": 22,
+          "TP": 10
+        },
+        "fresh-06": {
+          "TN": 20,
+          "TP": 9
+        },
+        "fresh-19": {
+          "TP": 11,
+          "TN": 27
+        },
+        "fresh-01": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-10": {
+          "TN": 42,
+          "TP": 18
+        },
+        "fresh-15": {
+          "FN": 5,
+          "TN": 10
+        },
+        "fresh-08": {
+          "TN": 11,
+          "TP": 4
+        },
+        "fresh-28": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-22": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-21": {
+          "TN": 14,
+          "FN": 4,
+          "TP": 2
+        },
+        "fresh-16": {
+          "TN": 10,
+          "TP": 3,
+          "FN": 2
+        },
+        "fresh-11": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-20": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-07": {
+          "TN": 11,
+          "FN": 3,
+          "TP": 1
+        },
+        "fresh-26": {
+          "TN": 28,
+          "TP": 9,
+          "FN": 3
+        },
+        "fresh-29": {
+          "TN": 14,
+          "FN": 6
+        },
+        "fresh-24": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-32": {
+          "TN": 7,
+          "TP": 2,
+          "FN": 1
+        },
+        "fresh-23": {
+          "TN": 7,
+          "FN": 1,
+          "TP": 2
+        }
+      }
+    },
+    {
+      "config": {
+        "mt_bidirectional": 0.95,
+        "mt_oneway": 0.95,
+        "cross_support": 0.9,
+        "similarity_max": 0.6,
+        "mt_low_similarity": 0.75,
+        "fact_alignment_min": 0.6,
+        "translation_quality_min": 0.55,
+        "semantic_alignment_min": 0.45,
+        "whole_cross_min": 0.9,
+        "whole_mt_min": 0.95
+      },
+      "counts": {
+        "TN": 700,
+        "TP": 235,
+        "FN": 65
+      },
+      "accuracy": 0.935,
+      "precision": 1.0,
+      "recall": 0.7833333333333333,
+      "by_family": {
+        "fresh-09": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-31": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-18": {
+          "TN": 28,
+          "TP": 12
+        },
+        "fresh-13": {
+          "TN": 22,
+          "FN": 8
+        },
+        "fresh-25": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-05": {
+          "TN": 21,
+          "FN": 9
+        },
+        "fresh-17": {
+          "TP": 13,
+          "TN": 29
+        },
+        "fresh-14": {
+          "TN": 20,
+          "FN": 8
+        },
+        "fresh-30": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-02": {
+          "TN": 42,
+          "TP": 8,
+          "FN": 10
+        },
+        "fresh-04": {
+          "TN": 21,
+          "TP": 10
+        },
+        "fresh-27": {
+          "TN": 27,
+          "TP": 11
+        },
+        "fresh-03": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-12": {
+          "TN": 22,
+          "TP": 10
+        },
+        "fresh-06": {
+          "TN": 20,
+          "TP": 9
+        },
+        "fresh-19": {
+          "TP": 11,
+          "TN": 27
+        },
+        "fresh-01": {
+          "TN": 43,
+          "TP": 19
+        },
+        "fresh-10": {
+          "TN": 42,
+          "TP": 18
+        },
+        "fresh-15": {
+          "FN": 5,
+          "TN": 10
+        },
+        "fresh-08": {
+          "TN": 11,
+          "TP": 4
+        },
+        "fresh-28": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-22": {
+          "TN": 13,
+          "TP": 5
+        },
+        "fresh-21": {
+          "TN": 14,
+          "FN": 4,
+          "TP": 2
+        },
+        "fresh-16": {
+          "TN": 10,
+          "TP": 3,
+          "FN": 2
+        },
+        "fresh-11": {
+          "TN": 41,
+          "TP": 17
+        },
+        "fresh-20": {
+          "TN": 15,
+          "TP": 7
+        },
+        "fresh-07": {
+          "TN": 11,
+          "FN": 3,
+          "TP": 1
+        },
+        "fresh-26": {
+          "TN": 28,
+          "FN": 8,
+          "TP": 4
+        },
+        "fresh-29": {
+          "TN": 14,
+          "FN": 6
+        },
+        "fresh-24": {
+          "TP": 3,
+          "TN": 7
+        },
+        "fresh-32": {
+          "TN": 7,
+          "TP": 2,
+          "FN": 1
+        },
+        "fresh-23": {
+          "TN": 7,
+          "FN": 1,
+          "TP": 2
+        }
+      }
+    }
+  ]
+}

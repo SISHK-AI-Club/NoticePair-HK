@@ -1,0 +1,13 @@
+W1115 09:45:11.404000 58147 /private/tmp/veritas-v9-runtime/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading V10 models (no V7 fallback).
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 6345.87it/s]
+/tmp/veritas-v9-runtime/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 6378.26it/s]
+Loading weights:   0%|          | 0/512 [00:00<?, ?it/s]Loading weights: 100%|██████████| 512/512 [00:00<00:00, 46511.53it/s]
+V10 ready on cpu
+PREDICTIONS 50 / 195
+PREDICTIONS 100 / 195
+PREDICTIONS 150 / 195
+PREDICTIONS 195 / 195
+V10 COMPLETE 195
